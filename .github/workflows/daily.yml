@@ -21,7 +21,7 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install -r requirements.txt
       - name: Test the number checks before trusting any numbers
-        run: pytest -q
+        run: python -m pytest -q
       - name: Run the tracker
         env:
           TRACKER_USER_AGENT: ${{ secrets.TRACKER_USER_AGENT }}
