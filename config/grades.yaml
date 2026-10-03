@@ -1,0 +1,65 @@
+# Business grade per company: lead | gain | hold | lose | unp. Our judgement, with the evidence and its tag.
+# This overrides the grade in layers.yaml. The morning routine may propose changes; Scott approves them.
+# Graded 3 Oct 2026.
+NVDA: {grade: lead, why: "No.1 in AI chips; Rubin on time; $279B supply commitments lock memory and packaging [F]"}
+AMD: {grade: gain, why: "Helios rack shipping from late Q3 with OpenAI, Meta, Oracle, Microsoft lined up [C]; test is the Q3 report"}
+INTC: {grade: lose, why: "Gaudi missed, Falcon Shores cancelled; R&D falling; 14A needs an outside customer [F]"}
+AVGO: {grade: gain, why: "Builds Google TPU, OpenAI and Meta chips; AI revenue +221% [F]"}
+MRVL: {grade: gain, why: "Google custom-chip warrant deal and photonic fabric purchase [F]"}
+CBRS: {grade: gain, why: "Wafer-scale inference; OpenAI commitment over $20B [R]"}
+QCOM: {grade: unp, why: "AI200 not yet in volume; revenue shrinking [F]"}
+ARM: {grade: gain, why: "Arm-based server CPUs (Vera, Graviton, Axion, Cobalt) spreading [C]"}
+SKHY: {grade: lead, why: "56.4% of HBM revenue, Q1 2026 (IDC, in its prospectus) [F]"}
+MU: {grade: hold, why: "Third in HBM4 share; growth price-led at peak-cycle margins [C]"}
+SNDK: {grade: hold, why: "Flash prices driving growth (+372%); cyclical, like memory [F]"}
+STX: {grade: lead, why: "First to ship HAMR drives; nearline capacity allocated through 2027 [C]"}
+WDC: {grade: hold, why: "Sold out on nearline drives, but its HAMR launch is early 2027, behind Seagate [R]"}
+SNPS: {grade: lead, why: "Design-tool duopoly with Cadence; AI design starts driving growth; China export risk [F]"}
+CDNS: {grade: lead, why: "Design-tool duopoly with Synopsys; backlog +25% on a year ago [F]"}
+RMBS: {grade: hold, why: "Memory interface chips and IP; steady, growth slowing to +8% [F]"}
+TSM: {grade: lead, why: "Makes nearly every leading AI chip; August revenue +53.3% [F]"}
+AMKR: {grade: gain, why: "Largest US-based chip packager; revenue growth speeding up to +27% [F]"}
+ENTG: {grade: hold, why: "Chip materials; growth recovering to +11% [F]"}
+AXTI: {grade: unp, why: "Small substrate maker exposed to China export licences [R]"}
+ASML: {grade: lead, why: "Monopoly in EUV; 2026 sales guide €43-45B [F]"}
+AMAT: {grade: gain, why: "R&D +22%; packaging and gate-all-around tools [F]"}
+LRCX: {grade: hold, why: "Etch and deposition leader; growth steady [F]"}
+KLAC: {grade: hold, why: "Inspection leader, return on capital 30%+ every year [F]"}
+ANET: {grade: hold, why: "Growing 38%, but Nvidia overtook it in data-centre Ethernet switching (IDC) [R]"}
+COHR: {grade: gain, why: "1.6T in volume; Nvidia $2B investment and purchase commitment [F]"}
+LITE: {grade: lead, why: "Key 200G laser supplier; Nvidia $2B investment and purchase commitment [F]"}
+CRDO: {grade: gain, why: "Fastest R&D growth in the tracker (+118%) [F]"}
+ALAB: {grade: gain, why: "Scale-up connectivity chips; R&D +104% [F]"}
+CIEN: {grade: gain, why: "No.1 in data-centre interconnect optics (Dell'Oro); cloud revenue +70% [F]"}
+GLW: {grade: gain, why: "Optical fibre for AI racks; revenue +17% [F]"}
+APH: {grade: lead, why: "Connector and cable leader; revenue +55% [F]"}
+DELL: {grade: gain, why: "AI server backlog $95B, orders $60.9B in a quarter; thin margins [C]"}
+SMCI: {grade: hold, why: "Over $60B of new orders, but margins only just recovered to 17.5% [F]"}
+HPE: {grade: hold, why: "Smaller AI backlog (about $16.4B) than Dell [R]"}
+VRT: {grade: lead, why: "Integrated power and cooling; 800V DC products for 2026-27 [C]"}
+ETN: {grade: gain, why: "Solid-state transformers and 800V DC reference design [C]"}
+GEV: {grade: lead, why: "116 GW gas turbines under contract, booking 2031 slots; backlog $176B [F]"}
+CEG: {grade: gain, why: "Largest US nuclear fleet; revenue +23% [F]"}
+VST: {grade: hold, why: "Revenue only +4% last quarter [F]"}
+BE: {grade: gain, why: "On-site fuel cells for data centres; revenue +130% [F]"}
+EQIX: {grade: hold, why: "Steady +16% growth; landlord, not the bottleneck [F]"}
+DLR: {grade: hold, why: "Steady +16% growth [F]"}
+FIX: {grade: gain, why: "Mechanical contractor for data centres; revenue +50% [F]"}
+EME: {grade: gain, why: "Backlog $17.1B, +44% [F]"}
+PWR: {grade: gain, why: "Grid and power construction; backlog $33.5B, +75% [F]"}
+STRL: {grade: gain, why: "Data-centre site work; backlog +111% [F]"}
+TER: {grade: gain, why: "First merchant GPU order; second big cloud customer qualified [C]"}
+MP: {grade: unp, why: "Still loss-making (operating margin -30%) [F]"}
+CRWV: {grade: gain, why: "Backlog $103.7B, +245% [F]; break-even operating margin and heavy debt"}
+NBIS: {grade: unp, why: "Foreign filer; no SEC quarterly numbers yet"}
+BX: {grade: hold, why: "Financier of data centres; not a technology company"}
+APO: {grade: hold, why: "Financier of data centres; not a technology company"}
+OWL: {grade: hold, why: "Private credit lender; growth slowing to +7% [F]"}
+IONQ: {grade: unp, why: "Revenue tiny and losses large [F]"}
+RGTI: {grade: unp, why: "Revenue tiny and losses large [F]"}
+QBTS: {grade: unp, why: "Revenue tiny and falling [F]"}
+MSFT: {grade: lead, why: "Backlog $684B, +82% [F]"}
+GOOGL: {grade: lead, why: "Own TPU chips sold to outsiders; backlog $519.5B [F]"}
+AMZN: {grade: gain, why: "Trainium in production; Trainium4 late 2027 [C]"}
+META: {grade: gain, why: "MTIA chips via Broadcom; revenue +28% [F]"}
+ORCL: {grade: gain, why: "Backlog $664B, +46% [F]; funded with heavy debt"}

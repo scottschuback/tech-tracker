@@ -1,0 +1,22 @@
+# Promise ledger. Each line: what the company promised, by when, and where it said it.
+# status: open | delivered | late | missed. The daily run flags open promises that pass their due date.
+- {ticker: AMD, promise: "Helios racks ship to customers", due: 2026-09-30, source: "Q2 2026 call", tag: C, status: open, check: "Q3 report early Nov"}
+- {ticker: AMD, promise: "Helios ramps through Q4 into 2027", due: 2026-12-31, source: "Q2 2026 release", tag: C, status: open}
+- {ticker: NVDA, promise: "Vera Rubin production shipments in H2 2026", due: 2026-12-31, source: "Q2 FY27 release", tag: F, status: delivered, note: "Racks running at CoreWeave, Google Cloud, Azure, OCI, Nebius"}
+- {ticker: NVDA, promise: "Rubin CPX available end of 2026", due: 2026-12-31, source: "NVIDIA newsroom", tag: C, status: open}
+- {ticker: NVDA, promise: "Spectrum-X Photonics switches ship", due: 2026-12-31, source: "GTC", tag: C, status: open}
+- {ticker: NVDA, promise: "Rubin Ultra Kyber NVL576 ships", due: 2027-12-31, source: "GTC 2026", tag: C, status: open}
+- {ticker: NVDA, promise: "800V DC full-scale with Kyber", due: 2027-12-31, source: "NVIDIA blog", tag: C, status: open}
+- {ticker: NVDA, promise: "Feynman generation", due: 2028-12-31, source: "GTC 2026 roadmap", tag: C, status: open}
+- {ticker: INTC, promise: "Crescent Island customer sampling", due: 2026-12-31, source: "OCP 2025", tag: C, status: open}
+- {ticker: INTC, promise: "Secure an external 14A customer or pause leading-edge", due: 2026-12-31, source: "Annual report", tag: F, status: open}
+- {ticker: QCOM, promise: "AI200 commercially available", due: 2026-12-31, source: "Oct 2025 launch", tag: C, status: open}
+- {ticker: QCOM, promise: "AI250 available", due: 2027-12-31, source: "Oct 2025 launch", tag: C, status: open}
+- {ticker: AMZN, promise: "Trainium4 broad availability (~18 months from Apr 2026)", due: 2027-10-31, source: "Shareholder letter", tag: C, status: open}
+- {ticker: MU, promise: "HBM4E volume ramp", due: 2027-12-31, source: "FQ2 2026 remarks", tag: C, status: open}
+- {ticker: TSM, promise: "Q3 2026 revenue $44.6-45.8B", due: 2026-10-20, source: "Q2 2026 guidance", tag: C, status: open}
+- {ticker: ASML, promise: "2026 sales EUR 43-45B", due: 2027-01-31, source: "Q2 2026 release", tag: F, status: open}
+- {ticker: ASML, promise: "Q3 2026 sales EUR 11.0-12.0B", due: 2026-10-20, source: "Q2 2026 release", tag: F, status: open}
+- {ticker: AVGO, promise: "Q4 FY26 AI revenue $21.7B", due: 2026-12-15, source: "Q3 FY26 release", tag: F, status: open}
+- {ticker: NVDA, promise: "Q3 FY27 revenue $108.0B +/-2%", due: 2026-11-30, source: "Q2 FY27 release", tag: F, status: open}
+- {ticker: CBRS, promise: "OpenAI commitment over $20B delivered over time", due: 2028-12-31, source: "press", tag: R, status: open}

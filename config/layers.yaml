@@ -1,0 +1,213 @@
+# The 20 layers of the AI build, plus the buyers. alert: all | red_only | watch (major news only)
+# status = business grade (our judgement from the 3 Oct 2026 research, reviewed by the routine). "ungraded" until researched.
+- id: gpu
+  name: GPUs
+  alert: all
+  what: "General-purpose AI chips that train and run models. The biggest single spend in every AI data centre."
+  tickers: {NVDA: lead, AMD: gain, INTC: lose}
+  offline: {}
+  timeline: [["Vera Rubin racks shipping",2026.6,2027.2,"lead"],["AMD Helios rack ramp",2026.7,2027.5,"gain"],["Rubin Ultra Kyber NVL576",2027.5,2028.2,"gain"],["Nvidia Feynman (A16, 3D stacking)",2028,2028.9,"gain"]]
+  real: ["Nvidia holds the lead and has locked memory, packaging and lasers through $279B of supply commitments [F].","AMD's Helios ramp (Q3 report, early Nov) is the test of a real second supplier."]
+  noise: ["Vendor speed claims and delay rumours on social media."]
+  watch: ["AMD Q3 report: Helios shipped or slipped","Nvidia Q3 FY27: Rubin share of revenue"]
+- id: custom
+  name: Custom AI chips
+  alert: all
+  what: "Chips designed for one cloud company (Google TPU, Amazon Trainium, Microsoft Maia, Meta MTIA, OpenAI). Broadcom and Marvell do the physical design and supply."
+  tickers: {AVGO: gain, MRVL: gain}
+  offline: {"MediaTek": "Taiwan (planned)", "Alchip": "Taiwan (planned)", "GUC": "Taiwan (planned)"}
+  timeline: [["Google TPU Ironwood ramp",2026,2027,"lead"],["OpenAI Jalapeno shipping",2026.6,2027.5,"gain"],["TPU 8t / 8i",2027,2027.9,"gain"],["Trainium4 broad availability",2027.8,2028.5,"hold"]]
+  real: ["Broadcom's outlook: AI revenue $115B FY27, $230B FY28 [C].","Suppliers pay customers in shares: Marvell warrant to Google vests per $500M of custom revenue [F]."]
+  noise: ["Microsoft's Maia speed claims are its own, untested."]
+  watch: ["Broadcom Q4 FY26 (mid Dec): AI revenue vs $21.7B guide","Marvell: Google warrant tranches vesting"]
+- id: inference
+  name: Inference specialists
+  alert: all
+  what: "Chips built only to run finished models fast and cheaply, often with memory built into the chip so they avoid the HBM shortage."
+  tickers: {CBRS: gain, QCOM: unp}
+  offline: {"Groq (licensed to Nvidia)": "private", "d-Matrix": "private (Form D watch)", "Etched": "private (Form D watch)", "Tenstorrent": "private"}
+  timeline: [["Nvidia Groq 3 LPU to customers",2026.6,2027.2,"gain"],["d-Matrix Corsair volume",2026.4,2027,"gain"],["Qualcomm AI200",2026.7,2027.3,"unp"],["Qualcomm AI250",2027,2027.9,"unp"]]
+  real: ["Nvidia absorbed the main threat with a $20B Groq licence and hiring deal [C]."]
+  noise: ["Startup valuations and token-speed claims without independent tests."]
+  watch: ["Which startup wins a big cloud customer","MLPerf inference results (planned source)"]
+- id: cpu
+  name: CPUs
+  alert: all
+  what: "General processors that run the servers and, increasingly, the AI 'agent' work around the models. TSMC says agentic AI is bringing CPU demand back."
+  tickers: {AMD: gain, INTC: hold, ARM: gain}
+  offline: {"Nvidia Vera / Grace, AWS Graviton, Google Axion, Microsoft Cobalt": "inside the GPU and buyer companies"}
+  timeline: [["AMD EPYC Venice in Helios racks",2026.5,2027.5,"gain"],["Nvidia Vera CPU in Rubin racks",2026.6,2027.5,"gain"],["Arm-based server share rising",2026,2028,"gain"]]
+  real: ["Advantest says CPU demand for inference is the biggest driver of its tester growth [C]."]
+  noise: ["Core-count headline comparisons."]
+  watch: ["Arm royalty growth from data centre","Intel data centre segment margins"]
+- id: memory
+  name: Memory (HBM, DRAM)
+  alert: all
+  what: "Stacked high-bandwidth memory sits beside every AI chip. It is the tightest supply link in the whole stack."
+  tickers: {SKHY: lead, MU: hold}
+  offline: {"Samsung Electronics": "Korea DART (needs free key)", "CXMT (China)": "not covered"}
+  timeline: [["HBM4 on Rubin (all three qualified)",2026.4,2027.3,"lead"],["Custom HBM4E, logic in base die",2027,2027.9,"gain"],["Hybrid bonding in HBM",2027,2028,"unp"]]
+  real: ["Growth is price-led: Micron Q4 DRAM prices up high-teens % vs bits mid-single digits [C].","Margins of 72-87% are peak-cycle levels: score on volume, not current margins."]
+  noise: ["Single-source allocation leaks (the Micron 'no HBM4' leak was wrong)."]
+  watch: ["SK hynix and Samsung Q3 (late Oct)","Korea 10-day chip exports (planned source)"]
+- id: storage
+  name: Storage
+  alert: all
+  what: "Hard drives and flash that hold training data and model outputs. AI is driving record exabyte demand."
+  tickers: {SNDK: ungraded, STX: ungraded, WDC: ungraded}
+  offline: {"Solidigm": "inside SK hynix", "Kioxia": "Japan (planned)"}
+  timeline: [["PCIe Gen6 data-centre SSDs",2026.2,2027.5,"gain"],["Higher-capacity HAMR hard drives",2026,2028,"gain"]]
+  real: ["Teradyne's drive-test business grew 94% on AI-driven HDD demand from all three makers [R]."]
+  noise: ["Consumer storage pricing swings."]
+  watch: ["Exabytes shipped each quarter","NAND price vs bit growth"]
+- id: design
+  name: Chip design tools and licensed designs
+  alert: all
+  what: "The software every chip is designed with (Synopsys, Cadence) and the designs licensed into chips (Arm, Rambus). A toll on every new chip."
+  tickers: {SNPS: ungraded, CDNS: ungraded, ARM: gain, RMBS: ungraded}
+  offline: {}
+  timeline: [["AI-assisted chip design tools",2026,2028,"gain"],["Chiplet and 3D design flows for A16",2027,2028.5,"gain"]]
+  real: ["More custom chips means more design-tool seats and licences."]
+  noise: ["China licensing headlines."]
+  watch: ["Backlog (remaining performance obligations) growth","China revenue share"]
+- id: foundry
+  name: Foundry and advanced packaging
+  alert: all
+  what: "Who manufactures the chips and joins them to their memory. CoWoS packaging is the chokepoint."
+  tickers: {TSM: lead, INTC: unp, AMKR: ungraded}
+  offline: {"Samsung Foundry": "Korea DART (needs free key)"}
+  timeline: [["TSMC 2nm ramp",2026,2027.5,"lead"],["CoWoS to ~120k wafers/month",2026,2027,"lead"],["TSMC A16 backside power",2027,2028.5,"gain"],["Intel 14A risk production",2027,2028,"unp"]]
+  real: ["TSMC August revenue +53.3%, four straight monthly records [F].","Intel says it may pause leading-edge work without an outside 14A customer [F]."]
+  noise: ["Monthly revenue swings around phone launches."]
+  watch: ["TSMC Q3 (mid Oct): CoWoS capacity and 2027 capex","Any Intel 14A customer"]
+- id: materials
+  name: Materials and substrates
+  alert: all
+  what: "The wafers, chemicals and package substrates every chip needs. Advanced substrates are a quiet bottleneck for big AI packages."
+  tickers: {ENTG: ungraded, AXTI: ungraded}
+  offline: {"Shin-Etsu": "Japan (planned)", "Ibiden": "Japan (planned)", "Unimicron": "Taiwan (planned)"}
+  timeline: [["Glass-core substrates trials",2027,2029,"unp"]]
+  real: ["Indium phosphide (lasers) and gallium supply tie into China export controls."]
+  noise: ["Chemical price headlines."]
+  watch: ["Substrate lead times","China export licence decisions"]
+- id: equipment
+  name: Chipmaking equipment
+  alert: all
+  what: "The machines that make the chips. ASML has a monopoly on the most advanced lithography."
+  tickers: {ASML: lead, AMAT: gain, LRCX: hold, KLAC: hold}
+  offline: {"Tokyo Electron": "Japan (planned)", "BESI": "Euronext (planned)"}
+  timeline: [["~65 standard EUV machines in 2026",2026,2027,"lead"],["High-NA EUV at Intel 14A",2027,2028.9,"hold"],["High-NA EUV at TSMC",2030,2030.9,"hold"]]
+  real: ["ASML 2026 sales guide €43-45B; China about 20% of sales; bookings no longer disclosed [F][C]."]
+  noise: ["Old reports of early TSMC High-NA adoption."]
+  watch: ["ASML Q3 (mid Oct)","High-NA orders"]
+- id: network
+  name: Networking and optics
+  alert: all
+  what: "Switches, transceivers, lasers and the chips that move data between AI chips. Light is replacing copper."
+  tickers: {ANET: ungraded, COHR: gain, LITE: lead, CRDO: gain, ALAB: gain, CIEN: ungraded}
+  offline: {"InnoLight, Eoptolink": "China (not covered)", "Lightmatter, Ayar Labs": "private"}
+  timeline: [["Co-packaged optics switches",2026,2026.9,"lead"],["1.6T transceivers ramp",2026,2027.9,"lead"],["Optics on the GPU package",2027.5,2028.6,"unp"],["UALink switch silicon",2026.8,2027.8,"unp"]]
+  real: ["Nvidia put $2B each into Lumentum and Coherent with purchase commitments [F].","Lasers and 3nm DSP chips decide who ships 1.6T."]
+  noise: ["Every vendor claiming 1.6T; only four in volume."]
+  watch: ["Laser capacity additions","UALink first silicon"]
+- id: fibre
+  name: Fibre and connectivity
+  alert: all
+  what: "The glass fibre and copper connectors inside and between racks. Every AI rack needs huge numbers of them."
+  tickers: {GLW: ungraded, APH: ungraded}
+  offline: {}
+  timeline: [["Hollow-core and high-density fibre",2026.5,2028,"unp"]]
+  real: ["Fibre capacity is a quiet constraint as optics volumes double."]
+  noise: ["Telecom fibre cycles unrelated to AI."]
+  watch: ["Corning optical segment growth","Amphenol IT datacom growth"]
+- id: servers
+  name: Servers and racks
+  alert: all
+  what: "The companies that assemble chips into finished servers and full racks. High volume, thin margins."
+  tickers: {DELL: ungraded, SMCI: ungraded, HPE: ungraded}
+  offline: {"Foxconn": "Taiwan (planned)", "Quanta": "Taiwan (planned)", "Wiwynn": "Taiwan (planned)"}
+  timeline: [["Rubin NVL72 rack assembly",2026.6,2027.5,"gain"],["Kyber 600kW racks",2027.5,2028.5,"unp"]]
+  real: ["Margins are thin; watch inventory and receivables closely."]
+  noise: ["Order-size headlines without delivery dates."]
+  watch: ["AI server backlog","Inventory days"]
+- id: power
+  name: Power and cooling (in the building)
+  alert: all
+  what: "Power distribution and liquid cooling inside the data centre. Rubin and Kyber racks need full liquid cooling and 800V DC."
+  tickers: {VRT: lead, ETN: gain}
+  offline: {"Schneider Electric": "Euronext (planned)", "Delta Electronics": "Taiwan (planned)"}
+  timeline: [["800V DC products",2026.5,2027.2,"gain"],["800V DC with Kyber",2027,2028,"gain"],["Solid-state transformers",2027,2029,"unp"]]
+  real: ["Solid-state transformers are still pre-production at most vendors."]
+  noise: ["Vendor efficiency claims."]
+  watch: ["Vertiv backlog and book-to-bill","Kyber timing"]
+- id: grid
+  name: Grid and power generation
+  alert: all
+  what: "Turbines, transformers, nuclear and gas plants that supply the power. Likely the biggest limit on AI build-out from 2027."
+  tickers: {GEV: ungraded, CEG: ungraded, VST: ungraded, BE: ungraded}
+  offline: {"Siemens Energy": "Germany (planned)", "Hitachi Energy": "Japan (planned)"}
+  timeline: [["Gas turbine slots sold out",2026,2029,"lead"],["On-site fuel cells and turbines",2026,2028,"gain"],["Small nuclear reactors",2029,2031,"unp"]]
+  real: ["Grid connection waits run years in key markets (grid-queue source planned)."]
+  noise: ["Announced power deals without permits."]
+  watch: ["Turbine backlog","Large-load grid queues (planned)"]
+- id: build
+  name: Data-centre construction and property
+  alert: all
+  what: "The builders and landlords of data centres. Chips are useless without finished buildings."
+  tickers: {EQIX: ungraded, DLR: ungraded, FIX: ungraded, EME: ungraded, PWR: ungraded, STRL: ungraded}
+  offline: {}
+  timeline: [["Liquid-cooled halls standard",2026,2028,"gain"]]
+  real: ["Construction backlog shows the real pace of the build."]
+  noise: ["Campus announcements without permits."]
+  watch: ["Contractor backlogs","EPA turbine permits (planned)"]
+- id: test
+  name: Test
+  alert: all
+  what: "Machines that test every chip and memory stack. AI chips take 20+ minutes each to test."
+  tickers: {TER: gain}
+  offline: {"Advantest": "Japan TDnet (planned); 66% chip-tester share in 2025 [C]"}
+  timeline: [["System-level test growth",2026,2028,"gain"]]
+  real: ["Two companies make almost all testers."]
+  noise: ["Tester market size forecasts."]
+  watch: ["Teradyne compute share gains in 2027"]
+- id: minerals
+  name: Critical materials
+  alert: red_only
+  what: "Gallium, germanium, rare earths, helium and neon. China controls much of the supply and has used export bans."
+  tickers: {MP: ungraded}
+  offline: {"Lynas": "ASX (planned)"}
+  timeline: [["Non-China rare earth capacity",2026,2029,"unp"]]
+  real: ["One Chinese rule change can stop production elsewhere in the stack."]
+  noise: ["Spot price swings."]
+  watch: ["China export control notices (planned source)"]
+- id: payers
+  name: Who pays (AI labs and financing)
+  alert: red_only
+  what: "The AI labs that sign the compute contracts, the neoclouds that rent the chips, and the lenders behind them. Their funding decides whether orders are real."
+  tickers: {CRWV: ungraded, NBIS: ungraded, BX: ungraded, APO: ungraded, OWL: ungraded}
+  financials: [BX, APO, OWL]
+  offline: {"OpenAI, Anthropic, xAI": "private (R tag)"}
+  timeline: [["Gigawatt-scale lab compute deals",2026,2028,"gain"]]
+  real: ["Supplier warrants and equity deals mean part of reported demand is paid for in shares [F]."]
+  noise: ["Private valuation headlines."]
+  watch: ["Neocloud debt raises (8-K 2.03)","Lab funding rounds"]
+- id: frontier
+  name: Frontier computing
+  alert: watch
+  what: "Quantum, photonic and brain-like computing. Watched for big breakthroughs that could change the stack, not scored daily."
+  tickers: {IONQ: ungraded, RGTI: ungraded, QBTS: ungraded}
+  offline: {"PsiQuantum": "private", "Lightmatter (photonic compute)": "private"}
+  timeline: [["Error-corrected quantum demos",2027,2030,"unp"],["Photonic compute products",2027,2029,"unp"]]
+  real: ["None yet changes AI chip demand."]
+  noise: ["Qubit-count headlines."]
+  watch: ["Government quantum contracts (USAspending)"]
+- id: buyers
+  name: Buyers (demand side)
+  alert: all
+  what: "The cloud and internet companies whose spending pays every layer above."
+  tickers: {MSFT: ungraded, GOOGL: ungraded, AMZN: ungraded, META: ungraded, ORCL: ungraded}
+  offline: {}
+  timeline: []
+  real: ["Their capital spending is the total demand for the stack."]
+  noise: ["Single-quarter capex timing."]
+  watch: ["Each quarter's capex and next-year guide"]

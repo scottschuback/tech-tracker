@@ -1,0 +1,6 @@
+# Company guidance for the next period. The routine updates this from each results release (tag C or F).
+NVDA: {period: "Q3 FY27", revenue: 108.0e9, note: "plus or minus 2%; no China data-centre compute assumed", tag: F, said: "2026-08-26"}
+AMD: {period: "Q3 2026", revenue: 13.0e9, note: "plus or minus $0.3B", tag: F, said: "2026-08-04"}
+AVGO: {period: "Q4 FY26", revenue: 34.8e9, note: "AI semiconductor revenue $21.7B", tag: F, said: "2026-09-02"}
+TSM: {period: "Q3 2026", revenue: 45.2e9, note: "range $44.6-45.8B", tag: C, said: "2026-07-16"}
+ASML: {period: "Q3 2026", revenue: 11.5e9, unit: EUR, note: "range EUR 11.0-12.0B; full year EUR 43-45B", tag: F, said: "2026-07-15"}

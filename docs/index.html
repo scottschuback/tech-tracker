@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Technology Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#070b12;--panel:#0f1622;--panel2:#151e2d;--line:#24324a;--text:#f2f5fa;--muted:#9fb0c8;--dim:#6f819c;
+--red:#ef5b52;--amber:#e6ad3c;--green:#3fbf86;--grey:#6f819c;--blue:#4aa8ff;--violet:#a596ff;color-scheme:dark;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Archivo",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:16px;line-height:1.5;font-variant-numeric:tabular-nums}
+.wrap{max-width:1040px;margin:0 auto;padding:18px 14px 50px}
+h1{font-stretch:78%;font-weight:800;font-size:clamp(28px,6.5vw,44px);line-height:1.02;margin:4px 0}
+h2{font-stretch:82%;font-size:23px;margin:20px 0 6px}
+h3{font-size:18px;margin:14px 0 4px}
+.sub{color:var(--muted);margin:2px 0}
+a{color:#7fd3ff}
+.tabs{position:sticky;top:0;z-index:5;background:var(--bg);display:flex;gap:6px;overflow-x:auto;padding:10px 0;margin:10px 0;border-bottom:1px solid var(--line);scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;font:inherit;font-size:14px;font-weight:600;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:7px 13px;cursor:pointer;text-decoration:none}
+.tab[aria-current=page]{background:var(--text);color:var(--bg);border-color:var(--text)}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.counts{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0}
+.cnt{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px;border-top:4px solid var(--c)}
+.cnt b{display:block;font-size:28px;font-stretch:80%;line-height:1}
+.cnt span{color:var(--muted);font-size:13px}
+.pill{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;color:#08101a;background:var(--c);white-space:nowrap}
+.layer{margin:14px 0 6px}
+.layer h3 a{color:var(--text);text-decoration:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:8px}
+.tile{display:block;background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:10px;padding:9px 10px;color:var(--text);text-decoration:none}
+.tile b{font-size:17px}.tile .s{color:var(--muted);font-size:12.5px;line-height:1.35;margin-top:3px}
+.item{background:var(--panel);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:10px;padding:10px 12px;margin:8px 0}
+.item .t{font-weight:650}.item .r{color:var(--muted);font-size:14px;overflow-wrap:anywhere}
+.item .m{color:var(--dim);font-size:12.5px;margin-top:3px;display:flex;gap:10px;flex-wrap:wrap}
+.tag{font-size:11px;font-weight:700;border:1px solid;border-radius:4px;padding:0 5px}
+.tag.F{color:#f2f5fa}.tag.C{color:#7fd3ff}.tag.R{color:#c9a0ff;font-style:italic}
+.verdict{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;margin:10px 0;border-left:8px solid var(--c)}
+.verdict .big{font-stretch:78%;font-weight:800;font-size:40px;line-height:1;color:var(--c)}
+.qa{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:8px 0;border-left:5px solid var(--c)}
+.qa h4{margin:0 0 4px;font-size:16px;display:flex;justify-content:space-between;gap:8px}
+.qa ul{margin:0;padding-left:18px}.qa li{margin:3px 0;color:var(--text)}
+.bars{display:flex;align-items:flex-end;gap:5px;height:90px;margin:8px 0 2px}
+.bars div{flex:1;background:var(--blue);border-radius:4px 4px 0 0;min-height:3px;position:relative}
+.bars span{position:absolute;bottom:100%;left:50%;transform:translateX(-50%);font-size:11px;color:var(--muted);white-space:nowrap}
+.blab{display:flex;gap:5px;font-size:10.5px;color:var(--dim)}.blab div{flex:1;text-align:center}
+.kv{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px;margin:8px 0}
+.kv div{background:var(--panel2);border-radius:8px;padding:6px 8px;font-size:13px}.kv b{display:block;font-size:16px}
+.up{color:var(--green)}.dn{color:var(--red)}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:10px;margin:8px 0}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:7px 9px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{color:var(--dim);font-weight:600;font-size:12.5px;background:var(--panel2)}
+td.wrap{white-space:normal;min-width:220px}
+.note{overflow-wrap:anywhere;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--muted);font-size:14px;margin:10px 0}
+.empty{color:var(--muted);padding:14px;border:1px dashed var(--line);border-radius:10px}
+.clock{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:8px 0}
+.cg{min-width:600px;padding:0 10px}
+.yrs,.lane{display:grid;grid-template-columns:190px 1fr}
+.yrs div{display:grid;grid-template-columns:repeat(5,1fr);font-size:12.5px;color:var(--dim);font-weight:700}
+.lane{align-items:center;min-height:34px;border-top:1px dashed #1c2738;font-size:13.5px}
+.track{position:relative;height:30px}
+.bar{position:absolute;top:8px;height:14px;border-radius:7px;background:var(--c)}
+.now{position:absolute;top:0;bottom:0;width:2px;background:var(--text);opacity:.6}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+select{font:inherit;font-size:14px;background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:6px 8px}
+.back{display:inline-block;margin:6px 0;color:var(--muted);text-decoration:none}
+@media(max-width:560px){.counts{grid-template-columns:repeat(2,1fr)}.yrs,.lane{grid-template-columns:130px 1fr}}
+</style></head>
+<body><div class="wrap">
+<h1>Technology Tracker</h1>
+<p class="sub" id="runline">Loading…</p>
+<nav class="tabs" id="tabs"></nav>
+<main id="view"></main>
+<p class="sub" style="font-size:13px;margin-top:26px">Tags: <span class="tag F">F</span> filed with a regulator · <span class="tag C">C</span> company said · <span class="tag R">R</span> reported, unverified. Numbers are calculated by code from each company's own filings and tested before they are shown. Verdicts never use the share price.</p>
+</div>
+<script>
+const COL={red:"--red",amber:"--amber",green:"--green",grey:"--grey",ok:"--green",quiet:"--grey",failed:"--red",planned:"--violet","not run":"--grey",lead:"--green",gain:"--blue",hold:"--amber",lose:"--red",unp:"--violet",ungraded:"--grey"};
+const SRC={movers:"Movers",prices:"Share prices (alerts only)",discovery:"Discovery (not on the watchlist)",sec_filings:"Company filings (SEC)",sec_numbers:"Company numbers and tests",sec_fulltext:"Filing text search (supply deals)",sec_form_d:"Private company fundraising",federal_register:"US government rules (export controls)",usaspending:"Federal contracts and grants",patents:"New patents",promises:"Promise ledger",korea_dart:"Samsung and SK hynix home filings",korea_trade:"Korea chip exports",taiwan_trade:"Taiwan exports",us_trade:"US chip and server imports",fcc:"FCC device approvals",grid_queues:"Power grid queues",epa_permits:"Data-centre air permits",mlperf:"Independent AI chip benchmarks",standards:"Industry standards releases",itc_337:"Chip import-ban cases",software_moat:"CUDA vs ROCm software activity",gpu_rental:"GPU rental prices",china_controls:"China export controls"};
+const KIND=k=>String(k||"").replace(/^8-K\s*/,"Company news ").replace("Phrase:","Supply-deal wording:");
+const esc=s=>String(s??"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+const pct=v=>v==null?"—":(v>=0?"+":"")+(v*100).toFixed(0)+"%";
+const pc0=v=>v==null?"—":(v*100).toFixed(0)+"%";
+const money=(v,u)=>v==null?"—":({USD:"$",EUR:"€"}[u]||"")+(Math.abs(v)>=1e9?(v/1e9).toFixed(1)+"B":(v/1e6).toFixed(0)+"M");
+let D,S,N;
+const MN={revenue:"Revenue",rd:"R&D spending",net_income:"Net profit",op_income:"Operating profit",gross_profit:"Gross profit",unit:"Currency",all:"All numbers",receivables:"Money owed by customers",inventory:"Inventory",assets:"Total assets"};
+const ST={pass:["OK","--green"],flag:["Check","--amber"],fail:["Held back","--red"],info:["No data","--grey"]};
+function testItem(x,t){const s=ST[x.status]||ST.flag;return `<div class="item" style="--c:var(${s[1]})"><div class="t"><span class="pill" style="--c:var(${s[1]})">${s[0]}</span> ${t?`<a href="#co/${t}">${t}</a> · `:""}${esc(MN[x.metric]||x.metric)}</div><div class="r">${esc(x.note)}</div></div>`}
+const card=t=>(D.companies[t]||{}).card;
+function item(i){return `<div class="item" style="--c:var(${COL[i.colour]})"><div class="t">${esc(i.title)}</div><div class="r">${esc(i.reason)}</div><div class="m"><span class="tag ${i.tag}">${i.tag}</span><span>${esc(SRC[i.source]||i.source)}</span><span>${esc(i.published||"")}</span>${i.ticker?`<a href="#co/${i.ticker}">${i.ticker} card</a>`:""}${i.url?`<a href="${esc(i.url)}" target="_blank" rel="noopener">Open source</a>`:""}</div></div>`}
+function tile(t){const c=card(t);if(!c)return `<div class="tile" style="--c:var(--grey)"><b>${t}</b><div class="s">not found at the SEC</div></div>`;
+const g=c.q.growing?c.q.growing.lines[0].match(/([+-]\d+%) on a year ago; growth is (.*)$/):null;
+return `<a class="tile" href="#co/${t}" style="--c:var(${COL[c.verdict_colour]})"><b>${t}</b> <span class="pill" style="--c:var(${COL[c.verdict_colour]})">${c.verdict}</span><div class="s">${esc(c.status_word)}${g?`<br>Revenue ${g[1]}, ${g[2]}`:""}</div></a>`}
+function home(){const r=D.run;const vc={Strong:0,Watch:0,"Cycle low":0,Weak:0,"Not scored":0};Object.values(D.companies).forEach(c=>vc[c.card.verdict]++);
+return `<div class="counts"><div class="cnt" style="--c:var(--green)"><b>${vc.Strong}</b><span>Strong</span></div><div class="cnt" style="--c:var(--amber)"><b>${vc.Watch}</b><span>Watch</span></div><div class="cnt" style="--c:var(--blue)"><b>${vc["Cycle low"]}</b><span>Cycle low</span></div><div class="cnt" style="--c:var(--red)"><b>${vc.Weak}</b><span>Weak</span></div></div>
+<p class="sub">Every company by layer. Tap one for its card: where it is going, whether it is growing, whether its technology is in demand, what is next, and the verdict with reasons. Tap a layer name for its full page.</p>
+${D.layer_pages.map(L=>`<div class="layer"><h3><a href="#layer/${L.id}">${esc(L.name)} ›</a></h3><div class="grid">${Object.keys(L.rows.reduce((a,r)=>(a[r.ticker]=1,a),{})).map(tile).join("")}</div></div>`).join("")}`}
+function today(){const r=D.run;const live=D.sources.filter(s=>s.live);const failed=live.filter(s=>s.status==="failed");
+return `<div class="counts">${[["red","Red: read today"],["amber","Amber: check"],["green","Green: news"]].map(([k,l])=>`<div class="cnt" style="--c:var(${COL[k]})"><b>${r[k]}</b><span>${l}</span></div>`).join("")}<div class="cnt" style="--c:var(--blue)"><b>${r.new}</b><span>New since last run</span></div></div>
+<h2>What was checked</h2><div class="filters">${live.map(s=>`<span class="pill" style="--c:var(${COL[s.status]})">${esc(SRC[s.name]||s.name)}: ${s.status==="ok"?s.new+" new":s.status==="quiet"?"nothing new":"failed"}</span>`).join("")}</div>
+${failed.length?`<div class="note"><b style="color:var(--red)">${failed.length} source${failed.length>1?"s":""} failed.</b> ${failed.map(s=>esc(SRC[s.name]||s.name)).join(", ")}. Details on the What's watched tab.</div>`:""}
+<h2>New since the last run</h2>${D.today.length?D.today.map(item).join(""):'<div class="empty">Nothing new since the last run. Every live source was checked.</div>'}`}
+function qa(title,q){if(!q||!q.lines||!q.lines.length)return "";return `<div class="qa" style="--c:var(${COL[q.light]||"--grey"})"><h4><span>${title}</span><span class="pill" style="--c:var(${COL[q.light]||"--grey"})">${{green:"good",amber:"mixed",red:"concern",grey:"info"}[q.light]||"info"}</span></h4><ul>${q.lines.map(l=>`<li>${esc(l).replace(/\[(F|C|R)\]/g,'<span class="tag $1">$1</span>')}</li>`).join("")}</ul></div>`}
+function company(t){const c=D.companies[t];if(!c)return `<div class="empty">No data for ${esc(t)}.</div>`;const k=c.card,p=c.pack;
+if(p.error)return `<a class="back" href="#home">‹ All companies</a><h2>${t}</h2><div class="note">${esc(p.error)}</div>${c.items.map(item).join("")}`;
+const rq=p.revenue_q||[];const mx=Math.max(...rq.map(x=>x.rev),1);const tj={};(p.trajectory||[]).forEach(x=>tj[x.end]=x.yoy);
+const a=p.annual||{};
+return `<a class="back" href="#home">‹ All companies</a><h2>${t} · ${esc(p.name||"")}</h2><p class="sub">${esc(k.layers.join(", "))}. Latest quarter ended ${esc(p.period_end)}.</p>
+<div class="verdict" style="--c:var(${COL[k.verdict_colour]})"><div class="big">${k.verdict}</div><ul>${k.reasons.map(r=>`<li>${esc(r)}</li>`).join("")}</ul><div class="sub" style="font-size:13px">Strong = 2+ filed traits, growing, at most one health warning, not losing ground. Weak = losing ground, or shrinking outside a cyclical layer. Cycle low = a chip, memory, storage or equipment company whose revenue is shrinking (these did as well as Strong in the backtest). Watch = the rest. Backtested 2014-2021 across the whole US market.</div></div>
+${qa("1. Where is it going?",k.q.going)}
+<div class="qa" style="--c:var(${COL[k.q.growing.light]||"--grey"})"><h4><span>2. Is it growing?</span><span class="pill" style="--c:var(${COL[k.q.growing.light]||"--grey"})">${{green:"good",amber:"mixed",red:"concern",grey:"info"}[k.q.growing.light]||"info"}</span></h4>
+<div class="bars">${rq.map(x=>`<div style="height:${(x.rev/mx*100).toFixed(0)}%"><span>${tj[x.end]!=null?pct(tj[x.end]):""}</span></div>`).join("")}</div><div class="blab">${rq.map(x=>`<div>${x.end.slice(2,7)}</div>`).join("")}</div>
+<p class="sub" style="font-size:12.5px">Quarterly revenue; labels show growth on the same quarter a year earlier.</p><ul>${k.q.growing.lines.map(l=>`<li>${esc(l)}</li>`).join("")}</ul></div>
+${qa("3. Is its technology in demand?",k.q.demand)}${qa("4. What is next?",k.q.next)}
+<h3>The three filed traits</h3><div class="tw"><table><thead><tr><th>Year end</th><th>Revenue</th><th>Gross margin</th><th>Return on capital</th></tr></thead><tbody>${(a.years||[]).map(y=>`<tr><td>${y.end}</td><td>${money(y.rev,p.unit)}</td><td>${pc0(y.gm)}</td><td>${pc0(y.roc)}</td></tr>`).join("")}</tbody></table></div>
+<p class="sub" style="font-size:13px">Return on capital = operating income ÷ (total assets − current liabilities).</p>
+<h3>Numbers and tests</h3><div class="kv">${[["Revenue","revenue"],["R&D","rd"],["Operating income","op_income"],["Net income","net_income"],["True earnings","true_earnings"],["Backlog","backlog"]].map(([l,x])=>`<div>${l}<b>${money(p[x],p.unit)}</b>${p[x+"_yoy"]!=null?`<span class="${p[x+"_yoy"]>=0?"up":"dn"}">${pct(p[x+"_yoy"])} vs year ago</span>`:""}</div>`).join("")}
+<div>Days for customers to pay<b>${p.dso_days?p.dso_days.toFixed(0):"—"}</b><span>${p.dso_days_ya?"was "+p.dso_days_ya.toFixed(0):""}</span></div><div>Days of inventory<b>${p.dio_days?p.dio_days.toFixed(0):"—"}</b><span>${p.dio_days_ya?"was "+p.dio_days_ya.toFixed(0):""}</span></div></div>
+${(p.forensic||[]).map(([c,m])=>`<div class="item" style="--c:var(${COL[c]})"><div class="t">${esc(m)}</div></div>`).join("")}
+<h3>Number tests</h3>${(()=>{const xs=[...(p.checks||[])].sort((a,b)=>({fail:0,flag:1,info:2,pass:3})[a.status]-({fail:0,flag:1,info:2,pass:3})[b.status]);const ok=xs.filter(x=>x.status==="pass").length;return xs.filter(x=>x.status!=="pass").map(x=>testItem(x)).join("")+`<p class="sub">${ok} number${ok===1?"":"s"} matched the filing and passed every test.${xs.some(x=>x.status!=="pass")?"":" Nothing needs checking."}</p>`})()}
+${c.items.length?"<h3>Recent alerts</h3>"+c.items.map(item).join(""):""}`}
+function clock(tl){if(!tl||!tl.length)return "";const y0=2026,y1=2031,P=y=>(y-y0)/(y1-y0)*100,now=P(2026.76);
+return `<div class="clock"><div class="cg"><div class="yrs"><span></span><div><span>2026</span><span>2027</span><span>2028</span><span>2029</span><span>2030</span></div></div>${tl.map(x=>`<div class="lane"><span>${esc(x[0])}</span><div class="track"><i class="now" style="left:${now}%"></i><div class="bar" style="--c:var(${COL[x[3]]});left:${P(x[1])}%;width:${Math.max(P(x[2])-P(x[1]),3)}%"></div></div></div>`).join("")}</div></div>`}
+function layersList(){return `<h2>Layers</h2><p class="sub">Each layer has its own full page: what it does, who leads, the numbers side by side, the technology timeline, promises, real issues and what to watch.</p>`+
+D.layer_pages.map(L=>{const v={Strong:0,Watch:0,"Cycle low":0,Weak:0};L.rows.forEach(r=>{if(r.verdict in v)v[r.verdict]++});return `<a class="tile" style="--c:var(--blue);margin:8px 0" href="#layer/${L.id}"><b>${esc(L.name)}</b> ${L.alert!=="all"?`<span class="pill" style="--c:var(--violet)">${L.alert==="watch"?"watch only":"red alerts only"}</span>`:""}<div class="s">${esc(L.what)}<br>${v.Strong} strong · ${v.Watch} watch · ${v["Cycle low"]} cycle low · ${v.Weak} weak${L.total_yoy!=null?` · layer revenue ${pct(L.total_yoy)} on a year ago`:""}</div></a>`}).join("")}
+function layer(id){const L=D.layer_pages.find(x=>x.id===id);if(!L)return '<div class="empty">Layer not found.</div>';
+const lst=(t,xs)=>xs&&xs.length?`<h3>${t}</h3><ul>${xs.map(x=>`<li>${esc(x).replace(/\[(F|C|R)\]/g,'<span class="tag $1">$1</span>')}</li>`).join("")}</ul>`:"";
+return `<a class="back" href="#layers">‹ All layers</a><h2>${esc(L.name)}</h2><p>${esc(L.what)}</p>
+${L.total_yoy!=null?`<div class="note">Combined revenue of the US-reporting companies below: <b style="color:var(--text)">${money(L.total_rev,"USD")}</b> last quarter, <b class="${L.total_yoy>=0?"up":"dn"}">${pct(L.total_yoy)}</b> on a year ago. Whole-company figures where a company spans several layers.</div>`:""}
+<h3>Who leads, and the numbers side by side</h3><div class="tw"><table><thead><tr><th>Company</th><th>Verdict</th><th>Grade</th><th>Revenue</th><th>vs year ago</th><th>Share of layer</th><th>Gross margin</th><th>Op margin</th><th>R&D</th><th>Backlog</th></tr></thead><tbody>
+${L.rows.map(r=>r.missing?`<tr><td>${r.ticker}</td><td colspan="9" class="sub">no filed numbers yet</td></tr>`:`<tr><td><a href="#co/${r.ticker}">${r.ticker}</a></td><td><span class="pill" style="--c:var(${COL[r.vc]})">${r.verdict}</span></td><td><span class="pill" style="--c:var(${COL[r.status]})">${({lead:"Leads",gain:"Gaining",hold:"Holding",lose:"Losing",unp:"Unproven",ungraded:"Ungraded"})[r.status]}</span></td><td>${money(r.revenue,r.unit)}</td><td class="${(r.yoy||0)>=0?"up":"dn"}">${pct(r.yoy)}</td><td>${r.share!=null?pc0(r.share):"—"}</td><td>${pc0(r.gm)}</td><td>${pc0(r.om)}</td><td>${money(r.rd,r.unit)}</td><td>${r.backlog?money(r.backlog,r.unit)+" "+pct(r.backlog_yoy):"—"}</td></tr>`).join("")}</tbody></table></div>
+${Object.keys(L.offline||{}).length?`<div class="note">Also in this layer, not yet connected: ${Object.entries(L.offline).map(([n,w])=>esc(n)+" ("+esc(w)+")").join("; ")}</div>`:""}
+${L.timeline&&L.timeline.length?"<h3>Technology timeline</h3>"+clock(L.timeline):""}
+${lst("Real issues",L.real)}${lst("Noise",L.noise)}${lst("What to watch",L.watch)}
+${L.promises.length?`<h3>Promises in this layer</h3><div class="tw"><table><tbody>${L.promises.map(p=>`<tr><td><span class="pill" style="--c:var(${{overdue:"--red","due soon":"--amber",open:"--blue",delivered:"--green"}[p.state]||"--grey"})">${p.state}</span></td><td>${p.due}</td><td>${p.ticker}</td><td class="wrap">${esc(p.promise)}</td></tr>`).join("")}</tbody></table></div>`:""}
+${L.items.length?"<h3>Recent alerts in this layer</h3>"+L.items.slice(0,15).map(item).join(""):""}`}
+function moversTab(){const xs=D.movers||[];const tested=i=>(i.extra&&i.extra.tested)||"";
+return `<h2>Movers</h2><p class="sub">The few events that mean a company is on the move, from its filings. Each is a candidate to run through your own valuation, never a buy signal. Kinds: verdict changes, guidance raised or cut, backlog up 15%+, a supply deal naming a big customer, the turn (a cyclical's revenue rising again), insider buying clusters, a promise delivered early, and a Strong company's price down 20%+ from its 90-day high.</p>
+${xs.length?xs.map(i=>`<div class="item" style="--c:var(${COL[i.colour]})"><div class="t">${esc(i.title)}</div><div class="r">${esc(i.reason)}</div><div class="m"><span class="tag ${i.tag}">${i.tag}</span><span>${esc(KIND(i.kind))}</span><span>${esc(i.published||"")}</span><span>${esc(tested(i))}</span>${i.ticker?`<a href="#co/${i.ticker}">${i.ticker} card</a>`:""}${i.url?`<a href="${esc(i.url)}" target="_blank" rel="noopener">Open source</a>`:""}</div></div>`).join(""):'<div class="empty">No movers in the last 30 days. Verdict changes and guidance moves happen a few times a quarter, so a quiet list is normal.</div>'}`}
+function notes(){if(!N||!N.length)return '<div class="empty">No analyst notes yet. The morning Claude Code routine writes them after reading each red and amber item at its source.</div>';
+return `<h2>Analyst notes</h2>`+N.map(n=>`<div class="item" style="--c:var(${COL[n.colour]||"--blue"})"><div class="t">${esc(n.title)}</div><div class="r">${esc(n.note)}</div><div class="m"><span>${esc(n.date)}</span><span>${n.real?"Real issue":"Noise"}</span>${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">Open source</a>`:""}</div></div>`).join("")}
+function recent(){return `<h2>Last 30 days</h2><div class="filters"><select id="fc"><option value="">All colours</option><option>red</option><option>amber</option><option>green</option></select><select id="fl"><option value="">All layers</option>${D.layer_pages.map(l=>`<option value="${l.id}">${esc(l.name)}</option>`).join("")}</select></div><div id="rl"></div>`}
+function drawRecent(){const c=fc.value,l=fl.value;const L=l?new Set(D.layer_pages.find(x=>x.id===l).rows.map(r=>r.ticker)):null;const xs=D.recent.filter(i=>(!c||i.colour===c)&&(!L||L.has(i.ticker)));rl.innerHTML=xs.length?xs.slice(0,150).map(item).join(""):'<div class="empty">Nothing matches.</div>'}
+function promises(){const col={overdue:"--red","due soon":"--amber",open:"--blue",delivered:"--green",late:"--amber",missed:"--red"};const o={overdue:0,"due soon":1,open:2,late:3,missed:4,delivered:5};
+return `<h2>Promise ledger</h2><p class="sub">Dated promises, checked daily. Overdue ones alert until marked delivered, late or missed with a source.</p><div class="tw"><table><thead><tr><th>State</th><th>Due</th><th>Company</th><th>Promise</th><th>Said where</th></tr></thead><tbody>${[...D.promises].sort((a,b)=>o[a.state]-o[b.state]||a.due.localeCompare(b.due)).map(p=>`<tr><td><span class="pill" style="--c:var(${col[p.state]})">${p.state}</span></td><td>${p.due}</td><td><a href="#co/${p.ticker}">${p.ticker}</a></td><td class="wrap">${esc(p.promise)}${p.note?`<br><span class="sub">${esc(p.note)}</span>`:""}</td><td>${esc(p.source)} <span class="tag ${p.tag}">${p.tag}</span></td></tr>`).join("")}</tbody></table></div>`}
+function board(){const b=D.scoreboard,base=b.baseline_12m;return `<h2>Alert scoreboard</h2><p class="sub">For every past red or amber company-news alert: the company's revenue 12 months later compared with its revenue at the alert. A useful alert kind should differ clearly from the average.</p>
+<div class="note">Average 12-month revenue change after any alert: <b style="color:var(--text)">${pct(base)}</b> (${b.baseline_n} scored). Caution: mostly companies that survived and grew, and small groups are unreliable. Business outcomes only, not share prices.</div>
+<div class="tw"><table><thead><tr><th>Alert kind</th><th>Count</th><th>12m revenue</th><th>vs average</th><th>Fell after 12m</th></tr></thead><tbody>${b.rules.map(r=>{const d=r.a12!=null&&base!=null?r.a12-base:null;return `<tr><td><span class="pill" style="--c:var(${COL[r.colour]})">${r.colour}</span> ${esc(KIND(r.rule))}</td><td>${r.n}${r.n12<10?" (small)":""}</td><td>${pct(r.a12)}</td><td class="${d==null?"":d<0?"dn":"up"}">${d==null?"—":(d>=0?"+":"")+(d*100).toFixed(0)+" pts"}</td><td>${r.n12?r.neg12+" of "+r.n12:"—"}</td></tr>`}).join("")}</tbody></table></div>`}
+function tests(){const rows=[];Object.entries(D.companies).forEach(([t,c])=>(c.pack.checks||[]).forEach(x=>rows.push([t,x])));const n=k=>rows.filter(r=>r[1].status===k).length;
+const bad=rows.filter(r=>r[1].status!=="pass").sort((a,b)=>({fail:0,flag:1,info:2})[a[1].status]-({fail:0,flag:1,info:2})[b[1].status]);
+return `<h2>Number tests</h2><p class="sub">OK: matches the figure printed in the filing and passes every test. Check: shown, but worth a look (usually an acquisition, spin-off or one-off). Held back: failed a test and not used. Fast growth on its own is never flagged.</p>
+<div class="counts"><div class="cnt" style="--c:var(--red)"><b>${n("fail")}</b><span>Held back</span></div><div class="cnt" style="--c:var(--amber)"><b>${n("flag")}</b><span>Check</span></div><div class="cnt" style="--c:var(--green)"><b>${n("pass")}</b><span>OK</span></div></div>
+${bad.length?bad.map(([t,x])=>testItem(x,t)).join(""):'<div class="empty">Every number passed.</div>'}`}
+function watched(){const row=s=>`<tr><td><span class="pill" style="--c:var(${COL[s.status]})">${s.status==="quiet"?"nothing new":s.status}</span></td><td class="wrap"><b>${esc(SRC[s.name]||s.name)}</b><br><span class="sub">${esc(s.what)}</span>${s.note?`<br><span style="color:var(--red)">${esc(s.note)}</span>`:""}</td><td>${s.new||""}</td></tr>`;
+return `<h2>Everything being watched</h2><p class="sub">Live sources run every morning. Planned sources are listed so you always see what is not covered yet.</p><div class="tw"><table><thead><tr><th>Status</th><th>Source</th><th>New</th></tr></thead><tbody>${D.sources.map(row).join("")}</tbody></table></div>
+${D.run.missing&&D.run.missing.length?`<div class="note">Tickers not found at the SEC: ${esc(D.run.missing.join(", "))}</div>`:""}`}
+const TABS=[["home","Home"],["today","Today"],["movers","Movers"],["layers","Layers"],["notes","Analyst notes"],["recent","Last 30 days"],["promises","Promises"],["board","Scoreboard"],["tests","Number tests"],["watched","What's watched"]];
+function route(){const h=(location.hash||"#home").slice(1);const [a,b]=h.split("/");
+const top=a==="co"?"home":a==="layer"?"layers":a;document.querySelectorAll(".tab").forEach(x=>x.setAttribute("aria-current",x.dataset.id===top?"page":"false"));
+view.innerHTML=a==="co"?company(b):a==="layer"?layer(b):({home,today,movers:moversTab,layers:layersList,notes,recent,promises,board,tests,watched}[a]||home)();
+if(a==="recent"){[fc,fl].forEach(e=>e.onchange=drawRecent);drawRecent()}window.scrollTo(0,0)}
+Promise.all([fetch("data.json",{cache:"no-store"}).then(r=>r.json()),fetch("notes.json",{cache:"no-store"}).then(r=>r.json()).catch(()=>[])]).then(([d,n])=>{D=d;N=n;
+runline.textContent=`Last run ${d.run.time}. ${d.run.new} new items.${d.sources.filter(x=>x.live&&x.status==="failed").length?" Some sources failed: see Today.":" All sources ran."}`;
+TABS.forEach(([id,n])=>{const a=document.createElement("a");a.className="tab";a.href="#"+id;a.dataset.id=id;a.textContent=n;tabs.appendChild(a)});
+window.onhashchange=route;route()}).catch(()=>{runline.textContent="Could not load data.json. The first run may not have finished yet."})
+</script></body></html>

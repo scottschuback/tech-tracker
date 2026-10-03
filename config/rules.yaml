@@ -1,0 +1,43 @@
+# How each filing type is coloured. red = serious, read today; amber = check; green = normal news.
+forms:
+  "10-Q": {colour: green, why: "Quarterly report: numbers re-pulled and checked"}
+  "10-K": {colour: green, why: "Annual report: numbers re-pulled; read the auditor's report in full"}
+  "20-F": {colour: green, why: "Foreign annual report; read the auditor's report in full"}
+  "6-K": {colour: green, why: "Foreign company report (monthly revenue, results, notices)"}
+  "NT 10-Q": {colour: red, why: "Late quarterly filing"}
+  "NT 10-K": {colour: red, why: "Late annual filing"}
+  "SC 13D": {colour: amber, why: "Someone took an active stake above 5%"}
+  "SC 13D/A": {colour: amber, why: "Change to an active 5%+ stake"}
+  "SCHEDULE 13D": {colour: amber, why: "Someone took an active stake above 5%"}
+  "S-1": {colour: amber, why: "New US listing"}
+  "F-1": {colour: amber, why: "New foreign listing"}
+  "424B4": {colour: amber, why: "Share sale priced"}
+  "S-3": {colour: amber, why: "Shelf registration: may sell shares or debt"}
+  "8-K": {colour: green, why: "Current report"}
+  "4": {colour: grey, why: "Insider trade (summarised, not alerted one by one)"}
+eight_k_items:
+  "1.01": {colour: amber, why: "New material agreement (supply deals, warrants, prepayments live here)"}
+  "1.02": {colour: red, why: "Material agreement terminated"}
+  "1.05": {colour: red, why: "Cybersecurity incident"}
+  "2.01": {colour: amber, why: "Acquisition or sale completed"}
+  "2.02": {colour: green, why: "Results released"}
+  "2.03": {colour: amber, why: "New debt or off-balance-sheet obligation"}
+  "2.04": {colour: red, why: "Debt acceleration triggered"}
+  "2.05": {colour: amber, why: "Restructuring or exit costs"}
+  "2.06": {colour: red, why: "Material impairment"}
+  "3.01": {colour: red, why: "Listing standard problem"}
+  "3.02": {colour: amber, why: "Unregistered shares or warrants issued (customer warrants show up here)"}
+  "4.01": {colour: red, why: "Auditor changed"}
+  "4.02": {colour: red, why: "Past financial statements can no longer be relied on"}
+  "5.02": {colour: amber, why: "Director or senior officer change"}
+  "7.01": {colour: green, why: "Investor presentation or statement"}
+  "8.01": {colour: green, why: "Other events"}
+# Words that lift any filing to amber when found in the full-text search
+watch_phrases:
+  - "purchase commitment"
+  - "warrant to purchase"
+  - "capacity reservation"
+  - "prepayment"
+  - "co-packaged optics"
+  - "HBM4E"
+  - "take-or-pay"
