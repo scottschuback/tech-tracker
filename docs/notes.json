@@ -286,5 +286,85 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "AMAZON COM INC: Investment gains are 64% of pre-tax profit: true earnings strip them out",
+  "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+  "colour": "amber",
+  "note": "F: Q2 2026 other income was $53,415m against operating income of $27,461m, and $50,486m of it was 'upward adjustments relating to equity investments in private companies', mainly Amazon's Anthropic stake. This is a paper revaluation, not cash from operations. Operating income rose 43% on a year ago, so the business itself is fine. Noise for the tracker; no card changes, but use operating income, not the $62.6bn net profit.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "WESTERN DIGITAL CORP: Investment gains are 63% of pre-tax profit: true earnings strip them out",
+  "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm",
+  "colour": "amber",
+  "note": "F: Q4 FY26 operating income was $1,563m but net income was $3,195m. The gap is a mark-to-market gain on WDC's retained Sandisk shares (about $2,050m in Q4). WDC held no Sandisk shares at 3 July 2026, so it will not repeat. Revenue is restated for the Flash split, not a restatement of errors. Noise for the business; the true-earnings figure should be the operating one. No card change.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "ALAB: share price -27% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Mover (R, price only). Latest filing (10-Q to 30 Jun 2026, F): revenue $392M, +104% on a year ago; operating income $89M. Reported profit of $153M includes a $50.3M tax benefit, so true earnings are about $101M. Two things to check: customers took 45 days to pay vs 12 a year ago, and gross margin slipped from 76% to 73%. Proves the drop is noise: payment days fall back and revenue keeps compounding. Disproves: receivables keep climbing faster than sales next quarter. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "AMAT: share price -25% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Mover (R, price only). Latest 10-Q (to 26 Jul 2026, F): revenue $9.1B, +25% on a year ago; operating income $3.1B; gross margin 50% (was 49%). Customers have paid $3.3B in advance (left out of earnings). Receivables rose 33% vs inventory up 13%, worth watching. Cyclical equipment maker, so a price fall can lead the order book. Proves it is noise: advances stay high and revenue growth holds next quarter. Disproves: advances shrink. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "AVGO: share price -26% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Mover (R, price only). Latest 10-Q (to 2 Aug 2026, F): revenue $29.6B, +86% on a year ago; operating income $16.0B; gross margin 69% (was 67%). Filed backlog is $179.2B and the company guides Q4 FY26 revenue to $34.8B with AI revenue $21.7B (F). Nothing filed has weakened. Proves it is noise: Q4 lands at or above $34.8B in December. Disproves: backlog stops growing or Q4 AI revenue comes in under $21.7B. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "CRDO: share price -28% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Mover (R, price only). Latest 10-Q (to 1 Aug 2026, F): revenue $479M, +115% on a year ago, but the tracker marks growth as slowing sharply. Operating income $121M; gross margin 65% (was 67%). Operating cash flow was under 70% of profit, and inventory is up 168% on a year ago (168 days of stock). A $102.4M refundable-deposit promise for chip capacity is due by May 2027. Proves the fall is noise: cash flow catches up and inventory turns. Disproves: stock keeps piling up while sales growth slows. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "KLAC: share price -31% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Mover (R, price only). Latest 10-K (year to 30 Jun 2026, F; the revenue figure is the quarter derived by the tracker): revenue $3.66B, +15% on a year ago; operating income $1.55B (42% margin, unchanged). Customers have paid $1.5B in advance. Growth is steady, not speeding up, so the tracker has KLAC at 'holding position', and it has fallen furthest of the three equipment and chip-tool names here. Proves noise: advances and margin hold. Disproves: advances fall and revenue growth turns negative. No guidance on file yet. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "RMBS: share price -34% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Mover (R, price only). Latest 10-Q on file is to 31 Mar 2026 (F), so the data is older than the others. Revenue $180M, +8% on a year ago, which the tracker flags as growth slowing sharply; operating margin 34% (was 38%). Filed backlog is only $31M, not a real order book. This is the one mover where the filings are softer than the 'Strong' label suggests; I would watch the verdict. No grade change proposed yet, since the June-quarter 10-Q is the next test. Proves it is noise: revenue growth re-accelerates. Disproves: it stays near single digits. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "SNDK: share price -26% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Mover (R, price only). Latest 10-K (year to 3 Jul 2026, F): Q4 revenue $8,965m, +372% on a year ago, about two-thirds from higher prices (C, results release). Gross margin 85% (was 26%). Filed backlog $59.8B. True earnings $6.2B vs $6.9B reported after stripping $808M of investment gains. Warnings: inventory 178 days (was 135). Company guides FQ1 FY27 revenue to $10.30-10.80B (C). Price-driven cycle, so the stock can fall before the numbers do. Proves noise: guide met in November. Disproves: NAND prices roll over. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "STRL: share price -46% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Mover (R, price only). Biggest fall of the group. Latest 10-Q (to 30 Jun 2026, F): revenue $1.17B, +90% on a year ago; operating income $219M; gross margin 25% (was 23%). Backlog $4.2B, +111%. Customers have paid $803M in advance (left out of earnings). Nothing filed is weaker; the drop looks like a share-price move, not a business one. Proves noise: backlog keeps growing and margins hold. Disproves: backlog stalls or advances fall. Candidate to price.",
+  "real": false
  }
 ]
