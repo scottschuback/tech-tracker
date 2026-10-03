@@ -13,7 +13,7 @@ def build(d, app_url):
     subject = f"Tech Tracker {r['time'][:10]}: {nmv} mover{'s' if nmv != 1 else ''}, {r['red']} red, {r['amber']} amber"
     failed = [s for s in d["sources"] if s["status"] == "failed"]
     mv = [i for i in d.get("movers", []) if i["published"] == r["time"][:10]]
-    mrows = "".join(
+    mrows = "".join([
         f'<tr><td style="padding:8px;border-left:5px solid {COL[i["colour"]]};background:#151e2d">'
         f'<div style="color:#f2f5fa;font-weight:700">{i["title"]}</div>'
         f'<div style="color:#9fb0c8;font-size:13px">{i["reason"]} [{i["tag"]}]</div></td></tr>' for i in mv)
