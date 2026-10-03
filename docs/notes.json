@@ -286,5 +286,85 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "AMAZON COM INC: Investment gains are 64% of pre-tax profit: true earnings strip them out",
+  "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+  "colour": "amber",
+  "note": "F: Q2 2026 pre-tax profit was $80,857m, of which $51,786m was gains on equity investments (docs/data.json). Operating income was $27,461m, up 43% on a year ago. The gain is a paper revaluation of its Anthropic stake, not cash from the business; the written reason is in data/reasons.yaml. Noise for the technology picture: true earnings are the operating line. No change to the AMZN card.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "WESTERN DIGITAL CORP: Investment gains are 63% of pre-tax profit: true earnings strip them out",
+  "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm",
+  "colour": "amber",
+  "note": "F: Q4 FY26 pre-tax profit was $3,247m, of which $2,050m was a mark-to-market gain on its retained Sandisk shares (docs/data.json). Operating income was $1,563m, up 130% on a year ago. WDC no longer holds the shares, so the gain will not repeat. True earnings are the operating line, which is still strong. Noise; no change to the WDC card.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "ALAB: price down from its 90-day high while rated Strong (mover)",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-Q (30 Jun 2026) shows operating income $89.2m, up 124% on a year ago, and R&D up 104%.  Net profit of $153.1m is flattered by a $50.3m tax benefit (see reasons.yaml). Would prove the Strong grade: next quarter's operating income keeps rising and receivables days (45 vs 12 a year ago, already flagged) come back down. Would disprove it: operating income stalls while receivables keep stretching. Candidate to price in Scott's own tools; no filing changed the grade. Noise unless the next filing shows otherwise.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "AMAT: price down from its 90-day high while rated Strong (mover)",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-Q (26 Jul 2026) shows operating income $3,075m, up 38% on a year ago, and R&D $1,100m, up 22%. Would prove it: next filing keeps operating income growing as the share price falls. Would disprove it: a drop in operating income or gross profit (now $4,586m, up 29%). Candidate to price in Scott's own tools; no filing changed the grade. Noise unless the next filing shows otherwise.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "AVGO: price down from its 90-day high while rated Strong (mover)",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-Q (2 Aug 2026) shows operating income $15,955m, up 171% on a year ago, and net income $13,088m. Would prove it: the Q4 FY26 AI revenue promise of $21.7B (C, in the ledger) is met by mid-December. Would disprove it: a miss on that promise or operating income falling. Candidate to price in Scott's own tools; no filing changed the grade. Noise unless the next filing shows otherwise.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "CRDO: price down from its 90-day high while rated Strong (mover)",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-Q (1 Aug 2026) shows operating income $120.7m, up 99% on a year ago, and gross profit $309.1m, up 106%. Net income $129.4m includes non-operating items. Would prove it: operating income keeps rising next quarter. Would disprove it: gross margin slips or cash from operations falls behind profit (it was flagged under 70% of profit this quarter). Candidate to price in Scott's own tools; no filing changed the grade. Noise unless the next filing shows otherwise.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "KLAC: price down from its 90-day high while rated Strong (mover)",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-K (FY to 30 Jun 2026) shows operating income $1,549m, up 17% on a year ago, and R&D $399m, up 13%. Would prove it: next 10-Q shows growth holding at or above this pace. Would disprove it: growth slowing below the previous year's pace while the price keeps falling. Candidate to price in Scott's own tools; no filing changed the grade. Noise unless the next filing shows otherwise.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "RMBS: price down from its 90-day high while rated Strong (mover)",
+  "url": "",
+  "colour": "green",
+  "note": "F: The latest filing in the data is the 10-Q for the quarter to 31 Mar 2026: operating income $61.8m, down 2% on a year ago, net income $59.9m, roughly flat. The data has no newer filing, so a June-quarter 10-Q should be checked when it is filed. Would prove it: the next 10-Q shows operating income growing again. Would disprove it: a second quarter of falling operating income. Note this is the weakest filing trend among today's movers. Candidate to price in Scott's own tools; no filing changed the grade. Noise unless the next filing shows otherwise.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "SNDK: price down from its 90-day high while rated Strong (mover)",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-K (FY to 3 Jul 2026) shows operating income $7,037m and gross profit $7,582m. Net income $6,903m. The jump is mostly NAND price, not volume (reasons.yaml). The price fall follows a price-driven surge. Would prove it: FQ1 FY27 revenue lands in the $10.30-10.80B range the company guided (C, in the ledger). Would disprove it: NAND prices turning down; inventory days are already up to 178 from 135. Candidate to price in Scott's own tools; no filing changed the grade. Noise unless the next filing shows otherwise.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "STRL: price down from its 90-day high while rated Strong (mover)",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-Q (30 Jun 2026) shows operating income $219.3m, up 110% on a year ago, revenue $1,168m, up 90%, and net income $155.8m. Would prove it: next 10-Q keeps revenue growth near this pace. Would disprove it: growth falling sharply; the fall from the high (-46%) is the largest in today's list, so the market may be doubting data-centre building demand, which is press-level (R) until filed. Candidate to price in Scott's own tools; no filing changed the grade. Noise unless the next filing shows otherwise.",
+  "real": false
  }
 ]
