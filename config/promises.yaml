@@ -1,6 +1,6 @@
 # Promise ledger. Each line: what the company promised, by when, and where it said it.
 # status: open | delivered | late | missed. The daily run flags open promises that pass their due date.
-- {ticker: AMD, promise: "Helios racks ship to customers", due: 2026-09-30, source: "Q2 2026 call", tag: C, status: open, check: "Q3 report early Nov"}
+- {ticker: AMD, promise: "Helios racks ship to customers", due: 2026-09-30, source: "Q2 2026 call", tag: C, status: open, check: "Q3 report early Nov", note: "2026-10-03: no filed or company source yet confirms shipment by 30 Sep; latest AMD release (23 Jul) says in production. Kept open until the Q3 report"}
 - {ticker: AMD, promise: "Helios ramps through Q4 into 2027", due: 2026-12-31, source: "Q2 2026 release", tag: C, status: open}
 - {ticker: NVDA, promise: "Vera Rubin production shipments in H2 2026", due: 2026-12-31, source: "Q2 FY27 release", tag: F, status: delivered, note: "Racks running at CoreWeave, Google Cloud, Azure, OCI, Nebius"}
 - {ticker: NVDA, promise: "Rubin CPX available end of 2026", due: 2026-12-31, source: "NVIDIA newsroom", tag: C, status: open}
@@ -20,3 +20,21 @@
 - {ticker: AVGO, promise: "Q4 FY26 AI revenue $21.7B", due: 2026-12-15, source: "Q3 FY26 release", tag: F, status: open}
 - {ticker: NVDA, promise: "Q3 FY27 revenue $108.0B +/-2%", due: 2026-11-30, source: "Q2 FY27 release", tag: F, status: open}
 - {ticker: CBRS, promise: "OpenAI commitment over $20B delivered over time", due: 2028-12-31, source: "press", tag: R, status: open}
+# Added 2026-10-03 from results releases, 10-Ks and 10-Qs
+- {ticker: MU, promise: "FQ1 FY27 revenue $61.5B +/- $1.5B", due: 2026-12-31, source: "FQ4 FY26 results release 30 Sep 2026", tag: C, status: open}
+- {ticker: SNDK, promise: "FQ1 FY27 revenue $10.30-10.80B", due: 2026-11-15, source: "Q4 FY26 results release", tag: C, status: open}
+- {ticker: DELL, promise: "Q3 FY27 revenue $49.0B", due: 2026-11-30, source: "Q2 FY27 results release", tag: C, status: open}
+- {ticker: DELL, promise: "FY27 revenue $192.0B, AI-optimized server revenue $74.0B", due: 2027-02-28, source: "Q2 FY27 results release", tag: C, status: open}
+- {ticker: CRDO, promise: "Pay $102.4M more refundable deposits under a manufacturing capacity reservation agreement", due: 2027-05-01, source: "Q1 FY27 10-Q", tag: F, status: open}
+- {ticker: SMCI, promise: "Q1 FY27 net sales $14.5-15.5B", due: 2026-11-15, source: "Q4 FY26 results release 11 Aug 2026", tag: C, status: open}
+- {ticker: SMCI, promise: "FY27 net sales $65.0-72.0B", due: 2027-06-30, source: "Q4 FY26 results release 11 Aug 2026", tag: C, status: open}
+- {ticker: SMCI, promise: "Fix the IT-controls material weakness", due: 2027-06-30, source: "FY26 10-K Item 9A", tag: F, status: open}
+- {ticker: QCOM, promise: "Q4 FY26 revenue $9.7-10.5B", due: 2026-11-15, source: "Q3 FY26 results release 29 Jul 2026", tag: C, status: open}
+- {ticker: QCOM, promise: "Non-handset revenue growth (incl. Data Center) above 60% in FY27", due: 2027-11-15, source: "Q3 FY26 results release", tag: C, status: open}
+- {ticker: QCOM, promise: "Non-handset revenues of $40B by FY29", due: 2029-11-15, source: "Q3 FY26 results release (Investor Day)", tag: C, status: open}
+- {ticker: TER, promise: "Q3 2026 revenue $1,200-1,300M", due: 2026-11-15, source: "Q2 2026 results release 28 Jul 2026", tag: C, status: open}
+- {ticker: VRT, promise: "Q3 2026 net sales $3,650-3,850M", due: 2026-11-15, source: "Q2 2026 results release 29 Jul 2026", tag: C, status: open}
+- {ticker: VRT, promise: "FY2026 net sales about $14,000M at the midpoint", due: 2027-02-28, source: "Q2 2026 results release", tag: C, status: open}
+- {ticker: VRT, promise: "UtilityInnovation Group acquisition closes", due: 2026-12-31, source: "8-K 2 Sep 2026", tag: C, status: open}
+- {ticker: RGTI, promise: "108-qubit C-DAC system deployed", due: 2026-12-31, source: "Q2 2026 10-Q", tag: F, status: open}
+- {ticker: AMD, promise: "World Labs acquisition closes", due: 2026-12-31, source: "AMD release 28 Sep 2026", tag: C, status: open}

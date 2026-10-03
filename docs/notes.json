@@ -1,1 +1,290 @@
-[]
+[
+ {
+  "date": "2026-10-03",
+  "title": "Measures To Restrict Stockpiling of Polysilicon and Polysilicon Derivatives Under Proclamation 11052",
+  "url": "https://www.federalregister.gov/documents/2026/09/24/2026-19537/measures-to-restrict-stockpiling-of-polysilicon-and-polysilicon-derivatives-under-proclamation-11052",
+  "colour": "red",
+  "note": "F: A temporary rule, \"effective September 22, 2026, through December 3, 2026\", that stops importers bringing in polysilicon products \"in volumes substantially greater than their historic averages\" before the Section 232 measures start on December 4, 2026. New importers (registered on or after August 6, 2026) get weekly caps such as \"HTSUS 2804.61.00: 12 kg\"; waivers are possible, with Commerce aiming to answer \"within 14 days\". F (Proclamation 11052, https://www.federalregister.gov/documents/2026/08/11/2026-16400/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states): from December 4, minimum import prices of \"$21 per kilogram for polysilicon\" and \"$100 per kilogram for polysilicon ingots and wafers\", plus a \"15 percent ad valorem rate of duty\" on derivatives. Real for chip supply but small for the watchlist: the stockpiling rule is mostly procedural and aimed at solar importers; the lasting cost from December 4 falls on US fabs importing polysilicon or wafers (Foundry and packaging: INTC, TSM Arizona; Memory: MU; indirectly ENTG). Not yet confirmed which tariff codes cover chip wafers versus solar cells, and no watchlist company has quantified exposure. No card changes today.",
+  "real": true
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Guidance and Procedures for Implementing Tariff Adjustments for Specialty Pharmaceuticals and Associated Pharmaceutical Ingredients and Technical Corrections to the Harmonized Tariff Schedule of the United States for Duties Imposed Under Proclamation 11020",
+  "url": "https://www.federalregister.gov/documents/2026/09/23/2026-19498/guidance-and-procedures-for-implementing-tariff-adjustments-for-specialty-pharmaceuticals-and",
+  "colour": "amber",
+  "note": "False positive. F: A BIS notice on zero-tariff treatment for orphan drugs, nuclear medicines and cell and gene therapies under the pharmaceutical tariff proclamation. No mention of semiconductors. Not relevant to chips or AI hardware.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "URAL Airlines JSC, Utrenniy Lane 1-g, Yekaterinburg, Russia 620025; Order Renewing Temporary Denial of Export Privileges",
+  "url": "https://www.federalregister.gov/documents/2026/09/29/2026-19927/ural-airlines-jsc-utrenniy-lane-1-g-yekaterinburg-russia-620025-order-renewing-temporary-denial-of",
+  "colour": "amber",
+  "note": "False positive. F: Routine renewal of a 2022 export ban on a Russian airline for flying aircraft \"classified under ECCN 9A991.b\" (an aircraft export-control category). Nothing on chips, AI hardware or any watchlist company.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Five-Year Records Retention Requirement for Export Transactions and Boycott Actions",
+  "url": "https://www.federalregister.gov/documents/2026/09/30/2026-20058/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+  "colour": "amber",
+  "note": "False positive. F: Paperwork only: an \"Extension of a current information collection\" for the existing five-year export record-keeping rule. No new controls, nothing chip-specific.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "ADVANCED MICRO DEVICES INC: 8-K 3.02 (8-K)",
+  "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm",
+  "colour": "amber",
+  "note": "F: Not customer warrants. AMD agreed on September 26, 2026 to buy World Labs Technologies \"for a total purchase price of approximately $8.2 billion to be paid in shares\", issued privately; the share count \"is not known\" until a 10-day average price before closing. C (AMD release, https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute): World Labs builds \"spatial-intelligence models\"; close \"expected ... by the end of 2026\". C: second AI deal in two months after Taalas (release August 6, 2026), so AMD is behaving like a serial acquirer: deduct deal spend, including stock-paid deals, from free cash. Real: dilution and a move into models and software, not chips.",
+  "real": true
+ },
+ {
+  "date": "2026-10-03",
+  "title": "QUALCOMM INC/DE: S-3 (FORM S-3)",
+  "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926113315/tm2626658d1_s3.htm",
+  "colour": "amber",
+  "note": "F: Not a debt shelf and Qualcomm raises no cash (\"We will not receive any proceeds\"). It registers resale of \"up to 25,000,000 shares\" Amazon can get from a warrant \"issued ... on September 3, 2026 in connection with a strategic collaboration\", vesting \"in tranches tied to ... binding purchase orders and actual purchases of QTI's server chip products\"; \"3,750,000 shares ... have vested as of September 28, 2026\" against 1,067,839,507 shares outstanding. Real: filed proof Amazon is buying Qualcomm data-centre chips, which supports the inference card; the warrant is a share-paid discount to the customer and should be treated as a cost against those sales. Exercise price not stated in this filing.",
+  "real": true
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Vistra Corp.: 8-K 1.01,8.01,9.01 (8-K)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/ef20082680_8k.htm",
+  "colour": "amber",
+  "note": "F: A bond deal. Vistra Operations sold \"$850,000,000 ... 7.000% Series A Junior Subordinated Notes due 2057\" and \"$650,000,000 ... 7.250% Series B Junior Subordinated Notes due 2057\", guaranteed by Vistra. More long-dated debt; no change to power supply or customer position. Noise for the tracker.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Vistra Corp.  (VST)  (CIK 0001692819): 'prepayment' in 8-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/ef20082680_ex4-1.htm",
+  "colour": "amber",
+  "note": "False positive. F: \"Prepayment\" appears only in the bond indenture (\"ARTICLE 3 REDEMPTION AND PREPAYMENT\"): Vistra's right to repay its own bonds early. Not a customer prepayment or supply lock; nothing goes to the order book.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "TERADYNE, INC: Customers taking longer to pay: 60 days a year ago, 76 now",
+  "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526327715/ter-20260628.htm",
+  "colour": "amber",
+  "note": "F: Receivables were $1,109.7m on 28 Jun 2026, up from $786.9m on 31 Dec 2025 ('increases in accounts receivable of $302.2 million'). No reason is given; the backdrop is Semiconductor Test revenue up 128.1%, 'driven primarily by higher sales in compute and memory related to artificial intelligence applications', so end-of-quarter shipments are the likely cause, but unconfirmed. Customer advances also rose $50.9m. Noise for now; recheck in the Q3 10-Q.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "QUALCOMM INC/DE: Inventory building up: 125 days of stock a year ago, 163 now",
+  "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/qcom-20260628.htm",
+  "colour": "amber",
+  "note": "F: Inventory $8,379m, up from $6,526m at 28 Sep 2025, mostly work in process. Qualcomm cites 'certain customer demand impacts from memory supply constraints': phone makers cut builds after memory price rises, which it expects to 'adversely affect demand from several handset OEMs'. F: Gross margin fell to 53% from 56% on 'higher product cost'. Real: handset demand is being squeezed by the memory shortage; keep handset demand on watch, technology unchanged.",
+  "real": true
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Vertiv Holdings Co: Inventory building up: 74 days of stock a year ago, 113 now",
+  "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026050609/vrt-20260630.htm",
+  "colour": "amber",
+  "note": "F: Inventory $2,522.7m, up from $1,456.5m at 31 Dec 2025 (raw materials $1,259.2m vs $680.6m); the 10-Q cites 'temporary supply chain congestion and multi-phased project execution' and capacity expansion. F: Customer deposits (deferred revenue) rose to $3,633.7m from $1,814.7m, more than funding the build; those deposits belong in the order book, not earnings. Growth, not weak demand: noise for the card. Note Vertiv's run of acquisitions (UIG about $1.45bn announced in September) may make it a serial acquirer.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Rigetti Computing, Inc.: Backlog down -53% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926091993/rgti-20260630x10q.htm",
+  "colour": "amber",
+  "note": "F: Remaining performance obligations were 'approximately $2.7 million' at 30 Jun 2026; no reason given. Revenue rose 'mainly due to higher sales of 9-qubit Novera quantum computing systems', so orders shipped out faster than new ones came in. Unclear whether the $8.4m C-DAC 108-qubit order sits inside the $2.7m. Tiny dollars: noise. The 4 Sep 8-K Commerce award (up to $100m, paid in new shares) is a grant, not customer backlog.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Super Micro Computer, Inc.: Customers taking longer to pay: 35 days a year ago, 50 now",
+  "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/smci-20260630.htm",
+  "colour": "amber",
+  "note": "F (FY2026 10-K): Receivables $6,125.4m vs $2,203.9m a year earlier; three customers hold 23.0%, 17.1% and 12.5%. Operating cash flow was -$6,809.9m for the year (vs +$1,659.5m), covered by $5,638.6m of new equity plus borrowing; $831.7m of receivables were sold to banks. Real: shareholders and lenders are funding the growth, and credit risk sits with a few customers.",
+  "real": true
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Super Micro Computer, Inc.: Inventory building up: 82 days of stock a year ago, 128 now",
+  "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/smci-20260630.htm",
+  "colour": "amber",
+  "note": "F: Inventory $12,895.9m vs $4,680.4m; finished goods (incl. 'GPUs and racks') $10,276.0m; non-cancellable purchase commitments $34.2bn; write-downs $188.1m. C: Release claims 'more than $60 billion in new orders' but filed RPO is only $2,612.0m. Real: a $10bn finished-goods pile is a write-down risk if orders slip. Auditor BDO: clean opinion on the accounts, but ADVERSE on internal controls (unremediated IT-controls material weakness); critical audit matters on inventory valuation and revenue; no auditor change. Proposed card note: growth funded by new equity and debt, controls opinion adverse.",
+  "real": true
+ },
+ {
+  "date": "2026-10-03",
+  "title": "D-Wave Quantum Inc.: Customers taking longer to pay: 42 days a year ago, 60 now",
+  "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000129/qbts-20260630.htm",
+  "colour": "amber",
+  "note": "F: Trade receivables $2.019m vs $1.587m at 31 Dec 2025, against quarterly revenue of $3.076m. No reason given; lumpy system installs move the ratio a lot on tiny sums. Noise; card unchanged.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "D-Wave Quantum Inc.: Gross margin down: 64% to 55%",
+  "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000129/qbts-20260630.htm",
+  "colour": "amber",
+  "note": "F: Gross profit fell to $1.704m from $1.976m on flat revenue, 'primarily due to an increase in personnel costs of $0.4 million', with system sales down on 'variability in the timing and extent of system installation activities'. Small, lumpy numbers: noise. F: RPO is $40.7m. Technology and supply position unchanged.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Alphabet Inc.: Investment gains are 71% of pre-tax profit: true earnings strip them out",
+  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+  "colour": "amber",
+  "note": "F: Q2 2026 gains on equity securities were $99,031m, 'primarily related to unrealized gains in our equity securities portfolio from SpaceX and a private company'; $77,354m was a paper revaluation of unlisted stakes. Operating income of $40,770m is the real figure; data.json true earnings about $32.1bn vs $112.2bn reported. Noise for the business. C: Alphabet also raised $49.6bn of net equity in June and set up a $40.0bn at-the-market share programme, so share count is rising.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "IonQ, Inc.: Customers taking longer to pay: 84 days a year ago, 120 now",
+  "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526341001/ionq-20260630.htm",
+  "colour": "amber",
+  "note": "F: Most of the rise is unbilled work, not unpaid bills: unbilled receivables went from $32.8m (31 Dec 2025) to $68.6m (30 Jun 2026), billed only from $33.8m to $37.3m. F: Revenue rose 'primarily driven by progress on our arrangements to build specialized quantum computing hardware', and some receivables 'may be billed and collected beyond one year due to the long-cycle nature' of contracts. No credit problem disclosed, but more cash is tied up in long build contracts. Noise for the card; no newer results filing.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Eaton Corp plc: Gross margin down: 37% to 33%",
+  "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000030/etn-20260630.htm",
+  "colour": "amber",
+  "note": "F: 'Gross profit margin decreased from 37.0% in the second quarter of 2025 to 33.5%': 'a 390 basis point decline from higher commodity and wage inflation and a 150 basis point decline from higher intangible asset amortization' (from the Boyd Thermal deal), partly offset by higher sales. F: Electrical Americas operating margin fell from 29.5% to 27.5%. Real: input costs are rising faster than Eaton passes them on in data-centre power; the Boyd purchase also counts against free cash under the serial-acquirer rule. No newer results filing.",
+  "real": true
+ },
+ {
+  "date": "2026-10-03",
+  "title": "COHERENT CORP.: Inventory building up: 133 days of stock a year ago, 187 now",
+  "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000020/iivi-20260630.htm",
+  "colour": "amber",
+  "note": "F (10-K): Inventory rose from $1,437.6m to $2,581.0m, mostly work in progress ($824.4m to $1,557.0m); operating cash flow fell to $80m from $634m, 'primarily driven by a significant increase in inventory levels to support higher revenue growth'. F: A multi-year capacity agreement after NVIDIA's $2bn share purchase 'may require incremental investments in equipment, labor, and working capital... through 2030'. Real for supply: pre-building optics for expected demand, so weak cash conversion and write-down risk if orders slip. Auditor (EY) clean on accounts and internal controls, no change; its one critical audit matter is Lasers goodwill ($3.1bn) with fair value only about 8% above book, close to an impairment.",
+  "real": true
+ },
+ {
+  "date": "2026-10-03",
+  "title": "CoreWeave, Inc.: Gross margin down: 74% to 66%",
+  "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+  "colour": "amber",
+  "note": "F: Cost of revenue rose 181% to $879m on 'the significant increase in the deployment of new data centers' (about $335m rent, $87m power, $79m power-equipment depreciation). F: GPU and server depreciation sits outside cost of revenue in 'technology and infrastructure' ($1,507m this quarter), so the 66% gross margin overstates true margin; operating profit (-$49m in data.json) is the better guide. Real: leased power and space are getting dearer as it scales.",
+  "real": true
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Cerebras Systems Inc.: Gross margin down: 31% to 14%",
+  "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm",
+  "colour": "amber",
+  "note": "F: Cerebras blames 'the amortization of customer warrant assets as a reduction of revenue and IPO-related stock-based compensation' ($44.3m warrant amortization and $15.4m stock pay in cost of revenue). Both are real costs under our rules. F: The remaining $1.1bn warrant asset (mainly the OpenAI deal) will reduce revenue 'through October 2031', and it expects gross margin 'to be significantly lower in the near term'. Real: this is the new baseline, not a one-off.",
+  "real": true
+ },
+ {
+  "date": "2026-10-03",
+  "title": "ARM HOLDINGS PLC /UK: Investment gains are 51% of pre-tax profit: true earnings strip them out",
+  "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000114/arm-20260630.htm",
+  "colour": "amber",
+  "note": "F: Income from equity investments was $128m against pre-tax profit of $253m, 'primarily due to unrealized gains related to equity investments in publicly listed companies' ($125.6m, including Raspberry Pi). Operating income fell from $114m to $91m. True earnings in data.json are $142m. The gains are paper marks on other companies' shares, so noise for the business; the falling operating profit is the thing to watch.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Astera Labs, Inc.: Customers taking longer to pay: 12 days a year ago, 45 now",
+  "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm",
+  "colour": "amber",
+  "note": "F: Receivables rose to $192.5m from $83.2m at 31 December: a '$124.0 million unfavorable change in accounts receivable due to higher product sales and the timing of customer payments'. F: One customer ('Customer A') is now 30% of receivables, up from under 10%; no credit allowance booked. The 12-day figure a year ago was unusually low, so this looks like timing and customer mix, not a collection problem. Noise, but watch the concentration.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Sandisk Corp: Inventory building up: 135 days of stock a year ago, 178 now",
+  "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
+  "colour": "amber",
+  "note": "F (10-K): 'DIO increased 43 days over the prior year, primarily due to inventory builds to meet demand'; inventory rose from $2,079m to $2,698m while revenue per gigabyte rose 'almost 150%' in datacenter. A deliberate build into a price surge, so noise for now; the risk is a write-down if NAND prices turn (inventory charges $91m vs $45m). Auditor (KPMG) clean on accounts and internal controls, no change; one critical audit matter on automated revenue processing. Note: data.json true earnings do not strip the Q4 $804m gain on the Nanya stake.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "SYNOPSYS INC: Gross margin down: 78% to 73%",
+  "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm",
+  "colour": "amber",
+  "note": "F: Mostly deal accounting: amortization of acquired intangibles in cost of revenue rose from $46.4m to $247.3m, 'primarily due to an increase of $202.7 million in connection with the Ansys Merger', plus '$20.8 million in hardware-related costs including inventory provisions'. Non-cash, so noise for the technology position; the Ansys price still counts against free cash. Note: data.json true earnings include a $425.4m one-off gain on selling the Processor IP business, which should be stripped.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Dell Technologies Inc.: Inventory building up: 27 days of stock a year ago, 52 now",
+  "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
+  "colour": "amber",
+  "note": "F: Inventory doubled to $21,290m from $10,437m, nearly all production materials ($6,696m to $15,894m): 'we have increased our purchases of certain components with suppliers, which has resulted in increased inventory levels, higher purchase obligations'. C: Dell reported 'a record $95 billion backlog' of AI-server orders. Real for supply: Dell is locking in GPUs and memory ahead of shipment; the backlog covers it, but parts go stale fast if product transitions shift.",
+  "real": true
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Credo Technology Group Holding Ltd: Operating cash flow under 70% of profit this quarter",
+  "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm",
+  "colour": "amber",
+  "note": "F: Operating cash flow $90.2m against net income $129.4m, from $151.3m of working capital: receivables up $54.5m, inventory up $61.5m 'to support unfulfilled backlog', and $25.3m of 'refundable deposits for a manufacturing supply capacity reservation agreement'. That cash flow is also flattered by an $88.0m stock-pay add-back (a real cost). F: Total capacity deposits are $88.4m with $102.4m more due in fiscal 2027: Credo is paying to lock in supply. Noise for earnings quality; a positive supply-position step.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "SB Energy, Inc.  (SBE)  (CIK 0002133037): 'high bandwidth memory' in a S-1/A",
+  "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026062846/sbenergy-sx1a2.htm",
+  "colour": "amber",
+  "note": "F: SB Energy builds and plans to run gigawatt-scale AI data centre campuses with their own power plants; it names SoftBank and OpenAI as investors and customers and NVIDIA as an investor. 'High-bandwidth memory' is a single passing mention in a risk factor about chips its tenants buy. F: It is loss-making: H1 2026 revenue of $138.7m included $67.4m of unrealised gains on power swaps, and the FY2025 net loss of $738.0m included $674.1m of stock pay. A real AI-power business that could fit the power layer; not an HBM play.",
+  "real": true
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Green Circle Decarbonize Technology Ltd  (GCDT)  (CIK 0001926293): 'liquid cooling' in a F-1",
+  "url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226043505/formf-1.htm",
+  "colour": "amber",
+  "note": "F: A small Hong Kong maker of phase-change thermal storage panels; in FY to March 2026 two customers (an aircraft engineering firm at 48.47% and a Macau hospital at 46.89%) made up almost all revenue. Liquid cooling is a system it says it is 'designing', with no product or sales. Noise; not a watchlist candidate.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "KiNRG, Inc.  (BYOP)  (CIK 0000095572): 'AI data center' in a S-1/A",
+  "url": "https://www.sec.gov/Archives/edgar/data/95572/000121390026103116/ea0306428-s1a2_kinrg.htm",
+  "colour": "amber",
+  "note": "F: An early-stage 'HydroThermal Reactor' power concept that has never been built and may never work, by its own account. The only real business is TRINITY, a construction firm bought 1 April 2026 (2025 revenue $257.3m), which credits a large data centre project in Ashburn, VA. 'AI data centers' is strategy language. Noise; not a watchlist candidate.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "TFP Group Ltd  (CIK 0002128185): 'AI data center' in a F-1",
+  "url": "https://www.sec.gov/Archives/edgar/data/2128185/000162828026063550/tfpgrouplimited-fx1.htm",
+  "colour": "amber",
+  "note": "F: An insurance underwriting agent (MGA). 'AI data center' refers to one product: over $270m of capacity arranged in November 2025 to insure data centre construction risk. A side line in an insurance business, not AI-stack exposure. Noise.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Bitari Inc  (BIAI)  (CIK 0002091680): 'liquid cooling' in a S-1/A",
+  "url": "https://www.sec.gov/Archives/edgar/data/2091680/000118518526004385/bitaris1a2092826.htm",
+  "colour": "amber",
+  "note": "F: Hosts Bitcoin mining machines in Texas and Indiana; quarter to 30 April 2026 revenue was $2,990,025. It is only 'evaluating' liquid cooling for future mining hardware, and will be 85.87% controlled by AI Power X Inc. after the offering. Noise; not a watchlist candidate.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "Accelevation Holdings Corp.  (ACCV)  (CIK 0002141406): 'liquid cooling' in a 424B4",
+  "url": "https://www.sec.gov/Archives/edgar/data/2141406/000162828026064097/accelevationllc-424b4.htm",
+  "colour": "amber",
+  "note": "F: Designs, makes and installs power distribution and liquid-cooling-ready 'white space' gear for hyperscale and AI data centres; liquid cooling is core to its plan. F: Revenue grew 147% from 2024 to 2025, with backlog of about $1.1bn at 30 June 2026. Watch before adding: H1 2026 had an unfavourable $9.4m cumulative revenue catch-up and $16.3m of provisional contract losses. Real; the one discovery item worth a look for the cooling and power layer.",
+  "real": true
+ },
+ {
+  "date": "2026-10-03",
+  "title": "WhiteHawk Minerals Corp.  (WHK)  (CIK 0001921603): 'AI data center' in a S-1",
+  "url": "https://www.sec.gov/Archives/edgar/data/1921603/000119312526410790/whk-20261001.htm",
+  "colour": "amber",
+  "note": "F: Owns natural-gas royalty interests in the Marcellus and Haynesville. 'AI data center' appears only in risk factors about gas demand for power. An indirect gas-price bet, not technology. Noise.",
+  "real": false
+ },
+ {
+  "date": "2026-10-03",
+  "title": "AMD: due 2026-09-30 — Helios racks ship to customers",
+  "url": "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era",
+  "colour": "amber",
+  "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
+  "real": false
+ }
+]
