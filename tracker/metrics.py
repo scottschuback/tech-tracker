@@ -23,6 +23,92 @@ TAGS = {
 }
 FLOW = {"revenue", "rd", "net_income", "op_income", "gross_profit", "cfo", "equity_gains", "pretax", "tax", "cost_of_revenue"}
 
+# One-off items stripped from true earnings. Each group lists the company's own XBRL tags, in order of preference;
+# the first tag with a value for the quarter is used, so one item is never counted twice within a group.
+# sign: +1 = a positive value is a gain; -1 = a positive value is a loss or expense (e.g. warrant fair-value charges).
+STRIPS = [
+    {"kind": "investments", "label": "Gains on investments",
+     "tags": [("GainLossOnInvestments", 1), ("EquitySecuritiesFvNiGainLoss", 1), ("EquitySecuritiesFvNiUnrealizedGainLoss", 1),
+              ("GainLossOnSaleOfInvestments", 1)]},
+    {"kind": "private_revaluation", "label": "Revaluation of private-company stakes",
+     "tags": [("EquitySecuritiesWithoutReadilyDeterminableFairValueUpwardPriceAdjustmentAnnualAmount", 1)],
+     "less": [("EquitySecuritiesWithoutReadilyDeterminableFairValueDownwardPriceAdjustmentAnnualAmount", 1)]},
+    {"kind": "business_sale", "label": "Gain on sale of a business",
+     "tags": [("GainLossOnSaleOfBusiness", 1), ("DisposalGroupNotDiscontinuedOperationGainLossOnDisposal", 1),
+              ("GainLossOnDispositionOfBusiness", 1)]},
+    {"kind": "stake_sale", "label": "Gain on sale of an equity-method stake",
+     "tags": [("EquityMethodInvestmentRealizedGainLossOnDisposal", 1)]},
+    {"kind": "warrants", "label": "Warrant revaluation",
+     "tags": [("FairValueAdjustmentOfWarrants", -1)]},
+    {"kind": "derivatives", "label": "Derivative revaluation (not hedges)",
+     "tags": [("UnrealizedGainLossOnDerivatives", 1), ("DerivativeInstrumentsNotDesignatedAsHedgingInstrumentsGainLossNet", 1)]},
+]
+# For lenders, insurers and asset managers investment and derivative results ARE the business: not stripped.
+FINANCIAL_KEEP = {"investments", "private_revaluation", "derivatives"}
+# One-off tax benefits the company tags itself. A negative value here lowers the tax charge.
+TAX_STRIPS = [("EffectiveIncomeTaxRateReconciliationShareBasedCompensationExcessTaxBenefitAmount", "Excess tax benefit from stock pay"),
+              ("IncomeTaxReconciliationChangeInDeferredTaxAssetsValuationAllowance", "Release of a tax valuation allowance")]
+
+def _tag_rows(facts, tag):
+    for ns in ("us-gaap", "ifrs-full"):
+        node = facts.get("facts", {}).get(ns, {}).get(tag)
+        if not node: continue
+        unit = next((u for u in node["units"] if u in ("USD", "EUR", "TWD", "KRW", "JPY")), None)
+        if not unit: continue
+        return [{"end": r["end"], "start": r.get("start"), "days": _days(r), "value": r["val"], "form": r.get("form"),
+                 "filed": r.get("filed"), "accn": r.get("accn"), "unit": unit, "tag": tag} for r in node["units"][unit]]
+    return []
+
+def _tag_quarter(facts, tag, end, annual_ok=True):
+    """The quarter's value for a one-off tag. A fourth quarter is full year minus three quarters; if the 10-Qs
+    for that year never reported the item at all, the full-year figure is used and marked 'annual_only'.
+    Tax reconciliation items are only ever filed yearly, so they never take the full-year route (annual_ok=False)."""
+    rows = _tag_rows(facts, tag)
+    if not rows: return None
+    r = quarterly(rows).get(end, [None])[-1]
+    if r or not annual_ok: return r
+    fy = next((x for x in sorted(rows, key=lambda x: x["filed"] or "", reverse=True)
+               if x["end"] == end and 350 <= x["days"] <= 380 and x.get("start")), None)
+    if fy and not any(x["start"] and fy["start"] <= x["start"] and x["end"] < end for x in rows):
+        d = dict(fy); d["derived"] = "annual_only"
+        return d
+    return None
+
+def _src(r):
+    return {"tag": r["tag"], "accn": r["accn"], "form": r["form"], "filed": r["filed"], "derived": r.get("derived") or False}
+
+def one_offs(facts, end, pretax=None, op_income=None, tax=None, financial=False):
+    """The one-off items in a quarter, each with the tag and filing it came from. amount > 0 = flattered profit.
+    Pre-tax items are listed before tax; the tax item (if any) is already an after-tax amount."""
+    found = []
+    for g in STRIPS:
+        if financial and g["kind"] in FINANCIAL_KEEP: continue
+        hit = next(((r, s) for t, s in g["tags"] if (r := _tag_quarter(facts, t, end)) and r["value"]), None)
+        if not hit: continue
+        r, s = hit
+        amt = s * r["value"]; srcs = [_src(r)]
+        for t, s2 in g.get("less", []):
+            r2 = _tag_quarter(facts, t, end)
+            if r2 and r2["value"]:
+                amt -= s2 * r2["value"]; srcs.append(_src(r2))
+        found.append({"kind": g["kind"], "label": g["label"], "amount": amt, "pretax": True, "src": srcs})
+    # Listed-stock gains often already include private-stake revaluations (Alphabet); count them once.
+    inv = next((x for x in found if x["kind"] == "investments"), None)
+    prv = next((x for x in found if x["kind"] == "private_revaluation"), None)
+    if inv and prv and pretax is not None and op_income is not None:
+        nonop = abs(pretax - op_income)
+        if abs(inv["amount"]) + abs(prv["amount"]) > 1.1 * nonop:
+            found.remove(prv if abs(prv["amount"]) <= abs(inv["amount"]) else inv)
+    # One-off tax benefits: the company's own tag first; otherwise a tax credit on a profit is treated as one-off.
+    tx = next(((r, lab) for t, lab in TAX_STRIPS if (r := _tag_quarter(facts, t, end, annual_ok=False)) and r["value"] < 0), None)
+    if tx:
+        r, lab = tx
+        found.append({"kind": "tax", "label": lab, "amount": -r["value"], "pretax": False, "src": [_src(r)]})
+    elif tax is not None and tax < 0 and pretax is not None and pretax > 0:
+        found.append({"kind": "tax", "label": "Tax credit on a profit (no tag for the cause): treated as one-off",
+                      "amount": -tax, "pretax": False, "src": [{"tag": "IncomeTaxExpenseBenefit"}]})
+    return found
+
 def _days(r):
     if "start" not in r: return 0
     return (dt.date.fromisoformat(r["end"]) - dt.date.fromisoformat(r["start"])).days
@@ -106,7 +192,7 @@ def year_ago(d, end):
             return d[k][-1]
     return None
 
-def build(facts):
+def build(facts, financial=False):
     """The metric pack for one company: latest quarter values, year-ago comparisons and forensic ratios."""
     out = {}
     q = {m: quarterly(series(facts, m)) for m in FLOW}
@@ -141,14 +227,24 @@ def build(facts):
             cogs = r - out["gross_profit"]
             if cogs > 0: out["dio_days"] = out["inventory"] / cogs * 91
         if out.get("rd"): out["rd_intensity"] = out["rd"] / r
+        # True earnings: net income minus every one-off item. Pre-tax items come off after tax at the company's own
+        # rate this quarter; a stripped tax credit comes off in full. Each strip keeps its tag and filing for the card.
+        offs = one_offs(facts, last["end"], out.get("pretax"), out.get("op_income"), out.get("tax"), financial)
+        inv = sum(x["amount"] for x in offs if x["kind"] in ("investments", "private_revaluation"))
+        if inv: out["equity_gains"] = inv
         # Investment gains are pre-tax; compare with pre-tax profit so the share is not overstated.
         if out.get("equity_gains") and out.get("pretax"):
             out["investment_gain_share"] = out["equity_gains"] / out["pretax"]
-        # True earnings: net income minus investment gains after tax at the company's own tax rate this quarter.
         if out.get("net_income") is not None:
-            rate = (out["tax"] / out["pretax"]) if out.get("tax") is not None and out.get("pretax") else 0.21
+            # Tax rate without the stripped tax credit, so pre-tax items are not taxed at a flattered rate.
+            tax_strip = sum(x["amount"] for x in offs if x["kind"] == "tax")
+            rate = ((out["tax"] + tax_strip) / out["pretax"]) if out.get("tax") is not None and out.get("pretax") else 0.21
             rate = min(max(rate, 0.0), 0.35)
-            out["true_earnings"] = out["net_income"] - (out.get("equity_gains") or 0) * (1 - rate)
+            for x in offs:
+                x["after_tax"] = x["amount"] * (1 - rate) if x["pretax"] else x["amount"]
+                x["rate"] = rate if x["pretax"] else None
+            out["one_offs"] = offs
+            out["true_earnings"] = out["net_income"] - sum(x["after_tax"] for x in offs)
         if out.get("gross_profit") is not None: out["gross_margin"] = out["gross_profit"] / r
         if out.get("op_income") is not None: out["op_margin"] = out["op_income"] / r
     # receivables and inventory growth against sales growth (forensic)

@@ -8,7 +8,7 @@ live:
   usaspending: "Federal contracts and grants into chips, packaging, photonics, CHIPS Act"
   patents: "New patent grants in AI hardware, packaging, memory, optics, power (needs free key)"
   promises: "Promise ledger: dated company promises, checked daily for due and overdue"
-  prices: "Daily share prices (Stooq, free). Used only for the 'price down, filings strong' alert and backtests, never in the verdict"
+  prices: "Daily share prices (Yahoo Finance public chart endpoint, free). UNTESTED until the first GitHub run proves it. Used only for the 'price down, filings strong' alert and backtests, never in the verdict"
   discovery: "Companies not on the watchlist whose filings start mentioning HBM, co-packaged optics, AI accelerators, liquid cooling or the big buyers"
   movers: "Movers: verdict changes, guidance raised or cut, backlog up 15%+, supply deals naming big customers, the turn, insider buying, promises delivered early, price down while filings strong"
 planned:

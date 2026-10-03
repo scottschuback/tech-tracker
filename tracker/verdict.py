@@ -77,7 +77,8 @@ def card(t, pack, status, layer_names, guidance, promises):
     if pack.get("true_earnings") is not None and pack.get("net_income"):
         te, ni = pack["true_earnings"], pack["net_income"]
         if abs(te - ni) / abs(ni) > 0.03:
-            lines.append(f"True earnings {money(te, unit)} vs reported {money(ni, unit)} (investment gains stripped)")
+            what = ", ".join(dict.fromkeys(x["label"].split(" (")[0].lower() for x in pack.get("one_offs") or [])) or "one-offs"
+            lines.append(f"True earnings {money(te, unit)} vs reported {money(ni, unit)} ({what} stripped)")
     q["growing"] = {"light": lc or "grey", "lines": lines}
     # 3. Is its technology in demand
     flags = pack.get("forensic", [])

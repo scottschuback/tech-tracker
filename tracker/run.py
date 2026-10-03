@@ -83,7 +83,7 @@ def main(backfill=False):
                 facts[t] = sec.company_facts(cik)
             except Exception as e:
                 packs[t] = {"error": f"no XBRL data: {str(e)[:80]}"}; continue
-            p = metrics.build(facts[t])
+            p = metrics.build(facts[t], financial=t in financial)
             if t in financial: p["financial"] = True
             text = None
             src_ = p.get("revenue_src") if "error" not in p else None
@@ -98,7 +98,7 @@ def main(backfill=False):
             if src_ and src_["accn"] in cache: res += cache[src_["accn"]]
             fz = checks.forensic(p) if "error" not in p else []
             p.pop("_q", None); p.pop("_p", None)
-            p["checks"] = res; p["forensic"] = fz; p["name"] = name; p["layer"] = layer_of.get(t)
+            p["checks"] = res; p["forensic"] = fz; p["name"] = name; p["layer"] = layer_of.get(t); p["cik"] = cik
             packs[t] = p
             for col, msg in fz:
                 iid = f"fx:{t}:{p['period_end']}:{msg[:25]}"

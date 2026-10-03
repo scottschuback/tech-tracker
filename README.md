@@ -14,7 +14,7 @@ promises. Every number is calculated by code from each company's own filings and
 Verdict changes (backtested rules), guidance raised or cut, backlog up 15%+, supply deals naming big customers,
 the turn (chips and hardware only, and only when the quarter is also above a year ago: backtested, small sample),
 insider buying clusters (Form 4 open-market buys), promises delivered early, and a Strong company's share price
-down 20%+ from its 90-day high (prices from Stooq; used for this alert and backtests only, never in the verdict).
+down 20%+ from its 90-day high (prices from Yahoo Finance's public chart endpoint, untested until the first GitHub run; used for this alert and backtests only, never in the verdict).
 
 ## Backtests built in
 - Verdict rules: 2014-2021, 15,447 company-years, outcomes 3 and 5 years later (market value via public float).
