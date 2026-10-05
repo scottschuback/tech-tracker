@@ -281,10 +281,74 @@
  },
  {
   "date": "2026-10-03",
-  "title": "AMD: due 2026-09-30 — Helios racks ship to customers",
+  "title": "AMD: due 2026-09-30 \u2014 Helios racks ship to customers",
   "url": "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era",
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
+  "real": false
+ },
+ {
+  "date": "2026-10-05",
+  "title": "Mover: ALAB",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ALAB",
+  "colour": "green",
+  "note": "share price -27% from its 90-day high while rated Strong. Latest filing (10-Q, period to 2026-06-30): revenue $392m, up 104% on a year ago; operating income up 124% [F, docs/data.json]. Nothing in the filings changed, so this is a share-price move (noise), not a business change. No tracker card changes. It would be disproved by a drop in revenue growth or a lost scale-up design win in the next 10-Q; it would be proved if the next filing shows growth holding. Candidate to price in Scott's own tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-05",
+  "title": "Mover: AMAT",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=AMAT",
+  "colour": "green",
+  "note": "share price -25% from its 90-day high while rated Strong. Latest filing (10-Q, period to 2026-07-26): revenue $9,115m, up 25% on a year ago; operating income up 38% [F, docs/data.json]. Nothing in the filings changed, so this is a share-price move (noise), not a business change. No tracker card changes. It would be disproved by order or revenue growth falling below cost growth at the next 10-Q; it would be proved if the next filing shows growth holding. Candidate to price in Scott's own tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-05",
+  "title": "Mover: AVGO",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=AVGO",
+  "colour": "green",
+  "note": "share price -26% from its 90-day high while rated Strong. Latest filing (10-Q, period to 2026-08-02): revenue $29,591m, up 86% on a year ago; operating income up 171% [F, docs/data.json]. Nothing in the filings changed, so this is a share-price move (noise), not a business change. No tracker card changes. It would be disproved by AI revenue growth slowing at the next 10-Q; it would be proved if the next filing shows growth holding. Candidate to price in Scott's own tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-05",
+  "title": "Mover: CRDO",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=CRDO",
+  "colour": "green",
+  "note": "share price -28% from its 90-day high while rated Strong. Latest filing (10-Q, period to 2026-08-01): revenue $479m, up 115% on a year ago; operating income up 99% [F, docs/data.json]. Nothing in the filings changed, so this is a share-price move (noise), not a business change. No tracker card changes. It would be disproved by revenue growth slowing or a big customer cutting orders at the next 10-Q; it would be proved if the next filing shows growth holding. Candidate to price in Scott's own tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-05",
+  "title": "Mover: KLAC",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=KLAC",
+  "colour": "green",
+  "note": "share price -31% from its 90-day high while rated Strong. Latest filing (10-K, period to 2026-06-30): revenue $3,658m, up 15% on a year ago; operating income up 17% [F, docs/data.json]. Nothing in the filings changed, so this is a share-price move (noise), not a business change. No tracker card changes. It would be disproved by growth slipping further at the next 10-Q; it would be proved if the next filing shows growth holding. Candidate to price in Scott's own tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-05",
+  "title": "Mover: RMBS",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=RMBS",
+  "colour": "green",
+  "note": "share price -34% from its 90-day high while rated Strong. Latest filing (10-Q, period to 2026-03-31): revenue $180m, up 8% on a year ago; operating income up -2% [F, docs/data.json]. Nothing in the filings changed, so this is a share-price move (noise), not a business change. No tracker card changes. It would be disproved by revenue growth staying near the current pace while profit stays flat; it would be proved if the next filing shows growth holding. Candidate to price in Scott's own tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-05",
+  "title": "Mover: SNDK",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=SNDK",
+  "colour": "green",
+  "note": "share price -26% from its 90-day high while rated Strong. Latest filing (10-K, period to 2026-07-03): revenue $8,965m, up 372% on a year ago; operating income up 38994% [F, docs/data.json]. Net profit includes equity gains, so it overstates true earnings [F]. Nothing in the filings changed, so this is a share-price move (noise), not a business change. No tracker card changes. It would be disproved by flash prices turning down: revenue and gross profit would fall at the next 10-Q; it would be proved if the next filing shows growth holding. Candidate to price in Scott's own tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-05",
+  "title": "Mover: STRL",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=STRL",
+  "colour": "green",
+  "note": "share price -46% from its 90-day high while rated Strong. Latest filing (10-Q, period to 2026-06-30): revenue $1,168m, up 90% on a year ago; operating income up 110% [F, docs/data.json]. Nothing in the filings changed, so this is a share-price move (noise), not a business change. No tracker card changes. It would be disproved by revenue growth fading at the next 10-Q (the share fall is the largest of the eight); it would be proved if the next filing shows growth holding. Candidate to price in Scott's own tools; not a buy or sell call.",
   "real": false
  }
 ]
