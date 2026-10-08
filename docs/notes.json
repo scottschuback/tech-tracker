@@ -286,5 +286,85 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-10-08",
+  "title": "ALAB: share price -28 from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Noise, not a business change. [R] The price fell 28% from its 90-day high; no new filing changed the verdict. [F] Latest 10-Q (quarter to 2026-06-30): revenue $392.4m, up 104% on a year earlier; operating profit $89.2m. Net profit is flattered by a $50.3m tax benefit (see reasons.yaml). Would prove it: next quarter revenue growth holds above 100%. Would disprove: revenue growth falls sharply or inventory (113.8m) keeps building. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-08",
+  "title": "AMAT: share price -30 from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Noise, not a business change. [R] The price fell 30% from its 90-day high; no new filing changed the verdict. [F] Latest 10-Q (quarter to 2026-07-26): revenue $9,115m, up 25%; operating income $3,075m. Would prove it: next order and revenue figures keep rising. Would disprove: revenue growth slows below the last year's pace. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-08",
+  "title": "AVGO: share price -25 from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Noise, not a business change. [R] The price fell 25% from its 90-day high; no new filing changed the verdict. [F] Latest 10-Q (quarter to 2026-08-02): revenue $29,591m, up 86%; operating income $15,955m; backlog $179.2bn as the filing reports it. Would prove it: backlog keeps growing next quarter. Would disprove: backlog falls or revenue growth drops sharply. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-08",
+  "title": "CRDO: share price -30 from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Noise, not a business change. [R] The price fell 30% from its 90-day high; no new filing changed the verdict. [F] Latest 10-Q (quarter to 2026-08-01): revenue $479.0m, up 115%; operating income $120.7m. Cash flow was already flagged amber on 2026-10-03 (operating cash flow under 70% of profit). Would prove it: cash flow catches up with profit. Would disprove: the gap widens. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-08",
+  "title": "KLAC: share price -35 from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Noise, not a business change. [R] The price fell 35% from its 90-day high; no new filing changed the verdict. [F] Latest 10-K (year to 2026-06-30): revenue $3,657.6m, up 15%; operating income $1,549.4m. Slowest growth of this group. Would prove it: next quarter shows growth at or above 15%. Would disprove: growth slips below that. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-08",
+  "title": "RMBS: share price -36 from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Noise, not a business change. [R] The price fell 36% from its 90-day high; no new filing changed the verdict. [F] Latest 10-Q in the data is old (quarter to 2026-03-31, filed 2026-04-28): revenue $180.2m, up 8%; operating income $61.8m. A newer filing is due, so the picture may be stale. Would prove it: next 10-Q shows growth above 8%. Would disprove: growth stalls or margin falls. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-08",
+  "title": "SNDK: share price -31 from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Noise, not a business change. [R] The price fell 31% from its 90-day high; no new filing changed the verdict. [F] Latest 10-K (year to 2026-07-03): Q4 revenue $8,965m, up 372%; operating income $7,037m. Two-thirds of the sequential rise was higher pricing (company, see reasons.yaml), so it depends on NAND prices. Inventory days were already amber on 2026-10-03. Would prove it: prices and volumes hold next quarter. Would disprove: price falls cut revenue while stock keeps building. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-08",
+  "title": "STRL: share price -48 from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Noise, not a business change. [R] The price fell 48% from its 90-day high; no new filing changed the verdict. [F] Latest 10-Q (quarter to 2026-06-30): revenue $1,168.2m, up 90%; operating income $219.3m; backlog $4,233.6m as the filing reports it. The largest fall in the group, yet the filing shows no weakness. Would prove it: backlog stays above $4bn next quarter. Would disprove: backlog shrinks or margins drop. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-08",
+  "title": "TSM: 30 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "Noise, unverified. [F] The tracker reports about 0.1M shares bought on the open market from Form 4 filings. TSM files 20-F and 6-K as a foreign issuer, and foreign issuers are normally exempt from Form 4, so I could not confirm this from a filing; the data may be matching other filers or ADR holders. Not treated as a signal until a Form 4 is opened and read. Candidate to price only if confirmed.",
+  "real": false
+ },
+ {
+  "date": "2026-10-08",
+  "title": "Applied Digital (APLD): new name, 'AI data center' in a 10-Q",
+  "url": "",
+  "colour": "green",
+  "note": "Noise for now. [F] Applied Digital filed a 10-Q on 2026-10-07 that mentions AI data centers. It is not on the watchlist and nothing is scored. No tracker card changes. Scott can decide whether to add it.",
+  "real": false
  }
 ]
