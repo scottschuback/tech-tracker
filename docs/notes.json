@@ -286,5 +286,93 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-10-10",
+  "title": "DIGITAL REALTY TRUST: 8-K Items 1.01, 2.03, 9.01 (9 Oct 2026)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1297996/000119312526419168/d368817d8k.htm",
+  "colour": "amber",
+  "note": "F: Digital Realty filed an 8-K under Items 1.01 (new material agreement), 2.03 (new debt) and 9.01 (exhibits) on 9 October 2026, with an Exhibit 4.1. I could not open the filing from this environment (SEC host blocked), so I have not read it. R, unverified: a web search summary says it reports a EUR 1bn 5.125% senior note due 2036 sold by a finance subsidiary and guaranteed by the parent, under an indenture dated 9 October 2026. This looks like ordinary bond funding for data-centre building, not a supply lock. Noise until read; no tracker card change. Needs a read of the filing at the next run.",
+  "real": false
+ },
+ {
+  "date": "2026-10-10",
+  "title": "DIGITAL REALTY TRUST: 'prepayment' in 8-K Exhibit 4.1",
+  "url": "https://www.sec.gov/Archives/edgar/data/1297996/000119312526419168/d368817dex41.htm",
+  "colour": "amber",
+  "note": "F: The phrase search matched 'prepayment' in Exhibit 4.1 of the same 8-K. I could not open the exhibit, so I have not read the passage. A bond indenture normally uses the word for early repayment of debt, not for customer prepayments or supply deposits. That is a guess (unverified), not a finding. Treated as noise; no tracker card change. Recheck by reading the passage.",
+  "real": false
+ },
+ {
+  "date": "2026-10-10",
+  "title": "ALAB: share price -29% from 90-day high, still rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Astera Labs (ALAB) has fallen 29% from its 90-day high while the tracker still rates it Strong. Noise: the share price moved, and no filing today changed the business. F: our reasons file already notes its profit was lifted by a $50.3m tax benefit, so judge it on operating profit. Candidate to price in your own tools. What would prove the fall is a real issue: a cut or delay in customer orders, lower guidance, or a new red filing. What would disprove it: the next results showing orders and margins holding.",
+  "real": false
+ },
+ {
+  "date": "2026-10-10",
+  "title": "AMAT: share price -30% from 90-day high, still rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Applied Materials (AMAT) has fallen 30% from its 90-day high while the tracker still rates it Strong. Noise: the share price moved, and no filing today changed the business. Candidate to price in your own tools. What would prove the fall is a real issue: a cut or delay in customer orders, lower guidance, or a new red filing. What would disprove it: the next results showing orders and margins holding.",
+  "real": false
+ },
+ {
+  "date": "2026-10-10",
+  "title": "AVGO: share price -25% from 90-day high, still rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Broadcom (AVGO) has fallen 25% from its 90-day high while the tracker still rates it Strong. Noise: the share price moved, and no filing today changed the business. Candidate to price in your own tools. What would prove the fall is a real issue: a cut or delay in customer orders, lower guidance, or a new red filing. What would disprove it: the next results showing orders and margins holding.",
+  "real": false
+ },
+ {
+  "date": "2026-10-10",
+  "title": "CRDO: share price -28% from 90-day high, still rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Credo (CRDO) has fallen 28% from its 90-day high while the tracker still rates it Strong. Noise: the share price moved, and no filing today changed the business. Candidate to price in your own tools. What would prove the fall is a real issue: a cut or delay in customer orders, lower guidance, or a new red filing. What would disprove it: the next results showing orders and margins holding.",
+  "real": false
+ },
+ {
+  "date": "2026-10-10",
+  "title": "KLAC: share price -35% from 90-day high, still rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: KLA (KLAC) has fallen 35% from its 90-day high while the tracker still rates it Strong. Noise: the share price moved, and no filing today changed the business. Candidate to price in your own tools. What would prove the fall is a real issue: a cut or delay in customer orders, lower guidance, or a new red filing. What would disprove it: the next results showing orders and margins holding.",
+  "real": false
+ },
+ {
+  "date": "2026-10-10",
+  "title": "RMBS: share price -37% from 90-day high, still rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Rambus (RMBS) has fallen 37% from its 90-day high while the tracker still rates it Strong. Noise: the share price moved, and no filing today changed the business. Candidate to price in your own tools. What would prove the fall is a real issue: a cut or delay in customer orders, lower guidance, or a new red filing. What would disprove it: the next results showing orders and margins holding.",
+  "real": false
+ },
+ {
+  "date": "2026-10-10",
+  "title": "SNDK: share price -32% from 90-day high, still rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Sandisk (SNDK) has fallen 32% from its 90-day high while the tracker still rates it Strong. Noise: the share price moved, and no filing today changed the business. Candidate to price in your own tools. What would prove the fall is a real issue: a cut or delay in customer orders, lower guidance, or a new red filing. What would disprove it: the next results showing orders and margins holding.",
+  "real": false
+ },
+ {
+  "date": "2026-10-10",
+  "title": "STRL: share price -48% from 90-day high, still rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Sterling Infrastructure (STRL) has fallen 48% from its 90-day high while the tracker still rates it Strong. Noise: the share price moved, and no filing today changed the business. F: latest 10-Q (filed 2026-08-04) shows quarter revenue of $1,168.2m, up 90% on a year earlier, and operating income of $219.3m, up 110%. Candidate to price in your own tools. What would prove the fall is a real issue: a cut or delay in customer orders, lower guidance, or a new red filing. What would disprove it: the next results showing orders and margins holding.",
+  "real": false
+ },
+ {
+  "date": "2026-10-10",
+  "title": "TSM: 30 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F: Form 4 filings show 30 insiders bought on the open market in 30 days, about 0.1M in total (data.json). Small money, so weak evidence. Noise. Candidate to price in your own tools. It would be strengthened by larger buys by senior officers; weakened if sales follow.",
+  "real": false
  }
 ]
