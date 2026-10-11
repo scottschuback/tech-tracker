@@ -281,10 +281,82 @@
  },
  {
   "date": "2026-10-03",
-  "title": "AMD: due 2026-09-30 — Helios racks ship to customers",
+  "title": "AMD: due 2026-09-30 \u2014 Helios racks ship to customers",
   "url": "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era",
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
+  "real": false
+ },
+ {
+  "date": "2026-10-11",
+  "title": "ALAB: share price -29% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price is -29% from its 90-day high while the tracker rates it Strong (R, price data). Latest filed quarter (2026-06-30): revenue $392.4m, up 104% on a year earlier (F, 10-Q filed 2026-08-05). This is noise: the price moved, and nothing in the filings changed the business or the grade. What would prove the drop is a real issue: a filed margin, inventory or cash-flow flag, or a guidance cut at the next report. What would disprove it: the next report showing growth and margins holding. No card change; a candidate to price in Scott's own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-10-11",
+  "title": "AMAT: share price -30% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price is -30% from its 90-day high while the tracker rates it Strong (R, price data). Latest filed quarter (2026-07-26): revenue $9,115.0m, up 25% on a year earlier (F, 10-Q filed 2026-08-20). This is noise: the price moved, and nothing in the filings changed the business or the grade. What would prove the drop is a real issue: a filed margin, inventory or cash-flow flag, or a guidance cut at the next report. What would disprove it: the next report showing growth and margins holding. No card change; a candidate to price in Scott's own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-10-11",
+  "title": "AVGO: share price -25% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price is -25% from its 90-day high while the tracker rates it Strong (R, price data). Latest filed quarter (2026-08-02): revenue $29,591.0m, up 86% on a year earlier (F, 10-Q filed 2026-09-10). This is noise: the price moved, and nothing in the filings changed the business or the grade. What would prove the drop is a real issue: a filed margin, inventory or cash-flow flag, or a guidance cut at the next report. What would disprove it: the next report showing growth and margins holding. No card change; a candidate to price in Scott's own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-10-11",
+  "title": "CRDO: share price -28% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price is -28% from its 90-day high while the tracker rates it Strong (R, price data). Latest filed quarter (2026-08-01): revenue $479.0m, up 115% on a year earlier (F, 10-Q filed 2026-09-02). This is noise: the price moved, and nothing in the filings changed the business or the grade. What would prove the drop is a real issue: a filed margin, inventory or cash-flow flag, or a guidance cut at the next report. What would disprove it: the next report showing growth and margins holding. No card change; a candidate to price in Scott's own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-10-11",
+  "title": "KLAC: share price -35% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price is -35% from its 90-day high while the tracker rates it Strong (R, price data). Latest filed quarter (2026-06-30): revenue $3,657.6m, up 15% on a year earlier (F, 10-K filed 2026-08-06). This is noise: the price moved, and nothing in the filings changed the business or the grade. What would prove the drop is a real issue: a filed margin, inventory or cash-flow flag, or a guidance cut at the next report. What would disprove it: the next report showing growth and margins holding. No card change; a candidate to price in Scott's own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-10-11",
+  "title": "RMBS: share price -37% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price is -37% from its 90-day high while the tracker rates it Strong (R, price data). Latest filed quarter (2026-03-31): revenue $180.2m, up 8% on a year earlier (F, 10-Q filed 2026-04-28). This is noise: the price moved, and nothing in the filings changed the business or the grade. What would prove the drop is a real issue: a filed margin, inventory or cash-flow flag, or a guidance cut at the next report. What would disprove it: the next report showing growth and margins holding. No card change; a candidate to price in Scott's own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-10-11",
+  "title": "SNDK: share price -32% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price is -32% from its 90-day high while the tracker rates it Strong (R, price data). Latest filed quarter (2026-07-03): revenue $8,965.0m, up 372% on a year earlier (F, 10-K filed 2026-08-17). This is noise: the price moved, and nothing in the filings changed the business or the grade. What would prove the drop is a real issue: a filed margin, inventory or cash-flow flag, or a guidance cut at the next report. What would disprove it: the next report showing growth and margins holding. No card change; a candidate to price in Scott's own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-10-11",
+  "title": "STRL: share price -48% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price is -48% from its 90-day high while the tracker rates it Strong (R, price data). Latest filed quarter (2026-06-30): revenue $1,168.2m, up 90% on a year earlier (F, 10-Q filed 2026-08-04). This is noise: the price moved, and nothing in the filings changed the business or the grade. What would prove the drop is a real issue: a filed margin, inventory or cash-flow flag, or a guidance cut at the next report. What would disprove it: the next report showing growth and margins holding. No card change; a candidate to price in Scott's own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-10-11",
+  "title": "TSM: 30 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "30 insiders bought TSM shares on the open market in the last 30 days, about 0.1M in total (F, Form 4, per tracker). TSM files no quarterly numbers with the SEC, so the card stays 'Not scored'; the card's own line is August revenue +53.3% (F). Noise, not a business change: insider buying is a signal about confidence, not about supply. What would prove it: September revenue and the Q3 report. What would disprove it: the CoWoS and 2nm ramps on the card slipping. No card change.",
   "real": false
  }
 ]
