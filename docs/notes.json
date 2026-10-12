@@ -286,5 +286,69 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-10-12",
+  "title": "ALAB: share price -33% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: price fall only; no new filing today. F (10-Q, quarter to 30 Jun 2026, docs/data.json): revenue $392.4m, up 104%; operating profit $89.2m. Net profit $153.1m is lifted by a $50.3m tax benefit, so use operating profit. One amber: customers take 45 days to pay, up from 12 a year ago. Noise unless that keeps rising. A fall in receivables days, or the next 10-Q showing revenue holding above $392.4m, would support the filings; a further jump in days-to-pay or a revenue miss would disprove. Candidate to price, not a verdict change.",
+  "real": false
+ },
+ {
+  "date": "2026-10-12",
+  "title": "AMAT: share price -31% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: price fall only. F (10-Q, quarter to 26 Jul 2026): revenue $9,115m, up 24.8%; operating margin 33.7% vs 30.6% a year ago; customer advances $3,271m (left out of earnings). No health warnings. Noise: the business numbers improved while the price fell. Next 10-Q growth staying positive supports it; falling revenue or margin would disprove it. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-10-12",
+  "title": "CRDO: share price -34% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: price fall only. F (10-Q, quarter to 1 Aug 2026): revenue $479.0m, up 114.7%; operating profit $120.7m. Card notes growth is slowing sharply and cash flow is under 70% of profit this quarter (amber). Partly a real watch item: slowing growth is what a falling price may be pricing. Customers pay faster (55 days vs 74). Next quarter's revenue growth rate and cash flow vs profit would prove or disprove it. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-10-12",
+  "title": "KLAC: share price -37% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: price fall only. F (10-K, year to 30 Jun 2026, filed 2026-08-06): fourth-quarter revenue $3,657.6m, up 15.2%; operating margin 42.4%; no warnings. I have not re-read the auditor's report here; no new 10-K today, so no audit check was due. Noise on the filings. Next quarter's revenue growth and customer advances ($1,537m, left out of earnings) would test it. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-10-12",
+  "title": "RMBS: share price -40% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: price fall only; the biggest fall after STRL. F (10-Q, quarter to 31 Mar 2026): revenue $180.2m, up 8.1%; operating margin 34.3% vs 37.9% a year ago; growth is slowing sharply per the card. Data caveat: the tracker's latest filing is the March quarter, so the June quarter is not in the data yet. Slower growth and thinner margin make this partly a real issue, not only noise. The next 10-Q showing growth above 8% would prove the filings; a lower figure would disprove them. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-10-12",
+  "title": "SNDK: share price -36% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: price fall only. F (10-K, year to 3 Jul 2026): Q4 revenue $8,965m; inventory 178 days vs 135 a year ago (amber); backlog $59.8bn (C/F per filing); $808m of investment gains should be stripped from earnings. Flash prices drove growth and this business is cyclical. Real risk: if prices turn, inventory building would hurt. Falling flash prices or inventory days rising further would disprove; steady prices and falling inventory days would support. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-10-12",
+  "title": "STRL: share price -50% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: largest fall on the list. F (10-Q, quarter to 30 Jun 2026): revenue $1,168.2m, up 90.1%; backlog $4,233.6m, up 110.8%; operating margin 18.8% vs 17.0% a year ago. Nothing in the filings explains a 50% fall, so the cause is unknown (I did not find a source). Treat as noise until a filing says otherwise. Backlog falling or margin dropping in the next 10-Q would disprove; backlog holding would prove it. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-10-12",
+  "title": "TSM: 30 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "Flagged as F (Form 4), about 0.1M bought. Caution: TSMC is a foreign filer, and the tracker could not score it (no quarterly numbers in the SEC data), so I could not check this against a filing today; the 'Form 4' label looks odd for a foreign issuer. Card still says leads its layer; August revenue +53.3% [F]. Noise until verified. A verified filing of the purchases would support it. Candidate to price.",
+  "real": false
  }
 ]
