@@ -286,5 +286,85 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-10-16",
+  "title": "WhiteHawk Minerals Corp.  (WHK)  (CIK 0001921603): 'AI data center' in a S-1",
+  "url": "https://www.sec.gov/Archives/edgar/data/1921603/000119312526424097/whk-20261016.htm",
+  "colour": "amber",
+  "note": "F: A new S-1 filing from the same company flagged on 2026-10-03, again matching 'AI data center'. SEC site (sec.gov) was blocked from the analyst sandbox today, so the filing was not opened; the 3 Oct reading (F: natural-gas royalty owner, phrase only in risk factors about gas demand for power) is carried forward, unchecked against this version. Still looks like noise; reread when access returns.",
+  "real": false
+ },
+ {
+  "date": "2026-10-16",
+  "title": "ALAB: share price -41% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: The share price is -41% below its 90-day high (docs/data.json, prices source); the filings have not changed the Strong rating. On 3 Oct the same alert read -27%. This is a price move, not a business change, so it is noise until a filing says otherwise. A fall this wide in many names at once points to a sector-wide move. It would be proved a real issue by a guidance cut, a backlog fall, or a customer loss in a filing; it is disproved if the next results hold guidance. Candidate to price, nothing more.",
+  "real": false
+ },
+ {
+  "date": "2026-10-16",
+  "title": "AMAT: share price -43% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: The share price is -43% below its 90-day high (docs/data.json, prices source); the filings have not changed the Strong rating. On 3 Oct the same alert read -25%. This is a price move, not a business change, so it is noise until a filing says otherwise. A fall this wide in many names at once points to a sector-wide move. It would be proved a real issue by a guidance cut, a backlog fall, or a customer loss in a filing; it is disproved if the next results hold guidance. Candidate to price, nothing more.",
+  "real": false
+ },
+ {
+  "date": "2026-10-16",
+  "title": "AVGO: share price -23% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: The share price is -23% below its 90-day high (docs/data.json, prices source); the filings have not changed the Strong rating. On 3 Oct the same alert read -26%. This is a price move, not a business change, so it is noise until a filing says otherwise. A fall this wide in many names at once points to a sector-wide move. It would be proved a real issue by a guidance cut, a backlog fall, or a customer loss in a filing; it is disproved if the next results hold guidance. Candidate to price, nothing more.",
+  "real": false
+ },
+ {
+  "date": "2026-10-16",
+  "title": "CRDO: share price -44% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: The share price is -44% below its 90-day high (docs/data.json, prices source); the filings have not changed the Strong rating. This is a price move, not a business change, so it is noise until a filing says otherwise. A fall this wide in many names at once points to a sector-wide move. It would be proved a real issue by a guidance cut, a backlog fall, or a customer loss in a filing; it is disproved if the next results hold guidance. Candidate to price, nothing more.",
+  "real": false
+ },
+ {
+  "date": "2026-10-16",
+  "title": "KLAC: share price -45% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: The share price is -45% below its 90-day high (docs/data.json, prices source); the filings have not changed the Strong rating. This is a price move, not a business change, so it is noise until a filing says otherwise. A fall this wide in many names at once points to a sector-wide move. It would be proved a real issue by a guidance cut, a backlog fall, or a customer loss in a filing; it is disproved if the next results hold guidance. Candidate to price, nothing more.",
+  "real": false
+ },
+ {
+  "date": "2026-10-16",
+  "title": "RMBS: share price -40% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: The share price is -40% below its 90-day high (docs/data.json, prices source); the filings have not changed the Strong rating. This is a price move, not a business change, so it is noise until a filing says otherwise. A fall this wide in many names at once points to a sector-wide move. It would be proved a real issue by a guidance cut, a backlog fall, or a customer loss in a filing; it is disproved if the next results hold guidance. Candidate to price, nothing more.",
+  "real": false
+ },
+ {
+  "date": "2026-10-16",
+  "title": "SNDK: share price -44% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: The share price is -44% below its 90-day high (docs/data.json, prices source); the filings have not changed the Strong rating. This is a price move, not a business change, so it is noise until a filing says otherwise. A fall this wide in many names at once points to a sector-wide move. It would be proved a real issue by a guidance cut, a backlog fall, or a customer loss in a filing; it is disproved if the next results hold guidance. Candidate to price, nothing more.",
+  "real": false
+ },
+ {
+  "date": "2026-10-16",
+  "title": "STRL: share price -55% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: The share price is -55% below its 90-day high (docs/data.json, prices source); the filings have not changed the Strong rating. This is a price move, not a business change, so it is noise until a filing says otherwise. A fall this wide in many names at once points to a sector-wide move. It would be proved a real issue by a guidance cut, a backlog fall, or a customer loss in a filing; it is disproved if the next results hold guidance. Candidate to price, nothing more.",
+  "real": false
+ },
+ {
+  "date": "2026-10-16",
+  "title": "TSM: 30 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F: The tracker counts 30 insiders buying on the open market in 30 days, about 0.1M in total (Form 4 data in docs/data.json). The Form 4s were not opened (sec.gov blocked), so who bought and at what price is unchecked. Small in size, so a mild signal at most. It would be proved meaningful by larger buys from senior officers; disproved if buying stops. Candidate to price.",
+  "real": false
  }
 ]
