@@ -286,5 +286,77 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-10-18",
+  "title": "ALAB: share price -41% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm",
+  "colour": "green",
+  "note": "Source filing not opened this run: sec.gov was blocked by the sandbox network. Figures are from docs/data.json (filed numbers). F: Last filed quarter (10-Q to 30 Jun 2026) revenue $392.4M, +104% on a year ago; gross margin 73% (was 76%). Reported profit $153M includes a $50.3M tax benefit; true earnings are about $101M. R: share price is 41% below its 90-day high, down from 27% on 3 Oct, with no new filing explaining it. Noise unless a filing changes the picture. Would prove the fall is more than noise: slower revenue or lower gross margin in the next 10-Q, or loss of a major customer. Would disprove it: revenue growth holding above 100%. Customers now take 45 days to pay vs 12 a year ago, an amber flag already on file.",
+  "real": false
+ },
+ {
+  "date": "2026-10-18",
+  "title": "AMAT: share price -43% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/",
+  "colour": "green",
+  "note": "Source filing not opened this run: sec.gov was blocked by the sandbox network. Figures are from docs/data.json (filed numbers). F: Last filed quarter (10-Q to 26 Jul 2026) revenue $9.1B, +25%; gross margin 50% (was 49%); operating margin 34% (was 31%). No backlog or guidance on file. R: share price is 43% below its 90-day high, down from 25% on 3 Oct; no filing explains it. Noise so far. Would prove a real problem: lower chip-equipment orders or export-rule cuts in the next results. Would disprove it: growth staying near 25% with margins held.",
+  "real": false
+ },
+ {
+  "date": "2026-10-18",
+  "title": "AVGO: share price -23% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/",
+  "colour": "green",
+  "note": "Source filing not opened this run: sec.gov was blocked by the sandbox network. Figures are from docs/data.json (filed numbers). F: Last filed quarter (10-Q to 2 Aug 2026) revenue $29.6B, +86%; operating margin 54% (was 37%). F: contracted backlog $179.2B, +552%. C: guidance of about $34.8B revenue for Q4 FY26, AI chips $21.7B (said 2 Sep). R: share price is 23% below its 90-day high, a smaller fall than the others. Noise. Would prove it wrong: Q4 AI revenue below $21.7B, due about 15 Dec. Would disprove: delivery at or above it.",
+  "real": false
+ },
+ {
+  "date": "2026-10-18",
+  "title": "CRDO: share price -44% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026066139/crdo-20261016.htm",
+  "colour": "green",
+  "note": "Source filing not opened this run: sec.gov was blocked by the sandbox network. Figures are from docs/data.json (filed numbers). F: Last filed quarter (10-Q to 1 Aug 2026) revenue $479M, +115%, but the tracker says growth is slowing sharply; gross margin 65% (was 67%); operating margin 25% (was 27%). F: a new 8-K Item 5.07 (shareholder vote results) was filed 16 Oct; routine, not read this run. Open promise: pay $102.4M more refundable deposits for manufacturing capacity by 1 May 2027. R: share price is 44% below its 90-day high. Part noise, part real: slowing growth and thinner margins are real, the size of the fall is price. Would prove it: next quarter's growth falling further. Would disprove it: growth re-accelerating.",
+  "real": true
+ },
+ {
+  "date": "2026-10-18",
+  "title": "KLAC: share price -45% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/",
+  "colour": "green",
+  "note": "Source filing not opened this run: sec.gov was blocked by the sandbox network. Figures are from docs/data.json (filed numbers). F: Last filed year (10-K to 30 Jun 2026) quarter revenue $3.7B, +15%, growth steady; operating margin 42% (flat). Revenue did not grow in every past year, so it fails one of three traits. No backlog or guidance on file. R: share price is 45% below its 90-day high, the largest fall among the equipment names. Noise so far. Would prove a real issue: orders cut at the next results. Would disprove it: growth holding near 15% with margin at 42%.",
+  "real": false
+ },
+ {
+  "date": "2026-10-18",
+  "title": "RMBS: share price -40% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/917273/000119312526186931/",
+  "colour": "green",
+  "note": "Source filing not opened this run: sec.gov was blocked by the sandbox network. Figures are from docs/data.json (filed numbers). F: Latest filed quarter on file is the 10-Q to 31 Mar 2026 (filed 28 Apr): revenue $180M, +8%, growth slowing sharply; operating margin 34% (was 38%). Backlog $31M is under 10% of a year's sales, so it is not an order book. The tracker has no filing newer than April, so the data may be stale: check whether a 10-Q for June has been filed. R: share price is 40% below its 90-day high. Slowing growth is a real point; the size of the fall is price. Would prove it: next quarter growth below 8%. Would disprove it: re-acceleration.",
+  "real": true
+ },
+ {
+  "date": "2026-10-18",
+  "title": "SNDK: share price -44% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
+  "colour": "green",
+  "note": "Source filing not opened this run: sec.gov was blocked by the sandbox network. Figures are from docs/data.json (filed numbers). F: Last filed year (10-K to 3 Jul 2026) quarter revenue $9.0B, +372%; gross margin 85% (was 26%); true earnings $6.2B vs reported $6.9B. C: two-thirds of the sequential revenue rise was price, not volume (see data/reasons.yaml). F: backlog $59.8B. Open promise: FQ1 FY27 revenue $10.30-10.80B, due about 15 Nov. R: share price is 44% below its 90-day high. The business depends on memory prices, so a price fall can be real: watch NAND pricing. Would prove it: FQ1 revenue below $10.30B or lower gross margin. Would disprove it: revenue inside the range.",
+  "real": true
+ },
+ {
+  "date": "2026-10-18",
+  "title": "STRL: share price -55% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000103/",
+  "colour": "green",
+  "note": "Source filing not opened this run: sec.gov was blocked by the sandbox network. Figures are from docs/data.json (filed numbers). F: Last filed quarter (10-Q to 30 Jun 2026) revenue $1.2B, +90%; gross margin 25% (was 23%). F: contracted backlog $4.2B, +111%; customers have paid $803M in advance (kept out of earnings). R: share price is 55% below its 90-day high, the largest fall on the list, with no filing explaining it. Noise unless backlog turns. Would prove a real problem: backlog falling or cancelled data-centre projects in the next 10-Q. Would disprove it: backlog still growing.",
+  "real": false
+ },
+ {
+  "date": "2026-10-18",
+  "title": "TSM: 30 insiders bought shares in the last 30 days",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1046179&type=&dateb=&owner=include",
+  "colour": "green",
+  "note": "Source filing not opened this run: sec.gov was blocked by the sandbox network. Figures are from docs/data.json (filed numbers). F-tagged mover: 30 insiders bought about 0.1M in value on the open market in the last 30 days, per the tracker's Form 4 count. Doubtful: TSMC is a foreign filer that files 20-Fs, and foreign insiders normally do not file Form 4s, so the source of this count needs checking before it is trusted. Not a verdict change (TSM is 'Not scored'). Noise until confirmed. Would prove it: a named filing showing the purchases. Would disprove it: no such filings on EDGAR.",
+  "real": false
  }
 ]
