@@ -286,5 +286,77 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-10-19",
+  "title": "ALAB: share price -41% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-Q (to 30 Jun 2026): revenue $392M, +104% on a year ago; operating profit $89.2M. Reported net profit of $153.1M includes a $50.3M tax benefit, so true earnings are about $101M (see data/reasons.yaml). R: the price fall is from market data, unverified. Share-price move only, so noise: nothing filed has changed. Candidate to price, not a buy or sell signal. It would be disproved if the next 10-Q shows growth stalling or gross margin (73%, was 76%) falling further; it would be proved if revenue growth holds above the filed pace.",
+  "real": false
+ },
+ {
+  "date": "2026-10-19",
+  "title": "AMAT: share price -43% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-Q (to 26 Jul 2026): revenue $9.1B, +25% on a year ago; operating margin 34% (was 31%); customers have paid $3.3B in advance, which is kept out of earnings. R: the price fall is from market data. Share-price move only, so noise: nothing filed has changed. Candidate to price, not a buy or sell signal. Watch the next 10-Q for the growth rate; a fall back toward 10% would hurt the case.",
+  "real": false
+ },
+ {
+  "date": "2026-10-19",
+  "title": "AVGO: share price -22% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-Q (to 2 Aug 2026): revenue $29.6B, +86% on a year ago; contracted backlog $179.2B. Company guides Q4 FY26 revenue of about $34.8B with AI chip revenue of $21.7B. R: the price fall is from market data. Share-price move only, so noise: nothing filed has changed. Candidate to price, not a buy or sell signal. The Q4 FY26 report (promise due 2026-12-15) is the test: AI revenue at or above $21.7B backs the book; a miss disproves it.",
+  "real": false
+ },
+ {
+  "date": "2026-10-19",
+  "title": "CRDO: share price -43% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-Q (to 1 Aug 2026): revenue $479M, +115% on a year ago, but the tracker marks growth as slowing sharply. Cash from operations is under 70% of profit this quarter, and Credo has a promise to pay $102.4M more refundable deposits for factory capacity by 2027-05-01. R: the price fall is from market data. Share-price move only, so noise: nothing filed has changed. Candidate to price, not a buy or sell signal. This one has a real watch item: cooling growth plus weak cash conversion. Proved if next quarter's growth slows further; disproved if cash conversion recovers.",
+  "real": false
+ },
+ {
+  "date": "2026-10-19",
+  "title": "KLAC: share price -45% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-K (year to 30 Jun 2026): fourth-quarter revenue $3.66B, +15% on a year ago; operating margin 42%, flat. Customers have paid $1.5B in advance, kept out of earnings. No guidance or backlog is on file for it yet. R: the price fall is from market data. Share-price move only, so noise: nothing filed has changed. Candidate to price, not a buy or sell signal. Growth is steady, not speeding up. Proved if next quarter holds about +15%; disproved if growth drops.",
+  "real": false
+ },
+ {
+  "date": "2026-10-19",
+  "title": "RMBS: share price -37% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-Q on file is to 31 Mar 2026: revenue $180M, only +8% on a year ago, and operating profit down 2%. The tracker marks growth as slowing sharply. Filed backlog is $31M, too small to count as an order book. The 10-Q for the June quarter is not yet in data.json, so the data is stale. R: the price fall is from market data. Share-price move only, so noise: nothing filed has changed. Candidate to price, not a buy or sell signal. The slowdown is real in the numbers, so check this one against the Strong rating when the next 10-Q lands.",
+  "real": false
+ },
+ {
+  "date": "2026-10-19",
+  "title": "SNDK: share price -41% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-K (year to 3 Jul 2026): fourth-quarter revenue $8,965M, +372% on a year ago, gross margin 85% (was 26%), contracted backlog $59.8B. C: sequential growth was about one-third volume and two-thirds price (see data/reasons.yaml), so this is a flash-price surge. Inventory is building: 178 days of stock vs 135 a year ago. Guidance is FQ1 FY27 revenue $10.30-10.80B (C). Share-price move only, so noise: nothing filed has changed. Candidate to price, not a buy or sell signal. A price-led peak is the risk: proved if flash prices fall and inventory keeps building; disproved if the FQ1 guide is met.",
+  "real": false
+ },
+ {
+  "date": "2026-10-19",
+  "title": "STRL: share price -55% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest 10-Q (to 30 Jun 2026): revenue $1.17B, +90% on a year ago; contracted backlog $4.23B, +111%; customers have paid $803M in advance, kept out of earnings. R: the price fall is from market data; at -55% it is the largest in this group. Share-price move only, so noise: nothing filed has changed. Candidate to price, not a buy or sell signal. Proved if backlog keeps growing and converts to revenue; disproved if backlog stalls or cancellations appear in the next 10-Q.",
+  "real": false
+ },
+ {
+  "date": "2026-10-19",
+  "title": "TSM: 30 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F per the mover rule: about 0.1M shares bought on the open market. The data has no link to the filings, and TSMC files no quarterly numbers with the SEC (foreign company), so I could not check the Form 4 detail myself. It is also unscored. Small and unverified here, so noise. Candidate to price, not a buy signal. Proved or disproved by the Q3 results due 2026-10-20 against the $44.6-45.8B guide (C).",
+  "real": false
  }
 ]
