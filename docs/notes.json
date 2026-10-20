@@ -286,5 +286,77 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-10-20",
+  "title": "ALAB mover: share price -41% from 90-day high, rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm",
+  "colour": "green",
+  "note": "F: Last filed quarter (10-Q filed 2026-08-05, quarter to 30 Jun 2026): revenue $392.4M, +104% on a year ago; gross margin 73% (76% a year ago). Real watch point: customers took longer to pay, with receivable days at 44.6 vs 11.5 a year ago. Net profit $153.1M is flattered by a $50.3M tax benefit, so true earnings are $101.3M. Nothing new in filings explains the fall, so it looks like noise (R). Would prove the fall is noise: next 10-Q with receivable days back down and gross margin holding. Would disprove: receivable days still rising or gross margin below 70%. Candidate to price in Scott's tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-20",
+  "title": "AMAT mover: share price -44% from 90-day high, rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "F: 10-Q filed 2026-08-20 (quarter to 26 Jul 2026): revenue $9.115B, +25% on a year ago; gross margin 50.3% (48.8% a year ago); operating margin 33.7%. Customer prepayments of $3.271B are left out of earnings. Nothing in filings explains a 44% fall; likely noise (R) about the chip-equipment cycle. AMAT is a cyclical company, so the next results matter. Proves the fall is noise: revenue growth holds and prepayments stay high. Disproves: prepayments shrink or revenue growth stalls. Candidate to price in Scott's tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-20",
+  "title": "AVGO mover: share price -22% from 90-day high, rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "F: 10-Q filed 2026-09-10 (quarter to 2 Aug 2026): revenue $29.591B, +86% on a year ago; operating margin 53.9% (36.9% a year ago); contracted backlog $179.2B. C: Q4 FY26 guide is revenue $34.8B with AI chip revenue $21.7B. Inventory days rose to 45.1 from 37.8 a year ago, a minor watch item. The filings did not weaken, so the fall is noise (R). Proves: Q4 revenue lands at or above $34.8B (due by 15 Dec 2026, on the promise ledger). Disproves: a miss on that guide or backlog shrinking. Candidate to price in Scott's tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-20",
+  "title": "CRDO mover: share price -43% from 90-day high, rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "F: 10-Q filed 2026-09-02 (quarter to 1 Aug 2026): revenue $479.0M, +115% on a year ago, but gross margin 64.5% (67.4% a year ago) and operating margin 25.2% (27.2%). Inventory days 167.7 vs 146.0 a year ago. The tracker flags growth as 'slowing sharply'. Real issue worth checking: margins are slipping while stock builds. Also on the ledger: $102.4M more refundable deposits owed to a manufacturing capacity reservation (F). Proves the fall is overdone: margins stabilise and inventory days fall. Disproves: margin below 60% or inventory days climbing again. Candidate to price in Scott's tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-20",
+  "title": "KLAC mover: share price -46% from 90-day high, rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "F: 10-K filed 2026-08-06 (year to 30 Jun 2026): quarter revenue $3.658B, +15% on a year ago; operating margin 42.4% (41.9%). Customer prepayments $1.537B left out of earnings. Receivable days 71.9 vs 64.9 a year ago, a mild warning. Revenue did not fall every year, so the tracker marks it cyclical. Nothing filed explains a 46% fall; noise (R). Proves: next quarter keeps 40%+ operating margin. Disproves: falling prepayments or receivable days still rising. Candidate to price in Scott's tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-20",
+  "title": "RMBS mover: share price -37% from 90-day high, rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "F: Latest numbers on file are old: 10-Q filed 2026-04-28 for the quarter to 31 Mar 2026 (the June quarter is not in the data yet). Revenue $180.2M, +8% on a year ago, which the tracker calls growth 'slowing sharply'; operating margin 34.3% (37.9%); filed backlog only $30.9M, too small to be a real order book. This may be a real issue rather than noise: growth is slow for a stock that was priced for more. I could not check the June quarter, so check that first. Proves the fall is justified: June-quarter growth stays in single digits. Disproves: growth re-accelerates. Candidate to price in Scott's tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-20",
+  "title": "SNDK mover: share price -42% from 90-day high, rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
+  "colour": "green",
+  "note": "F: 10-K filed 2026-08-17 (year to 3 Jul 2026): quarter revenue $8.965B, +372% on a year ago, gross margin 84.6% (26.2%), contracted backlog $59.8B. C: two-thirds of the last jump came from higher prices, not volume (see data/reasons.yaml). Real issue: this is a flash-memory price surge, so a price turn hits earnings fast. Inventory days rose to 177.5 from 134.8. C: FQ1 FY27 revenue guide $10.30-10.80B (due by 15 Nov 2026). Proves the fall is overdone: results land in the guide with margin near 85%. Disproves: a miss, or backlog pushed out. Candidate to price in Scott's tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-20",
+  "title": "STRL mover: share price -56% from 90-day high, rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "F: 10-Q filed 2026-08-04 (quarter to 30 Jun 2026): revenue $1.168B, +90% on a year ago; gross margin 24.8% (23.3%); operating margin 18.8% (17.0%); backlog $4.234B, +111%. Customer prepayments of $802.6M left out of earnings. Filings are strong and nothing in them explains a 56% fall, the biggest on the list. Treat as noise until shown otherwise (R). The cause is unverified, so look for a short-seller report, a share sale or a project loss. Proves noise: backlog keeps growing next quarter. Disproves: backlog falls or margin drops below 22%. Candidate to price in Scott's tools; not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-10-20",
+  "title": "TSM mover: 30 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4): the mover rule shows about 0.1M shares bought on the open market by 30 insiders. This is a count from the tracker; I did not open the individual Form 4s, so who bought and how much each is unchecked. TSM is a foreign filer, so TSMC's own Form 4s may not apply and these may be other insiders; check the source before reading much into it. For context, the company reported Q3 revenue of $46.72B on 15 Oct (C, see promise ledger). Weak signal. Candidate to price in Scott's tools; not a buy or sell call.",
+  "real": false
  }
 ]
