@@ -286,5 +286,93 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-10-24",
+  "title": "ALAB: share price -47% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: ALAB: share price -47% from its 90-day high while rated Strong. The price fall is press-market data (R). The filings did not change: the tracker still rates it Strong from the latest filed quarter (period end 2026-06-30; revenue growth 104% a year, from the filing). This moves the share price, not the business, so it is noise until a filing says otherwise. To prove the fall is real: the next quarterly filing shows slower revenue growth or weaker orders. To disprove it: that filing keeps growth near the level above. Candidate to price in your own tools; no buy or sell view.",
+  "real": false
+ },
+ {
+  "date": "2026-10-24",
+  "title": "AMAT: share price -48% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: AMAT: share price -48% from its 90-day high while rated Strong. The price fall is press-market data (R). The filings did not change: the tracker still rates it Strong from the latest filed quarter (period end 2026-07-26; revenue growth 25% a year, from the filing). This moves the share price, not the business, so it is noise until a filing says otherwise. To prove the fall is real: the next quarterly filing shows slower revenue growth or weaker orders. To disprove it: that filing keeps growth near the level above. Candidate to price in your own tools; no buy or sell view.",
+  "real": false
+ },
+ {
+  "date": "2026-10-24",
+  "title": "ANET: share price -20% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: ANET: share price -20% from its 90-day high while rated Strong. The price fall is press-market data (R). The filings did not change: the tracker still rates it Strong from the latest filed quarter (period end 2026-06-30; revenue growth 38% a year, from the filing). This moves the share price, not the business, so it is noise until a filing says otherwise. To prove the fall is real: the next quarterly filing shows slower revenue growth or weaker orders. To disprove it: that filing keeps growth near the level above. Candidate to price in your own tools; no buy or sell view.",
+  "real": false
+ },
+ {
+  "date": "2026-10-24",
+  "title": "AVGO: share price -25% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: AVGO: share price -25% from its 90-day high while rated Strong. The price fall is press-market data (R). The filings did not change: the tracker still rates it Strong from the latest filed quarter (period end 2026-08-02; revenue growth 86% a year, from the filing). This moves the share price, not the business, so it is noise until a filing says otherwise. To prove the fall is real: the next quarterly filing shows slower revenue growth or weaker orders. To disprove it: that filing keeps growth near the level above. Candidate to price in your own tools; no buy or sell view.",
+  "real": false
+ },
+ {
+  "date": "2026-10-24",
+  "title": "CRDO: share price -51% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: CRDO: share price -51% from its 90-day high while rated Strong. The price fall is press-market data (R). The filings did not change: the tracker still rates it Strong from the latest filed quarter (period end 2026-08-01; revenue growth 115% a year, from the filing). This moves the share price, not the business, so it is noise until a filing says otherwise. To prove the fall is real: the next quarterly filing shows slower revenue growth or weaker orders. To disprove it: that filing keeps growth near the level above. Candidate to price in your own tools; no buy or sell view.",
+  "real": false
+ },
+ {
+  "date": "2026-10-24",
+  "title": "EME: share price -25% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: EME: share price -25% from its 90-day high while rated Strong. The price fall is press-market data (R). The filings did not change: the tracker still rates it Strong from the latest filed quarter (period end 2026-06-30; revenue growth 20% a year, from the filing). This moves the share price, not the business, so it is noise until a filing says otherwise. To prove the fall is real: the next quarterly filing shows slower revenue growth or weaker orders. To disprove it: that filing keeps growth near the level above. Candidate to price in your own tools; no buy or sell view.",
+  "real": false
+ },
+ {
+  "date": "2026-10-24",
+  "title": "KLAC: share price -52% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: KLAC: share price -52% from its 90-day high while rated Strong. The price fall is press-market data (R). The filings did not change: the tracker still rates it Strong from the latest filed quarter (period end 2026-06-30; revenue growth 15% a year, from the filing). This moves the share price, not the business, so it is noise until a filing says otherwise. To prove the fall is real: the next quarterly filing shows slower revenue growth or weaker orders. To disprove it: that filing keeps growth near the level above. Candidate to price in your own tools; no buy or sell view.",
+  "real": false
+ },
+ {
+  "date": "2026-10-24",
+  "title": "RMBS: share price -39% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: RMBS: share price -39% from its 90-day high while rated Strong. The price fall is press-market data (R). The filings did not change: the tracker still rates it Strong from the latest filed quarter (period end 2026-03-31; revenue growth 8% a year, from the filing). This moves the share price, not the business, so it is noise until a filing says otherwise. To prove the fall is real: the next quarterly filing shows slower revenue growth or weaker orders. To disprove it: that filing keeps growth near the level above. Candidate to price in your own tools; no buy or sell view.",
+  "real": false
+ },
+ {
+  "date": "2026-10-24",
+  "title": "SNDK: share price -47% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: SNDK: share price -47% from its 90-day high while rated Strong. The price fall is press-market data (R). The filings did not change: the tracker still rates it Strong from the latest filed quarter (period end 2026-07-03; revenue growth 372% a year, from the filing). This moves the share price, not the business, so it is noise until a filing says otherwise. To prove the fall is real: the next quarterly filing shows slower revenue growth or weaker orders. To disprove it: that filing keeps growth near the level above. Candidate to price in your own tools; no buy or sell view.",
+  "real": false
+ },
+ {
+  "date": "2026-10-24",
+  "title": "STRL: share price -62% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: STRL: share price -62% from its 90-day high while rated Strong. The price fall is press-market data (R). The filings did not change: the tracker still rates it Strong from the latest filed quarter (period end 2026-06-30; revenue growth 90% a year, from the filing). This moves the share price, not the business, so it is noise until a filing says otherwise. To prove the fall is real: the next quarterly filing shows slower revenue growth or weaker orders. To disprove it: that filing keeps growth near the level above. Candidate to price in your own tools; no buy or sell view.",
+  "real": false
+ },
+ {
+  "date": "2026-10-24",
+  "title": "TSM: 30 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F: TSM: 30 insiders bought shares in the last 30 days. About 0.1M bought on the open market (Form 4). Candidate to price, not a buy signal. Insider buys are filed on Form 4, so the fact is solid, but the dollar amount is small and the pack for TSM has no SEC quarterly numbers (foreign filer), so this is a signal to read, not proof. Noise unless the buying widens. Nothing changes a tracker card. What would prove it: the Q3 numbers TSMC itself filed on 6-K; what would disprove it: insiders selling next month.",
+  "real": false
  }
 ]
