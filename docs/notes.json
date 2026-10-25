@@ -286,5 +286,109 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-10-25",
+  "title": "ALAB: share price -47% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: ALAB: share price -47% from its 90-day high while rated Strong. [F/data.json] Revenue $392M last quarter, +104% on a year ago; growth is speeding up. [F/data.json] Gaining ground: Scale-up connectivity chips; R&D +104% [F]. Would support the filings: next results show revenue growth holding and margins steady. Would disprove: growth slowing, a margin drop, or a new red flag in the next 10-Q. Candidate to price, not a recommendation. Noise, not a business change: the filings did not move; only the share price did.",
+  "real": false
+ },
+ {
+  "date": "2026-10-25",
+  "title": "AMAT: share price -48% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: AMAT: share price -48% from its 90-day high while rated Strong. [F/data.json] Revenue $9.1B last quarter, +25% on a year ago; growth is speeding up. [F/data.json] Gaining ground: R&D +22%; packaging and gate-all-around tools [F]. Would support the filings: next results show revenue growth holding and margins steady. Would disprove: growth slowing, a margin drop, or a new red flag in the next 10-Q. Candidate to price, not a recommendation. Noise, not a business change: the filings did not move; only the share price did.",
+  "real": false
+ },
+ {
+  "date": "2026-10-25",
+  "title": "ANET: share price -20% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: ANET: share price -20% from its 90-day high while rated Strong. [F/data.json] Revenue $3.0B last quarter, +38% on a year ago; growth is speeding up. [F/data.json] Holding position: Growing 38%, but Nvidia overtook it in data-centre Ethernet switching (IDC) [R]. Would support the filings: next results show revenue growth holding and margins steady. Would disprove: growth slowing, a margin drop, or a new red flag in the next 10-Q. Candidate to price, not a recommendation. Noise, not a business change: the filings did not move; only the share price did.",
+  "real": false
+ },
+ {
+  "date": "2026-10-25",
+  "title": "AVGO: share price -25% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: AVGO: share price -25% from its 90-day high while rated Strong. [F/data.json] Company expects about $34.8B revenue in Q4 FY26, +18% on the last reported quarter [F]. AI semiconductor revenue $21.7B. [F/data.json] Revenue $29.6B last quarter, +86% on a year ago; growth is speeding up. Would support the filings: next results show revenue growth holding and margins steady. Would disprove: growth slowing, a margin drop, or a new red flag in the next 10-Q. Candidate to price, not a recommendation. Noise, not a business change: the filings did not move; only the share price did.",
+  "real": false
+ },
+ {
+  "date": "2026-10-25",
+  "title": "CRDO: share price -51% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: CRDO: share price -51% from its 90-day high while rated Strong. [F/data.json] Next promise: Pay $102.4M more refundable deposits under a manufacturing capacity reservation agreement by 2027-05-01. [F/data.json] Revenue $479M last quarter, +115% on a year ago; growth is slowing sharply. Would support the filings: next results show revenue growth holding and margins steady. Would disprove: growth slowing, a margin drop, or a new red flag in the next 10-Q. Candidate to price, not a recommendation. Noise, not a business change: the filings did not move; only the share price did.",
+  "real": false
+ },
+ {
+  "date": "2026-10-25",
+  "title": "EME: share price -25% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: EME: share price -25% from its 90-day high while rated Strong. [F/data.json] Contracted backlog $17.1B, +44% on a year ago [F]. [F/data.json] Revenue $5.2B last quarter, +20% on a year ago; growth is steady. Would support the filings: next results show revenue growth holding and margins steady. Would disprove: growth slowing, a margin drop, or a new red flag in the next 10-Q. Candidate to price, not a recommendation. Noise, not a business change: the filings did not move; only the share price did.",
+  "real": false
+ },
+ {
+  "date": "2026-10-25",
+  "title": "KLAC: share price -52% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: KLAC: share price -52% from its 90-day high while rated Strong. [F/data.json] Revenue $3.7B last quarter, +15% on a year ago; growth is steady. [F/data.json] Holding position: Inspection leader, return on capital 30%+ every year [F]. Would support the filings: next results show revenue growth holding and margins steady. Would disprove: growth slowing, a margin drop, or a new red flag in the next 10-Q. Candidate to price, not a recommendation. Noise, not a business change: the filings did not move; only the share price did.",
+  "real": false
+ },
+ {
+  "date": "2026-10-25",
+  "title": "RMBS: share price -39% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: RMBS: share price -39% from its 90-day high while rated Strong. [F/data.json] Filed backlog is small ($31M, under 10% of a year's sales), so it is not a real order book for this company [F]. [F/data.json] Revenue $180M last quarter, +8% on a year ago; growth is slowing sharply. Would support the filings: next results show revenue growth holding and margins steady. Would disprove: growth slowing, a margin drop, or a new red flag in the next 10-Q. Candidate to price, not a recommendation. Noise, not a business change: the filings did not move; only the share price did.",
+  "real": false
+ },
+ {
+  "date": "2026-10-25",
+  "title": "SNDK: share price -47% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: SNDK: share price -47% from its 90-day high while rated Strong. [F/data.json] Contracted backlog $59.8B [F]. [F/data.json] Revenue $9.0B last quarter, +372% on a year ago; growth is speeding up. Would support the filings: next results show revenue growth holding and margins steady. Would disprove: growth slowing, a margin drop, or a new red flag in the next 10-Q. Candidate to price, not a recommendation. Noise, not a business change: the filings did not move; only the share price did.",
+  "real": false
+ },
+ {
+  "date": "2026-10-25",
+  "title": "STRL: share price -62% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: STRL: share price -62% from its 90-day high while rated Strong. [F/data.json] Contracted backlog $4.2B, +111% on a year ago [F]. [F/data.json] Revenue $1.2B last quarter, +90% on a year ago; growth is speeding up. Would support the filings: next results show revenue growth holding and margins steady. Would disprove: growth slowing, a margin drop, or a new red flag in the next 10-Q. Candidate to price, not a recommendation. Noise, not a business change: the filings did not move; only the share price did.",
+  "real": false
+ },
+ {
+  "date": "2026-10-25",
+  "title": "TSM: 30 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F: About 0.1M bought on the open market in the last 30 days; 30 insiders bought, per the Form 4 count in data.json. Filing links not in data.json, so size and names unchecked. Would support: insiders keep buying after the Q3 report. Would disprove: buying stops or sales appear. Insider buying is a signal, not proof. Candidate to price, not a recommendation. Noise: no change to the business or any tracker card.",
+  "real": false
+ },
+ {
+  "date": "2026-10-25",
+  "title": "TSM: due 2026-10-20 — Q3 2026 revenue $44.6-45.8B",
+  "url": "",
+  "colour": "amber",
+  "note": "C: the Q3 2026 revenue $44.6-45.8B guide fell due on 20 Oct and the ledger still says open. I could not reach sec.gov from this run, so I could not read the Q3 6-K or release to check the actual figure. Left open, not marked delivered, late or missed. Recheck next run. Noise until proven; no card change.",
+  "real": false
+ },
+ {
+  "date": "2026-10-25",
+  "title": "ASML: due 2026-10-20 — Q3 2026 sales EUR 11.0-12.0B",
+  "url": "",
+  "colour": "amber",
+  "note": "C: the Q3 2026 sales EUR 11.0-12.0B guide fell due on 20 Oct and the ledger still says open. I could not reach sec.gov from this run, so I could not read the Q3 6-K or release to check the actual figure. Left open, not marked delivered, late or missed. Recheck next run. Noise until proven; no card change.",
+  "real": false
  }
 ]
