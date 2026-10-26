@@ -286,5 +286,117 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-10-26",
+  "title": "RMBS: inventory building up (111 to 168 days of stock)",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=917273&type=10-Q",
+  "colour": "amber",
+  "note": "SEC source could not be opened this run (the sandbox proxy returned 403 for www.sec.gov), so this note uses only the numbers already in docs/data.json, not the filing text. [F] Inventory is $87.2M, up 96% on a year ago, while revenue is up 22% ($218.3M). Stock is growing about four times faster than sales, and gross margin slipped to 78% from 80%. The filing's explanation (new product build, or slowing demand) is still unread, so this stays a watch item. It does not change the RMBS card, which stays Strong/Holding. Lean noise until the reason is read.",
+  "real": false
+ },
+ {
+  "date": "2026-10-26",
+  "title": "New filer: Anthropic, PBC S-1 mentions 'high bandwidth memory'",
+  "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+  "colour": "amber",
+  "note": "SEC source could not be opened this run (the sandbox proxy returned 403 for www.sec.gov), so this note uses only the numbers already in docs/data.json, not the filing text. [F] A new S-1 from Anthropic (CIK 2130357) uses the phrase 'high bandwidth memory'. It is not on the watchlist and nothing is scored. Why it matters: a registration statement could disclose compute and memory supply commitments, which would be real demand evidence for the memory layer. Not read yet; read the supply and commitments sections before drawing any conclusion. Real issue for the memory layer if commitments are disclosed.",
+  "real": true
+ },
+ {
+  "date": "2026-10-26",
+  "title": "New filer: Bitari Inc (BIAI) S-1/A mentions 'AI data center'",
+  "url": "https://www.sec.gov/Archives/edgar/data/2091680/000118518526004983/bitaris1a4102526.htm",
+  "colour": "amber",
+  "note": "SEC source could not be opened this run (the sandbox proxy returned 403 for www.sec.gov), so this note uses only the numbers already in docs/data.json, not the filing text. [F] Bitari Inc (CIK 2091680) filed an amended S-1 using the phrase 'AI data center'. It is not on the watchlist and nothing is scored. A phrase match alone says nothing about whether it is an operating business; revenue and offering size are unread. Treat as noise until checked.",
+  "real": false
+ },
+ {
+  "date": "2026-10-26",
+  "title": "ALAB: share price -46% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "[R] ALAB: share price -46% from its 90-day high while rated Strong. Price move only; the filings have not changed the verdict (still rated Strong). This is share-price noise, not a business change. A candidate to price in Scott's own tools. What would disprove it: the next filed quarter showing slower revenue growth or margin loss; what would support it: the next quarter holding growth. Press/price tag, filing text not read this run.",
+  "real": false
+ },
+ {
+  "date": "2026-10-26",
+  "title": "AMAT: share price -46% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "[R] AMAT: share price -46% from its 90-day high while rated Strong. Price move only; the filings have not changed the verdict (still rated Strong). This is share-price noise, not a business change. A candidate to price in Scott's own tools. What would disprove it: the next filed quarter showing slower revenue growth or margin loss; what would support it: the next quarter holding growth. Press/price tag, filing text not read this run.",
+  "real": false
+ },
+ {
+  "date": "2026-10-26",
+  "title": "AVGO: share price -23% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "[R] AVGO: share price -23% from its 90-day high while rated Strong. Price move only; the filings have not changed the verdict (still rated Strong). This is share-price noise, not a business change. A candidate to price in Scott's own tools. What would disprove it: the next filed quarter showing slower revenue growth or margin loss; what would support it: the next quarter holding growth. Press/price tag, filing text not read this run.",
+  "real": false
+ },
+ {
+  "date": "2026-10-26",
+  "title": "CRDO: share price -50% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "[R] CRDO: share price -50% from its 90-day high while rated Strong. Price move only; the filings have not changed the verdict (still rated Strong). This is share-price noise, not a business change. A candidate to price in Scott's own tools. What would disprove it: the next filed quarter showing slower revenue growth or margin loss; what would support it: the next quarter holding growth. Press/price tag, filing text not read this run.",
+  "real": false
+ },
+ {
+  "date": "2026-10-26",
+  "title": "EME: share price -23% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "[R] EME: share price -23% from its 90-day high while rated Strong. Price move only; the filings have not changed the verdict (still rated Strong). This is share-price noise, not a business change. A candidate to price in Scott's own tools. What would disprove it: the next filed quarter showing slower revenue growth or margin loss; what would support it: the next quarter holding growth. Press/price tag, filing text not read this run.",
+  "real": false
+ },
+ {
+  "date": "2026-10-26",
+  "title": "KLAC: share price -51% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "[R] KLAC: share price -51% from its 90-day high while rated Strong. Price move only; the filings have not changed the verdict (still rated Strong). This is share-price noise, not a business change. A candidate to price in Scott's own tools. What would disprove it: the next filed quarter showing slower revenue growth or margin loss; what would support it: the next quarter holding growth. Press/price tag, filing text not read this run.",
+  "real": false
+ },
+ {
+  "date": "2026-10-26",
+  "title": "SNDK: share price -46% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "[R] SNDK: share price -46% from its 90-day high while rated Strong. Price move only; the filings have not changed the verdict (still rated Strong). This is share-price noise, not a business change. A candidate to price in Scott's own tools. What would disprove it: the next filed quarter showing slower revenue growth or margin loss; what would support it: the next quarter holding growth. Press/price tag, filing text not read this run.",
+  "real": false
+ },
+ {
+  "date": "2026-10-26",
+  "title": "STRL: share price -61% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "[R] STRL: share price -61% from its 90-day high while rated Strong. Price move only; the filings have not changed the verdict (still rated Strong). This is share-price noise, not a business change. A candidate to price in Scott's own tools. What would disprove it: the next filed quarter showing slower revenue growth or margin loss; what would support it: the next quarter holding growth. Press/price tag, filing text not read this run.",
+  "real": false
+ },
+ {
+  "date": "2026-10-26",
+  "title": "RMBS: share price -36% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "[R] RMBS: share price -36% from its 90-day high while rated Strong. Price move only; the filings have not changed the verdict (still rated Strong). This is share-price noise, not a business change. A candidate to price in Scott's own tools. What would disprove it: the next filed quarter showing slower revenue growth or margin loss; what would support it: the next quarter holding growth. Press/price tag, filing text not read this run.",
+  "real": false
+ },
+ {
+  "date": "2026-10-26",
+  "title": "RMBS: filed backlog up +79%",
+  "url": "",
+  "colour": "green",
+  "note": "SEC source could not be opened this run (the sandbox proxy returned 403 for www.sec.gov), so this note uses only the numbers already in docs/data.json, not the filing text. [F] Filed backlog is $42.9M at 2026-09-30, up 79% on a year ago. The card says this is under 10% of a year's sales, so it is not a real order book for RMBS. Noise for pricing. Customers have also paid $32.4M in advance, left out of earnings. Would change view only if backlog grows to a meaningful share of sales.",
+  "real": false
+ },
+ {
+  "date": "2026-10-26",
+  "title": "TSM: 30 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "[R] 30 insiders bought shares in the last 30 days. Insider buying is a signal about sentiment, not a filed business change. TSM is 'Not scored' (foreign filer, no quarterly revenue in the data), so no card changes. Candidate to price; to be confirmed against the Form 4 detail, which was not read this run. Noise.",
+  "real": false
  }
 ]
