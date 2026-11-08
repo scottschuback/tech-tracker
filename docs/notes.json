@@ -286,5 +286,29 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-11-08",
+  "title": "ALAB: verdict moved from Strong to Watch (mover, candidate to price)",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=10-Q&CIK=1736297",
+  "colour": "amber",
+  "real": true,
+  "note": "[F] Astera Labs' 10-Q for the quarter to 2026-09-30 (filed 2026-11-04) shows revenue $584.9m, up 154% on a year ago, and net profit $182.9m. The drop to Watch comes from the quality checks, not growth: gross margin fell from 76% to 72%, customers now take 44 days to pay (17 a year ago), and stock sits 113 days (86 a year ago). Return on capital is still below 15% in at least one year, so only 2 of 3 filed traits pass. Real issue, not noise, but small so far. It would be disproved if the next quarter shows pay days and stock days falling back; it would be proved if they keep climbing faster than sales. Tracker card unchanged. Candidate to price, not a buy signal. I read these figures from data.json, not the filing text itself."
+ },
+ {
+  "date": "2026-11-08",
+  "title": "APO: verdict moved from Watch to Weak (mover, candidate to price)",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=10-Q&CIK=1858681",
+  "colour": "amber",
+  "real": false,
+  "note": "[F] Apollo's quarter to 2026-09-30 shows revenue $4,739m, down 52% on a year ago, and a net loss of $1,057m (data.json). All three filed traits now fail. Apollo's revenue swings with mark-to-market gains at its insurer Athene (the June quarter note in reasons.yaml shows this), so the fall is likely valuation moves rather than a break in fee income, but I have not read the September filing to confirm that. Treat as noise until the filing says otherwise. A fee-income line that holds up would disprove a real problem; further falls in fees would prove one. Not a technology card. Candidate to price, not a buy signal."
+ },
+ {
+  "date": "2026-11-08",
+  "title": "BX: verdict moved from Watch to Weak (mover, candidate to price)",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=10-Q&CIK=1393818",
+  "colour": "amber",
+  "real": false,
+  "note": "[F] Blackstone's quarter to 2026-09-30 shows revenue $3,063m, down 0.8% on a year ago, and net income $662m (data.json). It fell to Weak because revenue did not grow every year, margin is under 60%, and return on capital is under 15%. Those are the same traits it never met as a fee business, so this is a rating label change, not a business change. Noise. A year of rising revenue would disprove it. Not a technology card. Candidate to price, not a buy signal. I did not read the filing text."
  }
 ]
