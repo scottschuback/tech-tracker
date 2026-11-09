@@ -286,5 +286,109 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-11-09",
+  "title": "AMAT: mover, price down while filings strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -45% from its 90-day high while rated Strong. F: latest 10-Q (filed 2026-08-20, period to 2026-07-26) shows revenue $9.12bn, up 25% on the year, and net income up 43% (docs/data.json, SEC EDGAR). Nothing in the filings changed the verdict, so this is price noise, not a change to the business. Filing is the quarter to 26 Jul 2026, so it is older than the price drop. Candidate to price. To prove the fall is overdone: next results keep revenue growth and margins. To disprove: guidance cut, backlog or orders slowing, or a customer pulling spending.",
+  "real": false
+ },
+ {
+  "date": "2026-11-09",
+  "title": "ANET: mover, price down while filings strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -21% from its 90-day high while rated Strong. F: latest 10-Q (filed 2026-11-04, period to 2026-09-30) shows revenue $3.66bn, up 58% on the year, and net income up 83% (docs/data.json, SEC EDGAR). Nothing in the filings changed the verdict, so this is price noise, not a change to the business. Quarter to 30 Sep 2026 is the newest filing. Candidate to price. To prove the fall is overdone: next results keep revenue growth and margins. To disprove: guidance cut, backlog or orders slowing, or a customer pulling spending.",
+  "real": false
+ },
+ {
+  "date": "2026-11-09",
+  "title": "AVGO: mover, price down while filings strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -31% from its 90-day high while rated Strong. F: latest 10-Q (filed 2026-09-10, period to 2026-08-02) shows revenue $29.59bn, up 86% on the year, and net income up 216% (docs/data.json, SEC EDGAR). Nothing in the filings changed the verdict, so this is price noise, not a change to the business. Candidate to price. To prove the fall is overdone: next results keep revenue growth and margins. To disprove: guidance cut, backlog or orders slowing, or a customer pulling spending.",
+  "real": false
+ },
+ {
+  "date": "2026-11-09",
+  "title": "CRDO: mover, price down while filings strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -57% from its 90-day high while rated Strong. F: latest 10-Q (filed 2026-09-02, period to 2026-08-01) shows revenue $479m, up 115% on the year, and net income up 104% (docs/data.json, SEC EDGAR). Nothing in the filings changed the verdict, so this is price noise, not a change to the business. Fall is the largest in the list. Candidate to price. To prove the fall is overdone: next results keep revenue growth and margins. To disprove: guidance cut, backlog or orders slowing, or a customer pulling spending.",
+  "real": false
+ },
+ {
+  "date": "2026-11-09",
+  "title": "EME: mover, price down while filings strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -29% from its 90-day high while rated Strong. F: latest 10-Q (filed 2026-10-29, period to 2026-09-30) shows revenue $5.54bn, up 29% on the year, and net income up 35% (docs/data.json, SEC EDGAR). Nothing in the filings changed the verdict, so this is price noise, not a change to the business. Builder of data-centre electrical and mechanical systems, so it is a power and cooling supply-chain name. Candidate to price. To prove the fall is overdone: next results keep revenue growth and margins. To disprove: guidance cut, backlog or orders slowing, or a customer pulling spending.",
+  "real": false
+ },
+ {
+  "date": "2026-11-09",
+  "title": "GOOGL: mover, price down while filings strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -25% from its 90-day high while rated Strong. F: latest 10-Q (filed 2026-10-29, period to 2026-09-30) shows revenue $127.58bn, up 25% on the year, and net income up -24% (docs/data.json, SEC EDGAR). Nothing in the filings changed the verdict, so this is price noise, not a change to the business. Net income fell while revenue rose; the prior-year base and the equity-gain swings in other income (see reasons.yaml) distort net income, so judge it on operating results. Candidate to price. To prove the fall is overdone: next results keep revenue growth and margins. To disprove: guidance cut, backlog or orders slowing, or a customer pulling spending.",
+  "real": false
+ },
+ {
+  "date": "2026-11-09",
+  "title": "KLAC: mover, price down while filings strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -41% from its 90-day high while rated Strong. F: latest 10-Q (filed 2026-10-29, period to 2026-09-30) shows revenue $4.14bn, up 29% on the year, and net income up 38% (docs/data.json, SEC EDGAR). Nothing in the filings changed the verdict, so this is price noise, not a change to the business. Candidate to price. To prove the fall is overdone: next results keep revenue growth and margins. To disprove: guidance cut, backlog or orders slowing, or a customer pulling spending.",
+  "real": false
+ },
+ {
+  "date": "2026-11-09",
+  "title": "META: mover, price down while filings strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -22% from its 90-day high while rated Strong. F: latest 10-Q (filed 2026-10-22, period to 2026-09-30) shows revenue $64.60bn, up 26% on the year, and net income up 264% (docs/data.json, SEC EDGAR). Nothing in the filings changed the verdict, so this is price noise, not a change to the business. Net income jump is partly a low prior-year base; strip tax and investment items before reading it as true earnings. Candidate to price. To prove the fall is overdone: next results keep revenue growth and margins. To disprove: guidance cut, backlog or orders slowing, or a customer pulling spending.",
+  "real": false
+ },
+ {
+  "date": "2026-11-09",
+  "title": "NVDA: mover, price down while filings strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -22% from its 90-day high while rated Strong. F: latest 10-Q (filed 2026-08-26, period to 2026-07-26) shows revenue $96.22bn, up 106% on the year, and net income up 126% (docs/data.json, SEC EDGAR). Nothing in the filings changed the verdict, so this is price noise, not a change to the business. Last filing is the quarter to 26 Jul 2026. The company's own guide said no China data-centre compute assumed (C). Candidate to price. To prove the fall is overdone: next results keep revenue growth and margins. To disprove: guidance cut, backlog or orders slowing, or a customer pulling spending.",
+  "real": false
+ },
+ {
+  "date": "2026-11-09",
+  "title": "RMBS: mover, price down while filings strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -35% from its 90-day high while rated Strong. F: latest 10-Q (filed 2026-10-26, period to 2026-09-30) shows revenue $218m, up 22% on the year, and net income up 54% (docs/data.json, SEC EDGAR). Nothing in the filings changed the verdict, so this is price noise, not a change to the business. Candidate to price. To prove the fall is overdone: next results keep revenue growth and margins. To disprove: guidance cut, backlog or orders slowing, or a customer pulling spending.",
+  "real": false
+ },
+ {
+  "date": "2026-11-09",
+  "title": "SNDK: mover, price down while filings strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -56% from its 90-day high while rated Strong. F: latest 10-Q (filed 2026-10-30, period to 2026-10-02) shows revenue $11.03bn, up 378% on the year, and net income up 7133% (docs/data.json, SEC EDGAR). Nothing in the filings changed the verdict, so this is price noise, not a change to the business. Growth is mostly a NAND price surge (see reasons.yaml), so it can reverse fast if prices turn. Price fall of this size may be the market pricing that turn. Candidate to price. To prove the fall is overdone: next results keep revenue growth and margins. To disprove: guidance cut, backlog or orders slowing, or a customer pulling spending.",
+  "real": false
+ },
+ {
+  "date": "2026-11-09",
+  "title": "STRL: mover, price down while filings strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -65% from its 90-day high while rated Strong. F: latest 10-Q (filed 2026-10-29, period to 2026-09-30) shows revenue $1.56bn, up 127% on the year, and net income up 133% (docs/data.json, SEC EDGAR). Nothing in the filings changed the verdict, so this is price noise, not a change to the business. Biggest fall in the list. Candidate to price. To prove the fall is overdone: next results keep revenue growth and margins. To disprove: guidance cut, backlog or orders slowing, or a customer pulling spending.",
+  "real": false
+ },
+ {
+  "date": "2026-11-09",
+  "title": "Commerce BIS extends suspension of affiliates rule (Entity List) to 10 Jan 2027",
+  "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22793/extension-of-the-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed",
+  "colour": "red",
+  "note": "F: The Bureau of Industry and Security extends the suspension of its interim final rule that would widen export controls to cover affiliates of Entity List companies. The suspension was due to end 9 Nov 2026 and now runs to 10 Jan 2027 (Federal Register abstract). The wider rule stays switched off for two more months, so no new restriction on chip, tool or AI-hardware sales to affiliates of listed firms starts today. Real as a policy risk, not a change to any card yet: the rule can be switched back on after 10 Jan 2027. Caveat: I could not open the full rule text (the session network blocks federalregister.gov), so reasons and any named entities are unread. Re-read when access is allowed.",
+  "real": true
  }
 ]
