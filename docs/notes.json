@@ -286,5 +286,53 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-11-11",
+  "title": "Rigetti Computing, Inc.: Customers taking longer to pay: 106 days a year ago, 251 now",
+  "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926125161/rgti-20260930x10q.htm",
+  "colour": "amber",
+  "note": "F (XBRL, 10-Q filed 10 Nov 2026): receivables $3.89m at 30 Sep against quarterly revenue of only $1.41m, down from $5.14m in Q2. Most of the jump to 251 days likely comes from the tiny revenue figure in the formula, with bills from the larger Q2 still being collected. That is my inference, not yet checked against the 10-Q. Source passage NOT read this run: sec.gov is blocked by this session's network policy. Probably noise. No card change until the receivables note is read.",
+  "real": false
+ },
+ {
+  "date": "2026-11-11",
+  "title": "Rigetti Computing, Inc.: Backlog down -47% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926125161/rgti-20260930x10q.htm",
+  "colour": "amber",
+  "note": "F (XBRL): contracted backlog $2.9m at 30 Sep 2026, -47% on a year ago. Quarterly revenue was $1.41m (-28% on a year ago) after $4.40m and $5.14m in the two quarters before. The order book is not refilling as systems ship. That is a real issue for a company whose 'going' light is already red. R (press preview, unverified): the $8.4m C-DAC order is expected to count as revenue in Q4 after acceptance testing. Source passage NOT read this run: sec.gov is blocked by this session's network policy.",
+  "real": true
+ },
+ {
+  "date": "2026-11-11",
+  "title": "Rigetti Computing, Inc.  (RGTI, RGTIW)  (CIK 0001838359): 'warrant to purchase' in 10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926125161/rgti-20260930x10q.htm",
+  "colour": "amber",
+  "note": "F (XBRL): a $25.29m gain from revaluing warrants explains most of the gap between the operating loss (-$33.19m) and the net loss (-$3.14m). Stripping it gives true earnings of about -$23.1m. The phrase is probably the standing public and private warrants from the 2022 SPAC listing, not a new supply deal. Source passage NOT read this run: sec.gov is blocked by this session's network policy. Accounting noise, not a business change.",
+  "real": false
+ },
+ {
+  "date": "2026-11-11",
+  "title": "RGTI: verdict moved from Watch to Weak",
+  "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926125161/rgti-20260930x10q.htm",
+  "colour": "amber",
+  "note": "F: 0 of 3 filed traits. Annual revenue fell each year, from $13.1m (2022) to $7.1m (2025). Return on capital has been negative every year. What changed: Q3 revenue of $1.41m and backlog -47%. One good sign: gross margin rose from 21% to 61%. Proves it: the C-DAC 108-qubit system is delivered and recognised by 31 Dec 2026 (ledger promise) and backlog grows again. Disproves it: Q4 revenue stays near $1-2m and backlog keeps falling. Candidate to price.",
+  "real": true
+ },
+ {
+  "date": "2026-11-11",
+  "title": "ENTEGRIS INC  (ENTG)  (CIK 0001101302): 'co-packaged optics' and 'HBM4E' in 8-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1101302/000114036126042892/ef20085135_ex99-2.htm",
+  "colour": "amber",
+  "note": "F: the 8-K filed 10 Nov 2026 has an Exhibit 99.2, probably an investor presentation, that names co-packaged optics and HBM4E. These two flags share one exhibit. Entegris sells materials and filtration for chipmaking, so these are likely end markets it lists for growth, not a supply lock. Source passage NOT read this run: sec.gov is blocked by this session's network policy. Not yet judged; recheck next run. No card change.",
+  "real": false
+ },
+ {
+  "date": "2026-11-11",
+  "title": "Anthropic, PBC  (ANT)  (CIK 0002130357): 'high bandwidth memory' in a S-1/A",
+  "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+  "colour": "amber",
+  "note": "F: Anthropic filed an amended S-1 (amendment 2) on 10 Nov 2026. It is a large AI-model buyer, so the 'high bandwidth memory' wording is likely in risk factors about chip and memory supply. That is a demand-side read on HBM tightness, not a new supplier. Source passage NOT read this run: sec.gov is blocked by this session's network policy. Worth reading for any named compute or memory commitments before deciding whether to add it. Not on the watchlist. No card change.",
+  "real": false
  }
 ]
