@@ -286,5 +286,101 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-11-12",
+  "title": "AMAT: share price -38% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/",
+  "colour": "green",
+  "note": "R (prices): share price -38% from its 90-day high while rated Strong. F (10-Q to 26 Jul 2026): revenue $9.12bn, +25% on a year ago; net profit $2.54bn, +43%. R (press, unverified): the drop came in a sector-wide sell-off of AI chip and memory names in the week of the US midterms (3 Nov), not from company news. Noise for now: nothing filed has changed. Proves the market right: next results show orders or guidance falling. Disproves it: revenue still growing about 20%+ on a year ago. Source filing not re-read this run: sec.gov is blocked by this session's network policy; figures are the tested XBRL numbers in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-12",
+  "title": "AVGO: share price -22% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/",
+  "colour": "green",
+  "note": "R (prices): share price -22% from its 90-day high while rated Strong. F (10-Q to 2 Aug 2026): revenue $29.59bn, +86% on a year ago; backlog $179.20bn. F: guidance for Q4 FY26 is $34.8bn revenue, AI chips $21.7bn (ledger, due 15 Dec). R (press, unverified): the drop came in a sector-wide sell-off of AI chip and memory names in the week of the US midterms (3 Nov), not from company news. Noise. Proves the drop right: Q4 AI revenue below $21.7bn. Disproves it: Q4 at or above guidance. Source filing not re-read this run: sec.gov is blocked by this session's network policy; figures are the tested XBRL numbers in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-12",
+  "title": "CRDO: share price -54% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/",
+  "colour": "green",
+  "note": "R (prices): share price -54% from its 90-day high while rated Strong. F (10-Q to 1 Aug 2026): revenue $0.48bn, +115% on a year ago; net profit $0.13bn. F: still owes $102.4m more refundable capacity deposits by May 2027 (ledger), a sign it is buying supply for growth. R (press, unverified): the drop came in a sector-wide sell-off of AI chip and memory names in the week of the US midterms (3 Nov), not from company news. Noise unless the next 10-Q shows a big customer slowing. Proves it: next quarter revenue flat or down. Disproves it: growth holds. Source filing not re-read this run: sec.gov is blocked by this session's network policy; figures are the tested XBRL numbers in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-12",
+  "title": "EME: share price -25% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/105634/000010563426000130/",
+  "colour": "green",
+  "note": "R (prices): share price -25% from its 90-day high while rated Strong. F (10-Q to 30 Sep 2026): revenue $5.54bn, +29%; net profit $0.40bn, +35%; backlog $18.57bn, +47% on a year ago. R (press, unverified): the drop came in a sector-wide sell-off of AI chip and memory names in the week of the US midterms (3 Nov), not from company news. A building contractor hit by a chip sell-off: noise. Proves it: backlog falls next quarter or data-centre jobs are cancelled. Disproves it: backlog keeps growing. Source filing not re-read this run: sec.gov is blocked by this session's network policy; figures are the tested XBRL numbers in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-12",
+  "title": "GOOGL: share price -24% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/",
+  "colour": "green",
+  "note": "R (prices): share price -24% from its 90-day high while rated Strong. F (10-Q to 30 Sep 2026): revenue $127.58bn, +25%; operating profit $40.58bn, +30%; cloud backlog $567.70bn, +260% on a year ago. Net profit $26.47bn is down 24% only because last year carried big paper gains on investments; true earnings (operating profit) rose. R (press, unverified): the drop came in a sector-wide sell-off of AI chip and memory names in the week of the US midterms (3 Nov), not from company news. Noise. Proves it: capex returns weaken, cloud backlog shrinks. Disproves it: backlog keeps converting to revenue. Source filing not re-read this run: sec.gov is blocked by this session's network policy; figures are the tested XBRL numbers in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-12",
+  "title": "KLAC: share price -34% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000034/",
+  "colour": "green",
+  "note": "R (prices): share price -34% from its 90-day high while rated Strong. F (10-Q to 30 Sep 2026): revenue $4.14bn, +29%; net profit $1.55bn, +38%. R (press, unverified): the drop came in a sector-wide sell-off of AI chip and memory names in the week of the US midterms (3 Nov), not from company news. Noise: nothing filed changed. Proves it: next guidance points to lower chip-tool spending. Disproves it: growth near 20%+ continues. Source filing not re-read this run: sec.gov is blocked by this session's network policy; figures are the tested XBRL numbers in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-12",
+  "title": "NVDA: share price -29% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/",
+  "colour": "green",
+  "note": "R (prices): share price -29% from its 90-day high while rated Strong. F (10-Q to 26 Jul 2026): revenue $96.22bn, +106%; net profit $59.69bn. F: guidance for Q3 FY27 is $108.0bn +/-2% with no China data-centre sales assumed (ledger, due 30 Nov). R (press, unverified): the drop came in a sector-wide sell-off of AI chip and memory names in the week of the US midterms (3 Nov), not from company news. Noise until results. Proves it: Q3 below about $105.8bn (the low end) or a weaker Q4 guide. Disproves it: Q3 at or above $108bn. Source filing not re-read this run: sec.gov is blocked by this session's network policy; figures are the tested XBRL numbers in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-12",
+  "title": "RMBS: share price -29% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/917273/000119312526431941/",
+  "colour": "green",
+  "note": "R (prices): share price -29% from its 90-day high while rated Strong. F (10-Q to 30 Sep 2026): revenue $0.22bn, +22%; net profit $0.07bn, +54%; backlog $0.04bn, +79% on a year ago. R (press, unverified): the drop came in a sector-wide sell-off of AI chip and memory names in the week of the US midterms (3 Nov), not from company news. Noise. Proves it: memory-interface chip sales fall as memory prices turn. Disproves it: product revenue keeps rising next quarter. Source filing not re-read this run: sec.gov is blocked by this session's network policy; figures are the tested XBRL numbers in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-12",
+  "title": "SNDK: share price -55% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/",
+  "colour": "green",
+  "note": "R (prices): share price -55% from its 90-day high while rated Strong. F (10-Q to 2 Oct 2026): revenue $11.03bn, up 3.8 times on a year ago, above its own $10.30-10.80bn guide (ledger marked delivered today); net profit $8.10bn. Earlier filings say most growth is NAND price, not volume (reasons.yaml). R (press, unverified): the drop came in a sector-wide sell-off of AI chip and memory names in the week of the US midterms (3 Nov), not from company news. Real risk, not just noise: the business rides NAND prices, so if prices turn, profit falls fast. Proves it: next guide or price data show NAND prices falling. Disproves it: next guide above this quarter. Source filing not re-read this run: sec.gov is blocked by this session's network policy; figures are the tested XBRL numbers in data.json.",
+  "real": true
+ },
+ {
+  "date": "2026-11-12",
+  "title": "STRL: share price -60% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000125/",
+  "colour": "green",
+  "note": "R (prices): share price -60% from its 90-day high while rated Strong. F (10-Q to 30 Sep 2026): revenue $1.56bn, +127%; net profit $0.21bn, +133%; backlog $4.05bn, +57% on a year ago. R (press, unverified): the drop came in a sector-wide sell-off of AI chip and memory names in the week of the US midterms (3 Nov), not from company news. The biggest drop on the list for a site-prep contractor whose growth is data-centre work. Noise unless backlog turns. Proves it: backlog falls or a big data-centre customer pauses. Disproves it: backlog grows again next quarter. Source filing not re-read this run: sec.gov is blocked by this session's network policy; figures are the tested XBRL numbers in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-12",
+  "title": "TSM: 31 insiders bought shares in the last 30 days",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001046179&type=4",
+  "colour": "green",
+  "note": "F (Form 4 purchases stored in data/tracker.db insider_buys): about 30 TSMC managers each bought small amounts on the same two days (8 Oct and 10 Nov), mostly 40-150 shares at the same price. Same-day, same-price, small, evenly spread buys look like a scheduled employee or manager share plan, not people choosing to buy with their own conviction. That is my inference; I could not read the Form 4 footnotes because sec.gov is blocked this run. Treat as noise. The 'insider buying' rule should probably ignore same-day plan purchases; I propose Scott review the rule (not changed).",
+  "real": false
+ },
+ {
+  "date": "2026-11-12",
+  "title": "TSM: Q3 2026 revenue promise $44.6-45.8B is overdue in the ledger",
+  "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm",
+  "colour": "amber",
+  "note": "R (search results quoting TSMC's 15 Oct release, unverified by me): Q3 2026 revenue US$46.72bn, +41.2% on a year ago, above the top of the range; Q4 guide reported as US$52.3-54.3bn. I could not open the 6-K (sec.gov) or pr.tsmc.com, both blocked this run, so the ledger stays open, not marked delivered. Next run with access: read the 6-K and mark it.",
+  "real": false
  }
 ]
