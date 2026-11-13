@@ -286,5 +286,221 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "CoreWeave, Inc.: Gross margin down: 73% to 68%",
+  "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+  "colour": "amber",
+  "note": "F (10-Q, quarter to 30 Sep 2026): revenue $3,661m (+168% on a year ago), cost of revenue $1,183m, so gross margin 67.7% against 73.0% a year ago. Operating profit $207m but a net loss of $709m, so interest on the build-out debt is eating the gross profit. Real but modest: margin is still high, and new capacity usually costs more before it fills. I could not read the filing passage: sec.gov and company sites are blocked in this session, so this note uses only the tracker's filed numbers in docs/data.json (each matched to the filing text by the tracker check). Reason for the margin fall not yet read. No card change.",
+  "real": true
+ },
+ {
+  "date": "2026-11-13",
+  "title": "Cerebras Systems Inc.: Gross margin down: 41% to 20%",
+  "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026073494/cbrs-20260930.htm",
+  "colour": "amber",
+  "note": "F (10-Q, quarter to 30 Sep 2026): revenue $210.8m (+55% on a year ago) but gross profit only $42.1m, a 20.0% gross margin against 40.6% a year ago; operating loss $224.1m. Halving the margin changes the business: each dollar of sales now leaves much less to pay for chips and R&D. I could not read the filing passage: sec.gov and company sites are blocked in this session, so this note uses only the tracker's filed numbers in docs/data.json (each matched to the filing text by the tracker check). The cause (cloud build-out costs, pricing to win hyperscalers, or a one-off) is not yet settled; R tag: press says the company called Q3 the margin low point, not confirmed from the filing. Card not changed until the passage is read.",
+  "real": true
+ },
+ {
+  "date": "2026-11-13",
+  "title": "Nscale plc (CIK 0002110365): 'liquid cooling' in a S-1/A",
+  "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+  "colour": "amber",
+  "note": "F: Nscale, a UK AI cloud builder not on the watchlist, filed an amended US listing document (S-1/A) on 12 Nov 2026 that mentions liquid cooling. I could not read the filing passage: sec.gov and company sites are blocked in this session, so this note uses only the tracker's filed numbers in docs/data.json (each matched to the filing text by the tracker check). Not on the watchlist, so nothing is scored. Worth reading when sec.gov is reachable: GPU supply deals, buyers named, and whether it is a new rival to CRWV and NBIS. Noise for existing cards today.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "Nebius Group N.V. (NBIS): 'prepayment' in 6-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm",
+  "colour": "amber",
+  "note": "F: a 6-K exhibit (12 Nov 2026) mentions 'prepayment'. NBIS files no quarterly XBRL numbers with the SEC, so the tracker has no figures for it. I could not read the filing passage: sec.gov and company sites are blocked in this session, so this note uses only the tracker's filed numbers in docs/data.json (each matched to the filing text by the tracker check). Whether this is a customer paying ahead (supply lock) or Nebius prepaying a supplier is unsettled. Under rule 5, any customer prepayment stays out of earnings. No card change.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "CoreWeave, Inc. (CRWV): 'prepayment' in 10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+  "colour": "amber",
+  "note": "F (10-Q, 30 Sep 2026): the tracker reads customer advances of $2,269m on the balance sheet. That is cash customers paid ahead for capacity; it shows demand is locked in but is not earnings (rule 5), and is left out of profit here. I could not read the filing passage: sec.gov and company sites are blocked in this session, so this note uses only the tracker's filed numbers in docs/data.json (each matched to the filing text by the tracker check). The passage itself (who prepaid and on what terms) is unread. No card change.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "Cerebras Systems Inc. (CBRS): 'prepayment' in 10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026073494/cbrs-20260930.htm",
+  "colour": "amber",
+  "note": "F (10-Q, 30 Sep 2026): the tracker reads customer advances of $234.3m and a backlog of $26.1B against quarterly revenue of $210.8m. Prepayments show buyers committing ahead; under rule 5 they are kept out of earnings. I could not read the filing passage: sec.gov and company sites are blocked in this session, so this note uses only the tracker's filed numbers in docs/data.json (each matched to the filing text by the tracker check). Which customer prepaid is unread; the OpenAI link in the promise ledger is still R-tagged only. No card change.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "CoreWeave, Inc. (CRWV): 'take-or-pay' in 10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+  "colour": "amber",
+  "note": "F (10-Q, 30 Sep 2026): 'take-or-pay' means a buyer pays whether or not it uses the capacity. With filed backlog of $132.3B (+165% on a year ago) against $3,661m of quarterly revenue, these contracts are what make the backlog bankable. I could not read the filing passage: sec.gov and company sites are blocked in this session, so this note uses only the tracker's filed numbers in docs/data.json (each matched to the filing text by the tracker check). Whether the clause binds CoreWeave's customers or CoreWeave's own power and data-centre suppliers is unread; it matters, because the second would be a fixed cost. No card change.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "Cerebras Systems Inc. (CBRS): 'take-or-pay' in 10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026073494/cbrs-20260930.htm",
+  "colour": "amber",
+  "note": "F (10-Q, 30 Sep 2026): a take-or-pay clause appears alongside a filed backlog of $26.1B. I could not read the filing passage: sec.gov and company sites are blocked in this session, so this note uses only the tracker's filed numbers in docs/data.json (each matched to the filing text by the tracker check). Not yet settled whether it protects Cerebras's revenue (a customer must pay) or binds Cerebras to pay for data-centre capacity, which together with the 20% gross margin would be a real cost risk. No card change.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "AXT INC (AXTI): 'purchase commitment' in 10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926036542/ex_1017241.htm",
+  "colour": "amber",
+  "note": "F: the hit is in an exhibit to the 10-Q for the quarter to 30 Sep 2026, so it is likely a new supply agreement. The tracker reads customer advances of $82.5m and backlog of $293.5m against quarterly revenue of $73.4m. I could not read the filing passage: sec.gov and company sites are blocked in this session, so this note uses only the tracker's filed numbers in docs/data.json (each matched to the filing text by the tracker check). The counterparty and amounts are unread. If it is a customer locking up indium phosphide wafer supply for data-centre optics, it is real and supports the card. Not yet proven.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "Cerebras Systems Inc. (CBRS): 'warrant to purchase' in 10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026073494/cbrs-20260930.htm",
+  "colour": "amber",
+  "note": "F: the 10-Q mentions a warrant to purchase shares. Warrants given to a customer are a sales discount paid in shares: they lower true revenue and dilute holders. I could not read the filing passage: sec.gov and company sites are blocked in this session, so this note uses only the tracker's filed numbers in docs/data.json (each matched to the filing text by the tracker check). The holder, share count and strike price are unread; press (R) has linked earlier Cerebras warrants to OpenAI. Real if it is a new customer warrant. Recheck when sec.gov is reachable.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "AXT INC (AXTI): 'capacity reservation' in 10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926036542/ex_1017241.htm",
+  "colour": "amber",
+  "note": "F: in the same 10-Q exhibit as the purchase-commitment hit, a capacity reservation means a buyer pays to hold AXT's wafer output. The filed numbers fit tighter supply: gross margin 56.0% against 22.3% a year ago, and customers paying in 49 days against 110. I could not read the filing passage: sec.gov and company sites are blocked in this session, so this note uses only the tracker's filed numbers in docs/data.json (each matched to the filing text by the tracker check). Buyer and terms are unread. Likely real and positive for AXTI's supply position, but not proven.",
+  "real": true
+ },
+ {
+  "date": "2026-11-13",
+  "title": "NVIDIA CORP: 8-K 5.02,9.01 (8-K)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+  "colour": "amber",
+  "note": "F: an 8-K item 5.02 (11 Nov 2026) means a director or senior officer joined, left or had pay changed. I could not read it (sec.gov blocked), and a web search found no coverage of a November change, so who and why is unknown. Usually noise unless it is the CEO, CFO or a head of engineering. Recheck; no card change.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "Marvell Technology, Inc.: 8-K 5.02,9.01 (8-K)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000026/mrvl-20261111.htm",
+  "colour": "amber",
+  "note": "F: an 8-K item 5.02 (11 Nov 2026) means a director or senior-officer change at Marvell. I could not read it (sec.gov blocked), so the person and reason are unknown. It matters only if it touches the custom-chip business that serves the big cloud buyers. Recheck; no card change.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "AMAT: share price -37% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): AMAT is -37% below its 90-day high while its filed numbers still rate Strong. Nine Strong-rated names across equipment, GPUs, memory, connectivity, cloud and data-centre construction all fell 20%+ at once (data.json movers), which points to a market-wide move on AI spending, not a company problem (my inference). Noise for the business unless a filing changes. AMAT released results on 12 Nov 2026 (8-K 2.02), but sec.gov is blocked, so I have not read the guide. Proof: next-quarter guide holds or rises. Disproof: guide cut or China restrictions widen. Candidate to price only; Scott prices in his own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "CRDO: share price -51% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): CRDO is -51% below its 90-day high while its filed numbers still rate Strong. Nine Strong-rated names across equipment, GPUs, memory, connectivity, cloud and data-centre construction all fell 20%+ at once (data.json movers), which points to a market-wide move on AI spending, not a company problem (my inference). Noise for the business unless a filing changes. Proof: next 10-Q shows revenue still rising and the $102.4M capacity-reservation deposits (promise ledger, due 1 May 2027) paid on schedule. Disproof: a big hyperscaler customer cuts orders. Candidate to price only; Scott prices in his own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "EME: share price -23% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): EME is -23% below its 90-day high while its filed numbers still rate Strong. Nine Strong-rated names across equipment, GPUs, memory, connectivity, cloud and data-centre construction all fell 20%+ at once (data.json movers), which points to a market-wide move on AI spending, not a company problem (my inference). Noise for the business unless a filing changes. Proof: data-centre backlog keeps growing in the next 10-Q. Disproof: backlog falls or projects are delayed. Candidate to price only; Scott prices in his own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "GOOGL: share price -21% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): GOOGL is -21% below its 90-day high while its filed numbers still rate Strong. Nine Strong-rated names across equipment, GPUs, memory, connectivity, cloud and data-centre construction all fell 20%+ at once (data.json movers), which points to a market-wide move on AI spending, not a company problem (my inference). Noise for the business unless a filing changes. Proof: cloud revenue and capex hold in the next filing. Disproof: capex guidance is cut. Its Q2 profit had paper gains that true earnings strip (reasons.yaml). Candidate to price only; Scott prices in his own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "KLAC: share price -32% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): KLAC is -32% below its 90-day high while its filed numbers still rate Strong. Nine Strong-rated names across equipment, GPUs, memory, connectivity, cloud and data-centre construction all fell 20%+ at once (data.json movers), which points to a market-wide move on AI spending, not a company problem (my inference). Noise for the business unless a filing changes. Proof: next guide holds. Disproof: a wafer-fab spending cut announced by its customers. Candidate to price only; Scott prices in his own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "NVDA: share price -31% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): NVDA is -31% below its 90-day high while its filed numbers still rate Strong. Nine Strong-rated names across equipment, GPUs, memory, connectivity, cloud and data-centre construction all fell 20%+ at once (data.json movers), which points to a market-wide move on AI spending, not a company problem (my inference). Noise for the business unless a filing changes. Ledger test: Q3 FY27 revenue promise $108.0B +/-2% is due by 30 Nov 2026. Meeting it would show the fall is noise; missing it would make it real. The unread 5.02 8-K (above) should also be checked. Candidate to price only; Scott prices in his own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "RMBS: share price -26% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): RMBS is -26% below its 90-day high while its filed numbers still rate Strong. Nine Strong-rated names across equipment, GPUs, memory, connectivity, cloud and data-centre construction all fell 20%+ at once (data.json movers), which points to a market-wide move on AI spending, not a company problem (my inference). Noise for the business unless a filing changes. Proof: memory-interface chip sales keep pace with server memory demand in the next 10-Q. Disproof: falling product revenue. Candidate to price only; Scott prices in his own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "SNDK: share price -51% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): SNDK is -51% below its 90-day high while its filed numbers still rate Strong. Nine Strong-rated names across equipment, GPUs, memory, connectivity, cloud and data-centre construction all fell 20%+ at once (data.json movers), which points to a market-wide move on AI spending, not a company problem (my inference). Noise for the business unless a filing changes. Filed quarter to 2 Oct 2026: revenue $11,031m with an 85.0% gross margin, after a NAND price surge (reasons.yaml). Proof: prices hold. Disproof: NAND prices fall, since two-thirds of past growth came from price (C, reasons.yaml). Candidate to price only; Scott prices in his own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "STRL: share price -58% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): STRL is -58% below its 90-day high while its filed numbers still rate Strong. Nine Strong-rated names across equipment, GPUs, memory, connectivity, cloud and data-centre construction all fell 20%+ at once (data.json movers), which points to a market-wide move on AI spending, not a company problem (my inference). Noise for the business unless a filing changes. Proof: data-centre site work backlog holds in the next filing. Disproof: project delays or cancellations. Candidate to price only; Scott prices in his own tools.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "CRWV: filed backlog up +165% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+  "colour": "green",
+  "note": "F (10-Q, 30 Sep 2026): backlog $132.3B, up 165% on a year ago, against quarterly revenue of $3,661m: about 36 quarters of current sales. Proof it is real: backlog turns into revenue on time and take-or-pay terms protect it (passage unread, see note above). Disproof: one or two buyers make up most of it, or contracts can be cut. The net loss of $709m means funding the build-out is the risk, not demand. Real for the business.",
+  "real": true
+ },
+ {
+  "date": "2026-11-13",
+  "title": "BX: 2 insiders bought shares in the last 30 days",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001393818&type=4",
+  "colour": "green",
+  "note": "F (Form 4 rows in data/tracker.db): one 'buyer' is Blackstone Holdings IV L.P., a Blackstone entity, not a person: $2.0m on 23 Oct at $26.20 a unit, far below the $119.92 another insider paid. That suggests a different security, such as a Blackstone fund (my inference; the Form 4 could not be opened). The other buy is a director at about $15k. Noise, not a conviction signal. Proposal for Scott: the insider rule could exclude company-affiliated entities (not changed).",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "COHR: 2 insiders bought shares in the last 30 days",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000820318&type=4",
+  "colour": "green",
+  "note": "F (Form 4 rows in data/tracker.db, filed 12 Nov 2026): James Robert Anderson bought 5,000 shares at $199.48 (about $1.0m) and Enrico Digirolomo 1,000 at $222.89 (about $0.2m). Individual open-market buys after a price fall can be a real conviction sign. Proof: the next 10-Q shows datacom optics demand holding. Disproof: a plan-driven purchase in the Form 4 footnotes (unread, sec.gov blocked). Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "MP: 3 insiders bought shares in the last 30 days",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001801368&type=4",
+  "colour": "green",
+  "note": "F (Form 4 rows in data/tracker.db, filed 12 Nov 2026): Randall Weisenburger 55,000 shares at $36.00 (about $2.0m), Michael Rosenthal 17,000 at $36.27 (about $0.6m) and Ryan Corbett 2,700 at $36.84 (about $0.1m). Three people buying together with their own money is the stronger kind of insider signal. Proof: rare-earth magnet output and pricing in the next filing. Disproof: plan purchases in the footnotes (unread). Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-13",
+  "title": "TSM: 31 insiders bought shares in the last 30 days",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001046179&type=4",
+  "colour": "green",
+  "note": "F (data/tracker.db): 30 of the 32 buys were on 10 Nov, each 30-155 shares at the same $70.50, which looks like a scheduled employee share plan, as noted on 12 Nov. That is my inference; the footnotes are unread. Noise. The proposal that the rule should ignore same-day plan purchases stands (not changed).",
+  "real": false
  }
 ]
