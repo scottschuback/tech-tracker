@@ -22,18 +22,18 @@
 - {ticker: CBRS, promise: "OpenAI commitment over $20B delivered over time", due: 2028-12-31, source: "press", tag: R, status: open}
 # Added 2026-10-03 from results releases, 10-Ks and 10-Qs
 - {ticker: MU, promise: "FQ1 FY27 revenue $61.5B +/- $1.5B", due: 2026-12-31, source: "FQ4 FY26 results release 30 Sep 2026", tag: C, status: open}
-- {ticker: SNDK, promise: "FQ1 FY27 revenue $10.30-10.80B", due: 2026-11-15, source: "Q4 FY26 results release", tag: C, status: open}
+- {ticker: SNDK, promise: "FQ1 FY27 revenue $10.30-10.80B", due: 2026-11-15, source: "Q4 FY26 results release", tag: C, status: delivered, note: "2026-11-13: F 10-Q filed 30 Oct 2026 (accn 0001628280-26-068601), quarter to 2 Oct 2026 revenue $11,031m, above the top of the range; figure matched to the filing text by the tracker check"}
 - {ticker: DELL, promise: "Q3 FY27 revenue $49.0B", due: 2026-11-30, source: "Q2 FY27 results release", tag: C, status: open}
 - {ticker: DELL, promise: "FY27 revenue $192.0B, AI-optimized server revenue $74.0B", due: 2027-02-28, source: "Q2 FY27 results release", tag: C, status: open}
 - {ticker: CRDO, promise: "Pay $102.4M more refundable deposits under a manufacturing capacity reservation agreement", due: 2027-05-01, source: "Q1 FY27 10-Q", tag: F, status: open}
-- {ticker: SMCI, promise: "Q1 FY27 net sales $14.5-15.5B", due: 2026-11-15, source: "Q4 FY26 results release 11 Aug 2026", tag: C, status: open}
+- {ticker: SMCI, promise: "Q1 FY27 net sales $14.5-15.5B", due: 2026-11-15, source: "Q4 FY26 results release 11 Aug 2026", tag: C, status: delivered, note: "2026-11-13: F 10-Q filed 6 Nov 2026 (accn 0001375365-26-000027), quarter to 30 Sep 2026 net sales $19,946m, well above the range; figure matched to the filing text by the tracker check. The +79% one-quarter jump still needs a written reason from the filing (unread, sec.gov blocked)"}
 - {ticker: SMCI, promise: "FY27 net sales $65.0-72.0B", due: 2027-06-30, source: "Q4 FY26 results release 11 Aug 2026", tag: C, status: open}
 - {ticker: SMCI, promise: "Fix the IT-controls material weakness", due: 2027-06-30, source: "FY26 10-K Item 9A", tag: F, status: open}
-- {ticker: QCOM, promise: "Q4 FY26 revenue $9.7-10.5B", due: 2026-11-15, source: "Q3 FY26 results release 29 Jul 2026", tag: C, status: open}
+- {ticker: QCOM, promise: "Q4 FY26 revenue $9.7-10.5B", due: 2026-11-15, source: "Q3 FY26 results release 29 Jul 2026", tag: C, status: delivered, note: "2026-11-13: F 10-K filed 4 Nov 2026 (accn 0000804328-26-000128), quarter to 27 Sep 2026 revenue $10,322m (full year less three filed quarters), inside the range"}
 - {ticker: QCOM, promise: "Non-handset revenue growth (incl. Data Center) above 60% in FY27", due: 2027-11-15, source: "Q3 FY26 results release", tag: C, status: open}
 - {ticker: QCOM, promise: "Non-handset revenues of $40B by FY29", due: 2029-11-15, source: "Q3 FY26 results release (Investor Day)", tag: C, status: open}
-- {ticker: TER, promise: "Q3 2026 revenue $1,200-1,300M", due: 2026-11-15, source: "Q2 2026 results release 28 Jul 2026", tag: C, status: open}
-- {ticker: VRT, promise: "Q3 2026 net sales $3,650-3,850M", due: 2026-11-15, source: "Q2 2026 results release 29 Jul 2026", tag: C, status: open}
+- {ticker: TER, promise: "Q3 2026 revenue $1,200-1,300M", due: 2026-11-15, source: "Q2 2026 results release 28 Jul 2026", tag: C, status: delivered, note: "2026-11-13: F 10-Q filed 30 Oct 2026 (accn 0001193125-26-441091), quarter to 27 Sep 2026 revenue $1,305.95m, just above the top of the range; figure matched to the filing text by the tracker check"}
+- {ticker: VRT, promise: "Q3 2026 net sales $3,650-3,850M", due: 2026-11-15, source: "Q2 2026 results release 29 Jul 2026", tag: C, status: delivered, note: "2026-11-13: F 10-Q filed 28 Oct 2026 (accn 0001628280-26-067893), quarter to 30 Sep 2026 net sales $4,312.8m, well above the range; figure matched to the filing text by the tracker check"}
 - {ticker: VRT, promise: "FY2026 net sales about $14,000M at the midpoint", due: 2027-02-28, source: "Q2 2026 results release", tag: C, status: open}
 - {ticker: VRT, promise: "UtilityInnovation Group acquisition closes", due: 2026-12-31, source: "8-K 2 Sep 2026", tag: C, status: open}
 - {ticker: RGTI, promise: "108-qubit C-DAC system deployed", due: 2026-12-31, source: "Q2 2026 10-Q", tag: F, status: open}
