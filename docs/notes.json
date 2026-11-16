@@ -2006,5 +2006,109 @@
   "colour": "green",
   "note": "F (data/tracker.db): unchanged from 13 Nov; 31 small same-price buys look like an employee share plan (my inference). Noise.",
   "real": false
+ },
+ {
+  "date": "2026-11-15",
+  "title": "AMAT: share price -39% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): share price -39% from its 90-day high while rated Strong. No trading since the 13 Nov close (weekend), so this is the same reading as 14 Nov, and no new filing arrived (SEC sources quiet). Noise for the business unless a filing changes. Proof the business is fine: next guide and wafer-fab equipment orders hold. Disproof: a guide cut, falling backlog or lost customer in a filing. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-11-15",
+  "title": "CRDO: share price -54% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): share price -54% from its 90-day high while rated Strong. No trading since the 13 Nov close (weekend), so this is the same reading as 14 Nov, and no new filing arrived (SEC sources quiet). Noise for the business unless a filing changes. Proof the business is fine: next 10-Q shows connectivity revenue and capacity-reservation deposits still growing. Disproof: a guide cut, falling backlog or lost customer in a filing. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-11-15",
+  "title": "EME: share price -24% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): share price -24% from its 90-day high while rated Strong. No trading since the 13 Nov close (weekend), so this is the same reading as 14 Nov, and no new filing arrived (SEC sources quiet). Noise for the business unless a filing changes. Proof the business is fine: data-centre backlog keeps rising in the next 10-Q. Disproof: a guide cut, falling backlog or lost customer in a filing. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-11-15",
+  "title": "GOOGL: share price -22% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): share price -22% from its 90-day high while rated Strong. No trading since the 13 Nov close (weekend), so this is the same reading as 14 Nov, and no new filing arrived (SEC sources quiet). Noise for the business unless a filing changes. Proof the business is fine: cloud revenue and capital spending hold in the next 10-Q. Disproof: a guide cut or a capital-spending cut in a filing. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-11-15",
+  "title": "KLAC: share price -34% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): share price -34% from its 90-day high while rated Strong. No trading since the 13 Nov close (weekend), so this is the same reading as 14 Nov, and no new filing arrived (SEC sources quiet). Noise for the business unless a filing changes. Proof the business is fine: next guide holds. Disproof: a guide cut, falling backlog or lost customer in a filing. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-11-15",
+  "title": "NVDA: share price -32% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): share price -32% from its 90-day high while rated Strong. No trading since the 13 Nov close (weekend), so this is the same reading as 14 Nov, and no new filing arrived (SEC sources quiet). Noise for the business unless a filing changes. Proof the business is fine: Q3 FY27 revenue lands inside $108.0B +/-2% (ledger, due 30 Nov). Disproof: a miss or guide cut in that release. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-11-15",
+  "title": "RMBS: share price -28% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): share price -28% from its 90-day high while rated Strong. No trading since the 13 Nov close (weekend), so this is the same reading as 14 Nov, and no new filing arrived (SEC sources quiet). Noise for the business unless a filing changes. Proof the business is fine: memory-interface chip sales keep growing with server memory demand. Disproof: a guide cut or lost customer in a filing. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-11-15",
+  "title": "SNDK: share price -54% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): share price -54% from its 90-day high while rated Strong. No trading since the 13 Nov close (weekend), so this is the same reading as 14 Nov, and no new filing arrived (SEC sources quiet). Noise for the business unless a filing changes. Proof the business is fine: flash pricing holds next quarter. Disproof: a guide cut or falling prices in a filing. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-11-15",
+  "title": "STRL: share price -59% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price): share price -59% from its 90-day high while rated Strong. No trading since the 13 Nov close (weekend), so this is the same reading as 14 Nov, and no new filing arrived (SEC sources quiet). Noise for the business unless a filing changes. Proof the business is fine: data-centre site-work backlog holds in the next 10-Q. Disproof: falling backlog or a lost customer in a filing. Candidate to price, not a buy or sell call.",
+  "real": false
+ },
+ {
+  "date": "2026-11-15",
+  "title": "BX: 2 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4, tracker.db): unchanged from 14 Nov. Of the about $2.0m, $2.0m is Blackstone Holdings IV L.P. (23 Oct), a Blackstone entity, not a person; the other buy (Ruth Porat, 12 Nov) is about $15k. Not a conviction signal. Noise.",
+  "real": false
+ },
+ {
+  "date": "2026-11-15",
+  "title": "COHR: 2 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4, tracker.db): unchanged from 14 Nov; two executives (James Anderson about $997k, Enrico Digirolomo about $223k, both 12 Nov) bought on the open market. Proof it means something: datacom optics demand holds in the next 10-Q. Disproof: Form 4 footnotes show plan purchases (unread; sec.gov blocked this session). Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-15",
+  "title": "MP: 3 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4, tracker.db): unchanged from 14 Nov; three insiders bought about $2.7m on 12 Nov (largest Randall Weisenburger, about $1.98m). Proof: rare-earth magnet output and pricing in the next filing. Disproof: plan purchases in the footnotes (unread; sec.gov blocked). Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-15",
+  "title": "TSM: 31 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (tracker.db): unchanged from 14 Nov; many small same-day buys of about $4k each on 10 Nov look like an employee share plan (my inference), not open-market conviction. Noise.",
+  "real": false
  }
 ]
