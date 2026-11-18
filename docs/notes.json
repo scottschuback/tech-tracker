@@ -398,5 +398,13 @@
   "colour": "amber",
   "note": "Delivered, well above the range. F: filed 10-Q (accession 0001628280-26-067893, filed 28 Oct 2026) shows net sales of $4,312.8m for the quarter to 30 Sep 2026 against guidance (C) of $3,650-3,850M, up from $3,274.3m the quarter before. Real: data-centre power and cooling demand running ahead of the company's own plan.",
   "real": true
+ },
+ {
+  "date": "2026-11-18",
+  "title": "Anthropic, PBC  (ANT)  (CIK 0002130357): 'high bandwidth memory' in a S-1/A",
+  "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+  "colour": "amber",
+  "note": "F: Anthropic filed a third amended S-1 (file name 'sx1ax3') on 17 Nov 2026, and it still uses the phrase 'high bandwidth memory' (HBM, the stacked memory that sits next to AI chips). Anthropic is a buyer of AI compute, so this reads as demand for HBM and accelerators, not a new supplier. Source passage NOT read this run: sec.gov is blocked by this session's network policy, so no figures are quoted. Another amendment means the IPO is moving forward but changes no tracker card. Noise for the business today. Read the compute and memory commitment sections once sec.gov is reachable.",
+  "real": false
  }
 ]
