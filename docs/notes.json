@@ -286,5 +286,117 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-11-17",
+  "title": "D-Wave Quantum Inc.: Customers taking longer to pay: 47 days a year ago, 71 now",
+  "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000186/qbts-20260930.htm",
+  "colour": "amber",
+  "note": "F (filed 10-Q numbers in data.json): money owed by customers was $3.543m at 30 Sep 2026, up 84% on a year ago, while quarterly revenue was $4.513m, up 21%. On a revenue base this small, one or two large invoices move the days figure a lot. The 10-Q wording on why was not read (sec.gov could not be reached from this morning's routine session, so the passage was NOT read.) Noise for now; becomes real only if it keeps rising next quarter. No card change.",
+  "real": false
+ },
+ {
+  "date": "2026-11-17",
+  "title": "D-Wave Quantum Inc.: Gross margin down: 71% to 53%",
+  "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000186/qbts-20260930.htm",
+  "colour": "amber",
+  "note": "F (filed 10-Q numbers in data.json): Q3 2026 gross profit $2.386m on revenue $4.513m, a 53% gross margin against 71% a year ago. Cause (product mix, system sales vs cloud access, or new costs from the Quantum Circuits acquisition) is unconfirmed: sec.gov could not be reached from this morning's routine session, so the passage was NOT read. Provisionally noise because the dollar amounts are tiny; recheck the 10-Q MD&A. No card change.",
+  "real": false
+ },
+ {
+  "date": "2026-11-17",
+  "title": "D-Wave Quantum Inc. (QBTS): 'warrant to purchase' in 10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000186/qbts-20260930.htm",
+  "colour": "amber",
+  "note": "Phrase match in the Q3 2026 10-Q filed 16 Nov 2026 (F). sec.gov could not be reached from this morning's routine session, so the passage was NOT read. Not yet known whether this is a new customer or supplier warrant (which would matter for supply position) or the existing listed warrants. Real/noise undecided; marked noise until read. Recheck.",
+  "real": false
+ },
+ {
+  "date": "2026-11-17",
+  "title": "WESTERN DIGITAL CORP: 8-K Item 1.01 new material agreement (16 Nov 2026)",
+  "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526463554/d162653d8k.htm",
+  "colour": "amber",
+  "note": "F: Western Digital filed an 8-K on 16 Nov 2026 under Item 1.01 (new material agreement) with Exhibit 10.1. The exhibit contains the words 'take-or-pay' and 'prepayment', which usually means a long-term supply deal where a customer pays ahead or commits to fixed volumes. sec.gov could not be reached from this morning's routine session, so the passage was NOT read. Counterparty, size and term unknown. Likely real for the Storage card (hard-drive supply lock-in), but not confirmed; recheck first thing next run. Any prepayment must stay out of earnings.",
+  "real": true
+ },
+ {
+  "date": "2026-11-17",
+  "title": "WESTERN DIGITAL CORP: 'take-or-pay' and 'prepayment' in 8-K Exhibit 10.1",
+  "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526463554/d162653dex101.htm",
+  "colour": "amber",
+  "note": "F: Same filing as the WDC Item 1.01 8-K above; both phrases sit in the agreement itself (Exhibit 10.1). sec.gov could not be reached from this morning's routine session, so the passage was NOT read. Need to read: who pays whom ahead, how much, over what years, and whether the take-or-pay binds the customer or Western Digital. Tracker card unchanged until read.",
+  "real": true
+ },
+ {
+  "date": "2026-11-17",
+  "title": "SK hynix Inc. (SKHY): 'purchase commitment' in 6-K (16 Nov 2026)",
+  "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526461909/d166755d6k.htm",
+  "colour": "amber",
+  "note": "F: SK hynix filed a 6-K on 16 Nov 2026 containing 'purchase commitment'. sec.gov could not be reached from this morning's routine session, so the passage was NOT read. Unknown whether it is a customer commitment for memory (real, a supply signal) or a routine equipment or financing disclosure (noise). Marked noise until read; recheck.",
+  "real": false
+ },
+ {
+  "date": "2026-11-17",
+  "title": "ADVANCED MICRO DEVICES INC: 8-K/A Item 3.02 unregistered shares or warrants (16 Nov 2026)",
+  "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526462340/d105780d8ka.htm",
+  "colour": "amber",
+  "note": "F: AMD filed an amended 8-K (8-K/A) on 16 Nov 2026 under Item 3.02, the item where customer warrants and unregistered share issues appear. An amendment usually corrects or completes an earlier filing rather than announcing a new deal. sec.gov could not be reached from this morning's routine session, so the passage was NOT read. Which earlier 8-K it amends and what changed is unknown. Card unchanged; recheck.",
+  "real": false
+ },
+ {
+  "date": "2026-11-17",
+  "title": "QBTS: verdict moved from Weak to Watch",
+  "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000186/qbts-20260930.htm",
+  "colour": "amber",
+  "note": "Candidate to price. F (data.json): 2 of 3 filed traits (revenue grew every year, gross margin 60%+ on the annual test), growth speeding up, and filed contracted backlog of $38.3m at 30 Sep 2026, up 1221% on a year ago, against quarterly revenue of $4.513m. Would prove it: backlog turning into revenue over the next 2-3 quarters with margins back above 60%. Would disprove it: the backlog being one contract or acquisition-driven, customers paying ever slower (71 days now), or the operating loss ($53.5m this quarter) not narrowing. Data quirk: the card says 'Revenue tiny and falling' while revenue is +21% on a year ago; worth a look in the code when Scott asks.",
+  "real": true
+ },
+ {
+  "date": "2026-11-17",
+  "title": "QBTS: filed backlog up +1221% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000186/qbts-20260930.htm",
+  "colour": "green",
+  "note": "Candidate to price. F (data.json): backlog $38.3m at 30 Sep 2026 (the mover text rounds it to '0.0B'). The jump from a tiny base is often one large system sale. sec.gov could not be reached from this morning's routine session, so the passage was NOT read. What was added, and when it ships, is not yet confirmed. Would prove it: a named customer and delivery dates in the 10-Q; would disprove it: backlog that is mostly cancellable or tied to the acquisition.",
+  "real": true
+ },
+ {
+  "date": "2026-11-17",
+  "title": "SNDK: due 2026-11-15 — FQ1 FY27 revenue $10.30-10.80B",
+  "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/",
+  "colour": "amber",
+  "note": "Delivered, above the range. F: filed 10-Q (accession 0001628280-26-068601, filed 30 Oct 2026) shows revenue of $11,031m for the quarter to 2 Oct 2026, against company guidance (C) of $10.30-10.80B. Previous quarter was $8,965m. Promise ledger updated. Price is still down sharply from its high (a separate mover), so the share move is noise against filed delivery.",
+  "real": true
+ },
+ {
+  "date": "2026-11-17",
+  "title": "SMCI: due 2026-11-15 — Q1 FY27 net sales $14.5-15.5B",
+  "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000027/",
+  "colour": "amber",
+  "note": "Delivered, far above the range. F: filed 10-Q (accession 0001375365-26-000027, filed 6 Nov 2026) shows net sales of $19,946m for the quarter to 30 Sep 2026 against guidance (C) of $14.5-15.5B, up from $11,120m the quarter before. Caution (F): operating cash flow was -$434m and money owed by customers reached $9,685m; customer advances of $4,329m stay out of earnings. Real: a big step up in server shipments, but cash has not followed yet.",
+  "real": true
+ },
+ {
+  "date": "2026-11-17",
+  "title": "QCOM: due 2026-11-15 — Q4 FY26 revenue $9.7-10.5B",
+  "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/",
+  "colour": "amber",
+  "note": "Delivered, inside the range. F: FY26 10-K (accession 0000804328-26-000128, filed 4 Nov 2026) gives Q4 revenue of $10,322m (full year minus the three filed quarters) against guidance (C) of $9.7-10.5B. Gross margin 51% vs 55% a year ago. The 10-K's auditor report (opinion, critical audit matters, internal controls, auditor change) still has to be read: sec.gov could not be reached from this morning's routine session, so the passage was NOT read.",
+  "real": true
+ },
+ {
+  "date": "2026-11-17",
+  "title": "TER: due 2026-11-15 — Q3 2026 revenue $1,200-1,300M",
+  "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526441091/",
+  "colour": "amber",
+  "note": "Delivered, just above the top of the range. F: filed 10-Q (accession 0001193125-26-441091, filed 30 Oct 2026) shows revenue of $1,305.95m for the quarter to 27 Sep 2026 against guidance (C) of $1,200-1,300M; prior quarter $1,328.99m. Promise ledger updated.",
+  "real": true
+ },
+ {
+  "date": "2026-11-17",
+  "title": "VRT: due 2026-11-15 — Q3 2026 net sales $3,650-3,850M",
+  "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/",
+  "colour": "amber",
+  "note": "Delivered, well above the range. F: filed 10-Q (accession 0001628280-26-067893, filed 28 Oct 2026) shows net sales of $4,312.8m for the quarter to 30 Sep 2026 against guidance (C) of $3,650-3,850M, up from $3,274.3m the quarter before. Real: data-centre power and cooling demand running ahead of the company's own plan.",
+  "real": true
  }
 ]
