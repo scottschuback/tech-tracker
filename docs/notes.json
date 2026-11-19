@@ -2230,5 +2230,141 @@
   "colour": "amber",
   "note": "F: Anthropic filed a third amended S-1 (file name 'sx1ax3') on 17 Nov 2026, and it still uses the phrase 'high bandwidth memory' (HBM, the stacked memory that sits next to AI chips). Anthropic is a buyer of AI compute, so this reads as demand for HBM and accelerators, not a new supplier. Source passage NOT read this run: sec.gov is blocked by this session's network policy, so no figures are quoted. Another amendment means the IPO is moving forward but changes no tracker card. Noise for the business today. Read the compute and memory commitment sections once sec.gov is reachable.",
   "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "Hewlett Packard Enterprise Co: 8-K 1.01,5.02,7.01,9.01 (8-K)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000092/hpe-20261118.htm",
+  "colour": "amber",
+  "note": "F: HPE filed an 8-K on 18 Nov 2026 covering a new material agreement (Item 1.01), a director or senior officer change (Item 5.02) and an investor statement (Item 7.01). Source passage NOT read: sec.gov is blocked by this session's network policy, and a web search found no matching HPE release, so I cannot say what the agreement is, who changed, or quote any figure. Whether it is real or noise is not yet known: a supply or financing deal could change the Servers and racks card (filed backlog $10.9B, +8% on a year ago, per data.json); a routine officer swap would not. Re-read once sec.gov is reachable.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "META: share price -20% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "New mover today. F (10-Q filed 22 Oct 2026, accn 0001628280-26-066773, via data.json): revenue $64.6B for the quarter to 30 Sep, +26% on a year ago, but operating margin fell to 20.1% from 40.1% a year ago and gross margin to 79.3% from 82.0%. The reason for the margin drop is not read (sec.gov blocked); my inference is the AI capex and staff build, which would make this a real issue for returns, not just price noise. Proof it is noise: the next 10-Q shows margin recovering with revenue still growing 20%+. Disproof: margin falls again while capex rises. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "ETN: 2 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4, tracker.db): Gerald Johnson bought 300 shares (about $102k) and David B Foster 200 shares (about $69k), both filed 17 Nov 2026; about $0.17m in total. Small sums against Eaton's size, so a weak signal. Proof it means something: data-centre power orders keep growing in the next filing. Disproof: Form 4 footnotes show plan or reinvestment buys (unread; sec.gov blocked). Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "MP: 3 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4, tracker.db): now about $2.9m; Ryan Corbett added more on 16 and 17 Nov (about $129k and $92k) on top of the 12 Nov buys (largest Randall Weisenburger, about $1.98m). Proof: magnet output and pricing in the next filing. Disproof: plan purchases in the footnotes (unread; sec.gov blocked). Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "BX: 2 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4, tracker.db): most of the $2.0m is Blackstone Holdings IV L.P., a Blackstone entity, buying on 23 Oct at $26.20 a share, far below the $119.92 paid in Ruth Porat's $15k buy on 12 Nov. So it is likely a different Blackstone security, not a manager buying BX stock (my inference; Form 4 unread, sec.gov blocked). Not a conviction signal. Noise.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "COHR: 2 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4, tracker.db): unchanged; James Anderson about $997k and Enrico Digirolomo about $223k, both 12 Nov. Proof: datacom optics demand holds in the next 10-Q. Disproof: plan purchases (unread). Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "TSM: 32 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (tracker.db): one more filer than yesterday; still mostly same-day buys of about $3-5k each (10 Nov at $70.50) that look like an employee share plan (my inference). Noise.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "AMAT: share price -41% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price, data.json): -41% from the 90-day high, about the same as yesterday; no new filing changes the Strong verdict. Price noise until a filing says otherwise. Proof of a real problem: the next 10-Q or results release shows orders, backlog or guidance falling. Disproof: next filed revenue keeps growing as guided. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "AVGO: share price -20% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price, data.json): -20% from the 90-day high, about the same as yesterday; no new filing changes the Strong verdict. Price noise until a filing says otherwise. Proof of a real problem: the next 10-Q or results release shows orders, backlog or guidance falling. Disproof: next filed revenue keeps growing as guided. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "CRDO: share price -56% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price, data.json): -56% from the 90-day high, about the same as yesterday; no new filing changes the Strong verdict. Price noise until a filing says otherwise. Proof of a real problem: the next 10-Q or results release shows orders, backlog or guidance falling. Disproof: next filed revenue keeps growing as guided. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "EME: share price -25% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price, data.json): -25% from the 90-day high, about the same as yesterday; no new filing changes the Strong verdict. Price noise until a filing says otherwise. Proof of a real problem: the next 10-Q or results release shows orders, backlog or guidance falling. Disproof: next filed revenue keeps growing as guided. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "GOOGL: share price -26% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price, data.json): -26% from the 90-day high, about the same as yesterday; no new filing changes the Strong verdict. Price noise until a filing says otherwise. Proof of a real problem: the next 10-Q or results release shows orders, backlog or guidance falling. Disproof: next filed revenue keeps growing as guided. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "KLAC: share price -37% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price, data.json): -37% from the 90-day high, about the same as yesterday; no new filing changes the Strong verdict. Price noise until a filing says otherwise. Proof of a real problem: the next 10-Q or results release shows orders, backlog or guidance falling. Disproof: next filed revenue keeps growing as guided. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "NVDA: share price -35% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price, data.json): -35% from the 90-day high, about the same as yesterday; no new filing changes the Strong verdict. Price noise until a filing says otherwise. Proof of a real problem: the next 10-Q or results release shows orders, backlog or guidance falling. Disproof: next filed revenue keeps growing as guided. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "RMBS: share price -31% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price, data.json): -31% from the 90-day high, about the same as yesterday; no new filing changes the Strong verdict. Price noise until a filing says otherwise. Proof of a real problem: the next 10-Q or results release shows orders, backlog or guidance falling. Disproof: next filed revenue keeps growing as guided. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "SNDK: share price -58% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price, data.json): -58% from the 90-day high, about the same as yesterday; no new filing changes the Strong verdict. Price noise until a filing says otherwise. Proof of a real problem: the next 10-Q or results release shows orders, backlog or guidance falling. Disproof: next filed revenue keeps growing as guided. Candidate to price.",
+  "real": false
+ },
+ {
+  "date": "2026-11-19",
+  "title": "STRL: share price -62% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R (price, data.json): -62% from the 90-day high, about the same as yesterday; no new filing changes the Strong verdict. Price noise until a filing says otherwise. Proof of a real problem: the next 10-Q or results release shows orders, backlog or guidance falling. Disproof: next filed revenue keeps growing as guided. Candidate to price.",
+  "real": false
  }
 ]
