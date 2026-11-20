@@ -286,5 +286,341 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "Addressing Remote Access to Advanced Semiconductors",
+  "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+  "colour": "red",
+  "note": "F (Federal Register abstract in data.json): an interim final rule that adds licence requirements for exports, reexports or in-country transfers 'to overseas data centers that remotely supply significant volumes of compute to companies headquartered in Country Group D:5 or Macau' (D:5 includes China). R (law-firm summaries, not the rule text: Morgan Lewis https://www.morganlewis.com/pubs/2026/11/commerce-targets-remote-access-to-advanced-semiconductors-in-new-interim-final-rule ; Steptoe https://www.steptoe.com/en/news-publications/international-compliance-blog/bis-targets-data-center-remote-access-and-imposes-steeper-requirements-on-foundries-and-osats.html ; Pillsbury https://www.pillsburylaw.com/en/news-and-insights/commerce-restricts-remote-access-advanced-chips.html): the trigger is data centres giving more than 12 million aggregate TPP (total processing performance, a chip-power measure); it adds country licence needs for Brazil, Indonesia, Malaysia, Singapore and Thailand with a reporting exclusion for US-headquartered buyers; it puts licence duties on foundries and OSATs (outsourced packaging and test firms) making chips for non-approved designers; and it formally rescinds the AI Diffusion Rule. Real issue: it closes the 'rent the GPUs offshore' route for Chinese firms and adds paperwork and delay to Southeast Asian data-centre sales (NVDA, AMD, AVGO, SMCI, DELL, neoclouds such as CRWV and NBIS) and screening work for TSM, INTC foundry and AMKR. Rescinding the Diffusion Rule lowers risk elsewhere, so the net effect is uncertain until the rule text and company comments are read. No card changes today; the Federal Register page could not be opened from this session, so the R items must be checked against the rule text.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "Anthropic, PBC  (ANT)  (CIK 0002130357): 'high bandwidth memory' in a 424B4",
+  "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+  "colour": "amber",
+  "note": "F: Anthropic filed its final IPO prospectus (424B4) on 19 Nov 2026; the filing mentions 'high bandwidth memory', most likely in its risk factors on chip and memory supply. C (Anthropic release https://www.anthropic.com/news/anthropic-prices-initial-public-offering): shares expected to trade on Nasdaq Global Select under 'ANT' from 19 Nov 2026. Real for the tracker: Anthropic is a top compute buyer for GOOGL (TPU), AMZN (Trainium) and NVDA, so its filed compute commitments are demand evidence for several cards. Proposal for Scott: add ANT to the 'Who pays' layer; the prospectus could not be opened from this session, so its compute-commitment figures still need reading.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "SB Energy, Inc.  (SBE)  (CIK 0002133037): 'high bandwidth memory' in a S-1/A",
+  "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026075026/sbenergy-sx1a3.htm",
+  "colour": "amber",
+  "note": "F: SB Energy filed its third amended IPO registration (S-1/A) on 19 Nov 2026. R (Renaissance Capital https://www.renaissancecapital.com/IPO-Center/News/121420/softbank-backed-power-infrastructure-developer-sb-energy-files-for-an ; SiliconANGLE https://siliconangle.com/2026/09/01/softbanks-sb-energy-ai-infrastructure-unit-files-to-go-public/): a SoftBank-backed developer of gigawatt-scale data-centre campuses with their own power plants, with OpenAI as investor and anchor tenant. Real but indirect: a buyer of power, cooling and construction (GEV, VRT, ETN, PWR, STRL) rather than a chip company. Worth a look before adding to 'Who pays' or 'Data-centre construction'; the filing itself was not opened from this session.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "TFP Group Ltd  (TFP)  (CIK 0002128185): 'AI data center' in a F-1/A",
+  "url": "https://www.sec.gov/Archives/edgar/data/2128185/000162828026075089/tfpgrouplimited-fx1a1.htm",
+  "colour": "amber",
+  "note": "Likely false positive. F: an amended foreign IPO registration (F-1/A) filed 19 Nov 2026 that uses the phrase 'AI data center'. R (IPO calendar https://therighttrader.com/ipo-calendar/tfp): TFP is a London-based insurance managing general agent, so the phrase is probably about insuring data-centre risks, not building or supplying them. Noise for the tracker; do not add. Filing not opened from this session.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "AMAT: share price -39% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/",
+  "colour": "amber",
+  "note": "Mostly noise: the price fell but no filing changed the verdict. R (press, e.g. https://finance.yahoo.com/markets/article/white-hot-semiconductor-stocks-like-sandisk-and-micron-are-now-in-meltdown-mode-133419343.html ; https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026): a sector-wide chip and AI-infrastructure sell-off around 5 Nov 2026, blamed on doubts about AI spending returns, rate-hike odds and calls by incoming Democratic senators to slow data-centre building; outlets disagree on the size. F: last filed quarter (to 26 Jul 2026) revenue $9.1B, +25% on a year ago, operating margin 34% (was 31%), $3.3B of customer prepayments kept out of earnings. Disproved if the next 10-K shows orders or China sales falling, or prepayments shrinking. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "KLAC: share price -35% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000034/",
+  "colour": "amber",
+  "note": "Mostly noise: the price fell but no filing changed the verdict. R (press, e.g. https://finance.yahoo.com/markets/article/white-hot-semiconductor-stocks-like-sandisk-and-micron-are-now-in-meltdown-mode-133419343.html ; https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026): a sector-wide chip and AI-infrastructure sell-off around 5 Nov 2026, blamed on doubts about AI spending returns, rate-hike odds and calls by incoming Democratic senators to slow data-centre building; outlets disagree on the size. F: quarter to 30 Sep 2026 revenue $4.1B, +29%, operating margin 44% (was 41%), $1.5B customer prepayments. Disproved if the December-quarter filing shows revenue or prepayments falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "CRDO: share price -57% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/",
+  "colour": "amber",
+  "note": "Mostly noise: the price fell but no filing changed the verdict. R (press, e.g. https://finance.yahoo.com/markets/article/white-hot-semiconductor-stocks-like-sandisk-and-micron-are-now-in-meltdown-mode-133419343.html ; https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026): a sector-wide chip and AI-infrastructure sell-off around 5 Nov 2026, blamed on doubts about AI spending returns, rate-hike odds and calls by incoming Democratic senators to slow data-centre building; outlets disagree on the size. F: quarter to 1 Aug 2026 revenue $479M, +115% but growth slowing sharply; gross margin 65% (was 67%); operating cash flow under 70% of profit. Disproved if the October-quarter 10-Q shows growth slowing further or the deposit-funded capacity going unused. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "SNDK: share price -58% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/",
+  "colour": "amber",
+  "note": "Mostly noise: the price fell but no filing changed the verdict. R (press, e.g. https://finance.yahoo.com/markets/article/white-hot-semiconductor-stocks-like-sandisk-and-micron-are-now-in-meltdown-mode-133419343.html ; https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026): a sector-wide chip and AI-infrastructure sell-off around 5 Nov 2026, blamed on doubts about AI spending returns, rate-hike odds and calls by incoming Democratic senators to slow data-centre building; outlets disagree on the size. F: quarter to 2 Oct 2026 revenue $11.0B, +378%, gross margin 85% (was 30%) on flash prices; inventory days up from 107 to 166. Cyclical: proved if flash prices hold in the next quarter; disproved if prices or the $88.9B filed backlog fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "STRL: share price -62% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000125/",
+  "colour": "amber",
+  "note": "Mostly noise: the price fell but no filing changed the verdict. R (press, e.g. https://finance.yahoo.com/markets/article/white-hot-semiconductor-stocks-like-sandisk-and-micron-are-now-in-meltdown-mode-133419343.html ; https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026): a sector-wide chip and AI-infrastructure sell-off around 5 Nov 2026, blamed on doubts about AI spending returns, rate-hike odds and calls by incoming Democratic senators to slow data-centre building; outlets disagree on the size. F: quarter to 30 Sep 2026 revenue $1.6B, +127%, backlog $4.0B, +57%, $917M customer prepayments. The biggest fall on the list; exposed if data-centre building slows. Disproved if backlog stops growing next quarter. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "RMBS: share price -31% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/917273/000119312526431941/",
+  "colour": "amber",
+  "note": "Mostly noise: the price fell but no filing changed the verdict. R (press, e.g. https://finance.yahoo.com/markets/article/white-hot-semiconductor-stocks-like-sandisk-and-micron-are-now-in-meltdown-mode-133419343.html ; https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026): a sector-wide chip and AI-infrastructure sell-off around 5 Nov 2026, blamed on doubts about AI spending returns, rate-hike odds and calls by incoming Democratic senators to slow data-centre building; outlets disagree on the size. F: quarter to 30 Sep 2026 revenue $218M, +22%, gross margin 78% (was 80%); inventory days up from 111 to 168. Disproved if inventory keeps building while sales slow. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "NVDA: share price -37% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/",
+  "colour": "amber",
+  "note": "Mostly noise: the price fell but no filing changed the verdict. R (press, e.g. https://finance.yahoo.com/markets/article/white-hot-semiconductor-stocks-like-sandisk-and-micron-are-now-in-meltdown-mode-133419343.html ; https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026): a sector-wide chip and AI-infrastructure sell-off around 5 Nov 2026, blamed on doubts about AI spending returns, rate-hike odds and calls by incoming Democratic senators to slow data-centre building; outlets disagree on the size. F: last filed quarter (to 26 Jul 2026) revenue $96.2B, +106%; guidance $108.0B +/-2% for Q3 FY27, due by 30 Nov. The Q3 10-Q is the test: at or above the range proves the business held; below disproves. The new remote-access rule (red item today) is a fresh real risk to watch in that filing. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "GOOGL: share price -25% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/",
+  "colour": "amber",
+  "note": "Mostly noise: the price fell but no filing changed the verdict. R (press, e.g. https://finance.yahoo.com/markets/article/white-hot-semiconductor-stocks-like-sandisk-and-micron-are-now-in-meltdown-mode-133419343.html ; https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026): a sector-wide chip and AI-infrastructure sell-off around 5 Nov 2026, blamed on doubts about AI spending returns, rate-hike odds and calls by incoming Democratic senators to slow data-centre building; outlets disagree on the size. F: quarter to 30 Sep 2026 revenue $127.6B, +25%; filed backlog $567.7B, +260%; true earnings $33.6B vs reported $26.5B after stripping investment gains. Disproved if backlog is drawn down without revenue following. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "META: share price -21% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/",
+  "colour": "amber",
+  "note": "Mostly noise: the price fell but no filing changed the verdict. R (press, e.g. https://finance.yahoo.com/markets/article/white-hot-semiconductor-stocks-like-sandisk-and-micron-are-now-in-meltdown-mode-133419343.html ; https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026): a sector-wide chip and AI-infrastructure sell-off around 5 Nov 2026, blamed on doubts about AI spending returns, rate-hike odds and calls by incoming Democratic senators to slow data-centre building; outlets disagree on the size. F: quarter to 30 Sep 2026 revenue $64.6B, +26%, but operating margin 20% (was 40%) as AI spending rises. Here the price fall partly reflects a real change: margin halved. Proved if revenue growth holds while spending peaks; disproved if margin keeps falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "AVGO: share price -20% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/",
+  "colour": "amber",
+  "note": "Mostly noise: the price fell but no filing changed the verdict. R (press, e.g. https://finance.yahoo.com/markets/article/white-hot-semiconductor-stocks-like-sandisk-and-micron-are-now-in-meltdown-mode-133419343.html ; https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026): a sector-wide chip and AI-infrastructure sell-off around 5 Nov 2026, blamed on doubts about AI spending returns, rate-hike odds and calls by incoming Democratic senators to slow data-centre building; outlets disagree on the size. F: last filed quarter (to 2 Aug 2026) revenue $29.6B, +86%; backlog $179.2B, +552%; company guided Q4 FY26 AI revenue $21.7B (due 15 Dec). The Q4 release is the test. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "EME: share price -25% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/105634/000010563426000130/",
+  "colour": "amber",
+  "note": "Mostly noise: the price fell but no filing changed the verdict. R (press, e.g. https://finance.yahoo.com/markets/article/white-hot-semiconductor-stocks-like-sandisk-and-micron-are-now-in-meltdown-mode-133419343.html ; https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026): a sector-wide chip and AI-infrastructure sell-off around 5 Nov 2026, blamed on doubts about AI spending returns, rate-hike odds and calls by incoming Democratic senators to slow data-centre building; outlets disagree on the size. F: quarter to 30 Sep 2026 revenue $5.5B, +29%; backlog $18.6B, +47%. Disproved if backlog falls in the year-end 10-K. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "ALAB: share price -52% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000045/",
+  "colour": "amber",
+  "note": "Mostly noise: the price fell but no filing changed the verdict. R (press, e.g. https://finance.yahoo.com/markets/article/white-hot-semiconductor-stocks-like-sandisk-and-micron-are-now-in-meltdown-mode-133419343.html ; https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026): a sector-wide chip and AI-infrastructure sell-off around 5 Nov 2026, blamed on doubts about AI spending returns, rate-hike odds and calls by incoming Democratic senators to slow data-centre building; outlets disagree on the size. F: quarter to 30 Sep 2026 revenue $585M, +154%, but customers pay slower (17 to 44 days), inventory days 86 to 113, gross margin 76% to 72%. These warnings already cut the verdict to Watch on 5 Nov (separate note). Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "ANET: share price -21% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000254/",
+  "colour": "amber",
+  "note": "Mostly noise: the price fell but no filing changed the verdict. R (press, e.g. https://finance.yahoo.com/markets/article/white-hot-semiconductor-stocks-like-sandisk-and-micron-are-now-in-meltdown-mode-133419343.html ; https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026): a sector-wide chip and AI-infrastructure sell-off around 5 Nov 2026, blamed on doubts about AI spending returns, rate-hike odds and calls by incoming Democratic senators to slow data-centre building; outlets disagree on the size. F: quarter to 30 Sep 2026 revenue $3.7B, +58%, operating margin 45% (was 42%), $5.1B customer prepayments. R on the card: Nvidia overtook it in data-centre Ethernet (IDC). Disproved if prepayments fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "CDNS: share price -21% from its 90-day high while rated Strong",
+  "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000121/",
+  "colour": "amber",
+  "note": "Mostly noise: the price fell but no filing changed the verdict. R (press, e.g. https://finance.yahoo.com/markets/article/white-hot-semiconductor-stocks-like-sandisk-and-micron-are-now-in-meltdown-mode-133419343.html ; https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026): a sector-wide chip and AI-infrastructure sell-off around 5 Nov 2026, blamed on doubts about AI spending returns, rate-hike odds and calls by incoming Democratic senators to slow data-centre building; outlets disagree on the size. F: quarter to 30 Sep 2026 revenue $1.6B, +22%; backlog $8.2B, +17%; operating margin 26% (was 32%). No longer flagged since 22 Oct. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "ALAB: verdict moved from Strong to Watch",
+  "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000045/",
+  "colour": "amber",
+  "note": "F: 10-Q filed 4 Nov 2026 (quarter to 30 Sep). Revenue $585M, +154%, but three health warnings: customers take 44 days to pay (17 a year ago), inventory 113 days (86), gross margin 72% (76%). Real: slower collections plus stock build-up can mean pushed-out orders or channel stuffing. Proved by days falling back next quarter; disproved if they rise again. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "APO: verdict moved from Watch to Weak",
+  "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000067/",
+  "colour": "amber",
+  "note": "F: 10-Q filed for the quarter to 30 Sep 2026: revenue $4.7B, -52% on a year ago, operating margin -31% (was 30%). Mostly mark-to-market swings at the Athene insurance arm (see the Q2 reason in data/reasons.yaml), not lost fee business; Apollo is a data-centre financier, not a technology company. Noise for the technology view. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "BX: verdict moved from Watch to Weak",
+  "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526451802/",
+  "colour": "amber",
+  "note": "F: quarter to 30 Sep 2026 revenue $3.1B, -1% on a year ago and -39% on the prior quarter; operating margin 50% (was 47%). Swings in performance fees and investment marks, not the data-centre book; reason for the -39% quarter move not yet read from the 10-Q. Noise for the technology view. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "RGTI: verdict moved from Watch to Weak",
+  "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926125161/",
+  "colour": "amber",
+  "note": "F: quarter to 30 Sep 2026 revenue $1.4M, -28%; backlog $2.9M, -47%; customers take 251 days to pay (106). Reported loss $3.1M flattered by a warrant revaluation; true loss $23M. Real: the order book is shrinking. Proved weak if the 108-qubit C-DAC system (promised by 31 Dec) slips. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "QBTS: verdict moved from Weak to Watch",
+  "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000186/",
+  "colour": "amber",
+  "note": "F: quarter to 30 Sep 2026 revenue $4.5M, +21%; backlog $38.3M, +1221%; gross margin 53% (was 71%). The upgrade rests on tiny numbers; the backlog jump is probably one or two large contracts, not yet read in the 10-Q. Proved if the backlog turns into revenue over the next two quarters. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "QBTS: filed backlog up +1221% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000186/",
+  "colour": "amber",
+  "note": "F: backlog $38.3M at 30 Sep 2026 (data.json shows 0.0B because of rounding). See the verdict note: likely one or two large system contracts; read the 10-Q before relying on it. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "CDNS: filed backlog up +17% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000121/",
+  "colour": "amber",
+  "note": "F: backlog $8.2B at 30 Sep 2026, +17%; $1.0B of customer prepayments. Normal multi-year design-tool licences; steady, not a step change. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "CRWV: filed backlog up +165% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/",
+  "colour": "amber",
+  "note": "F: backlog $132.3B at 30 Sep 2026, +165%; quarter revenue $3.7B, +168%; operating margin 6%, reported net loss $709M. Real demand, but the cards already note heavy debt; proved only if backlog turns into cash, not just revenue. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "EME: filed backlog up +47% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/105634/000010563426000130/",
+  "colour": "amber",
+  "note": "F: backlog $18.6B at 30 Sep 2026, +47%; $3.0B customer prepayments. Building work for data centres and factories; supports Strong. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "EQIX: filed backlog up +25% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000180/",
+  "colour": "amber",
+  "note": "F: backlog $15.9B at 30 Sep 2026, +25%; revenue +11%. Landlord, not the bottleneck; no card change. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "GEV: filed backlog up +45% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000163/",
+  "colour": "amber",
+  "note": "F: backlog $196.7B at 30 Sep 2026, +45%; $45.7B customer prepayments; gross margin 25% (was 19%). Gas-turbine slots sold years ahead; supports Leads its layer. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "GOOGL: filed backlog up +260% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/",
+  "colour": "amber",
+  "note": "F: backlog $567.7B at 30 Sep 2026, +260% (the card's older line says $519.5B). The tracker flags 'more than tripled': likely large cloud contracts with AI labs (Anthropic among them, R); the 10-Q note must be read to confirm which. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "IONQ: filed backlog up +728% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526449829/",
+  "colour": "amber",
+  "note": "F: backlog $1.2B at 30 Sep 2026, +728%; quarter revenue $174M, +336%; reported profit $564M but true earnings -$474M after stripping a warrant revaluation and tax credit. Probably acquisition-driven; check the 10-Q before relying on it. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "MSFT: filed backlog up +72% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/",
+  "colour": "amber",
+  "note": "F: backlog $683.0B at 30 Sep 2026, +72%; $66.9B customer prepayments. Mostly long cloud contracts including OpenAI (R); supports Leads its layer. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "PWR: filed backlog up +99% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000041/",
+  "colour": "amber",
+  "note": "F: backlog $41.8B at 30 Sep 2026, +99%; revenue $12.0B, +57%. Grid and power construction demand is real. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "RMBS: filed backlog up +79% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/917273/000119312526431941/",
+  "colour": "amber",
+  "note": "F: backlog $42.9M at 30 Sep 2026, +79% (data.json shows 0.0B by rounding). Under 10% of a year's sales, so not a real order book; ignore. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "SMCI: filed backlog up +451% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000027/",
+  "colour": "amber",
+  "note": "F: backlog $5.7B at 30 Sep 2026, +451%; quarter revenue $19.9B, +298%. Under 10% of a year's sales per the tracker, so revenue, not backlog, is the evidence. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "STRL: filed backlog up +57% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000125/",
+  "colour": "amber",
+  "note": "F: backlog $4.0B at 30 Sep 2026, +57%; $917M customer prepayments. Supports the site-work card despite the price fall. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "VST: filed backlog up +116% on a year ago",
+  "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000025/",
+  "colour": "amber",
+  "note": "F: backlog $7.8B at 30 Sep 2026, +116%; revenue $6.3B, +28%. Likely long power contracts with data-centre buyers; the 10-Q note was not read today. Candidate to price, not a buy signal.",
+  "real": true
+ },
+ {
+  "date": "2026-11-20",
+  "title": "BX: 2 insiders bought shares in the last 30 days",
+  "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526451802/",
+  "colour": "amber",
+  "note": "F (Form 4): 2 insiders bought about 2.0M on the open market in 30 days. Small against the firm; mildly positive. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "COHR: 2 insiders bought shares in the last 30 days",
+  "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000023/",
+  "colour": "amber",
+  "note": "F (Form 4): 2 insiders bought about 1.2M in 30 days. Card: revenue $2.4B, +50%, but inventory 211 days (148) and cash flow under 70% of profit. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "ETN: 2 insiders bought shares in the last 30 days",
+  "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000040/",
+  "colour": "amber",
+  "note": "F (Form 4): 2 insiders bought about 0.2M in 30 days. Too small to mean much. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "MP: 3 insiders bought shares in the last 30 days",
+  "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000057/",
+  "colour": "amber",
+  "note": "F (Form 4): 3 insiders bought about 2.9M in 30 days. Still loss-making (operating margin -15%); the buying is a mild sign of confidence. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-20",
+  "title": "TSM: 32 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "amber",
+  "note": "Probably a data error: TSMC is a foreign private issuer whose insiders do not normally file Form 4, yet the flag shows 30-32 buyers every day since 21 Oct. Likely the insider source is matching the wrong filer or counting ADR plan filings. Do not use; Scott to decide whether the insider source code should be checked (not changed by the routine). Candidate to price, not a buy signal.",
+  "real": false
  }
 ]
