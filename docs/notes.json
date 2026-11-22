@@ -2830,5 +2830,165 @@
   "colour": "green",
   "note": "Same as 20 Nov: probably a data error. TSMC is a foreign private issuer whose insiders do not normally file Form 4, yet the flag shows 30+ buyers daily since 21 Oct. Do not use. Scott to decide whether the insider source should be checked (the routine does not change code). Candidate to price, not a buy signal.",
   "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "Extension of the Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities",
+  "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22793/extension-of-the-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed",
+  "colour": "red",
+  "note": "Late note: this red item (first seen 8 Nov) was never written up. federalregister.gov is blocked in this session, so the rule text was not read. R (law-firm summaries: Skadden https://www.skadden.com/insights/publications/2026/11/bis-extends-suspension-of-affiliates-rule ; Lowenstein https://www.lowenstein.com/news-insights/publications/client-alerts/bis-rule-requiring-expanded-diligence-further-postponed-until-january-2027-gtns): Commerce pushed back, to 10 January 2027, the 'Affiliates Rule', which would put any company 50% or more owned by a blacklisted (Entity List) party under the same export licence rules as its owner. It is a short delay, not a withdrawal. Real but deferred: if it starts in January, chip, tool and equipment sellers (NVDA, AMD, AMAT, LRCX, KLAC) must screen Chinese customers' ownership more deeply and could lose some sales. No card changes; recheck before 10 January.",
+  "real": true
+ },
+ {
+  "date": "2026-11-22",
+  "title": "AMAT: share price -46% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Price gap now -46% from the 90-day high (was -40% on 2026-11-21). No new filing for AMAT in today's run (filings source quiet), so nothing in the business changed: noise on today's evidence. Almost every flagged name widened its gap on the same day, which points to a market or sector move rather than a company one. Still disproved only if the next 10-Q/10-K shows orders, backlog or margins falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "ANET: share price -23% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Price gap now -23% from the 90-day high (was -21% on 2026-11-20). No new filing for ANET in today's run (filings source quiet), so nothing in the business changed: noise on today's evidence. Almost every flagged name widened its gap on the same day, which points to a market or sector move rather than a company one. Still disproved only if the next 10-Q/10-K shows orders, backlog or margins falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "AVGO: share price -29% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Price gap now -29% from the 90-day high (was -20% on 2026-11-20). No new filing for AVGO in today's run (filings source quiet), so nothing in the business changed: noise on today's evidence. Almost every flagged name widened its gap on the same day, which points to a market or sector move rather than a company one. Still disproved only if the next 10-Q/10-K shows orders, backlog or margins falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "CDNS: share price -22% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Price gap now -22% from the 90-day high (was -21% on 2026-11-20). No new filing for CDNS in today's run (filings source quiet), so nothing in the business changed: noise on today's evidence. Almost every flagged name widened its gap on the same day, which points to a market or sector move rather than a company one. Still disproved only if the next 10-Q/10-K shows orders, backlog or margins falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "CRDO: share price -65% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Price gap now -65% from the 90-day high (was -58% on 2026-11-21). No new filing for CRDO in today's run (filings source quiet), so nothing in the business changed: noise on today's evidence. Almost every flagged name widened its gap on the same day, which points to a market or sector move rather than a company one. Still disproved only if the next 10-Q/10-K shows orders, backlog or margins falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "EME: share price -30% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Price gap now -30% from the 90-day high (was -26% on 2026-11-21). No new filing for EME in today's run (filings source quiet), so nothing in the business changed: noise on today's evidence. Almost every flagged name widened its gap on the same day, which points to a market or sector move rather than a company one. Still disproved only if the next 10-Q/10-K shows orders, backlog or margins falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "GOOGL: share price -30% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Price gap now -30% from the 90-day high (was -28% on 2026-11-21). No new filing for GOOGL in today's run (filings source quiet), so nothing in the business changed: noise on today's evidence. Almost every flagged name widened its gap on the same day, which points to a market or sector move rather than a company one. Still disproved only if the next 10-Q/10-K shows orders, backlog or margins falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "KLAC: share price -42% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Price gap now -42% from the 90-day high (was -36% on 2026-11-21). No new filing for KLAC in today's run (filings source quiet), so nothing in the business changed: noise on today's evidence. Almost every flagged name widened its gap on the same day, which points to a market or sector move rather than a company one. Still disproved only if the next 10-Q/10-K shows orders, backlog or margins falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "META: share price -28% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Price gap now -28% from the 90-day high (was -23% on 2026-11-21). No new filing for META in today's run (filings source quiet), so nothing in the business changed: noise on today's evidence. Almost every flagged name widened its gap on the same day, which points to a market or sector move rather than a company one. Still disproved only if the next 10-Q/10-K shows orders, backlog or margins falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "NVDA: share price -48% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Price gap now -48% from the 90-day high (was -39% on 2026-11-21). No new filing for NVDA in today's run (filings source quiet), so nothing in the business changed: noise on today's evidence. Almost every flagged name widened its gap on the same day, which points to a market or sector move rather than a company one. Still disproved only if the next 10-Q/10-K shows orders, backlog or margins falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "RMBS: share price -42% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Price gap now -42% from the 90-day high (was -33% on 2026-11-21). No new filing for RMBS in today's run (filings source quiet), so nothing in the business changed: noise on today's evidence. Almost every flagged name widened its gap on the same day, which points to a market or sector move rather than a company one. Still disproved only if the next 10-Q/10-K shows orders, backlog or margins falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "SNDK: share price -60% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Price gap now -60% from the 90-day high (was -60% on 2026-11-21). No new filing for SNDK in today's run (filings source quiet), so nothing in the business changed: noise on today's evidence. Almost every flagged name widened its gap on the same day, which points to a market or sector move rather than a company one. Still disproved only if the next 10-Q/10-K shows orders, backlog or margins falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "SNPS: share price -22% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "First note for SNPS. Price is 22% below its 90-day high while rated Strong. F (10-Q filed 26 Aug 2026, quarter to 31 Jul, figures from data.json): revenue $2.48bn, up 42% on a year ago; backlog $10.9bn. No new SNPS filing today, so this is a price move, not a business change: noise. Would be disproved if the next 10-Q shows backlog or the design-software order book shrinking. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "STRL: share price -66% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Price gap now -66% from the 90-day high (was -62% on 2026-11-21). No new filing for STRL in today's run (filings source quiet), so nothing in the business changed: noise on today's evidence. Almost every flagged name widened its gap on the same day, which points to a market or sector move rather than a company one. Still disproved only if the next 10-Q/10-K shows orders, backlog or margins falling. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "BX: 2 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4): 2 insiders bought shares in the last 30 days, about $2.0M in open-market buys (data.json). Same flag as 21 Nov; nothing new filed today. A mild sign of insider confidence, not a change in the business. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "COHR: 2 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4): 2 insiders bought shares in the last 30 days, about $1.2M in open-market buys (data.json). Same flag as 21 Nov; nothing new filed today. A mild sign of insider confidence, not a change in the business. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "ETN: 2 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4): 2 insiders bought shares in the last 30 days, about $0.2M in open-market buys (data.json). Same flag as 21 Nov; nothing new filed today. A mild sign of insider confidence, not a change in the business. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "MP: 3 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4): 3 insiders bought shares in the last 30 days, about $2.9M in open-market buys (data.json). Same flag as 21 Nov; nothing new filed today. A mild sign of insider confidence, not a change in the business. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-22",
+  "title": "TSM: 32 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "Same as 20-21 Nov: probably a data error. TSMC insiders do not normally file Form 4, yet the flag keeps showing 30+ buyers. Do not use until Scott decides whether the insider source should be checked. Candidate to price, not a buy signal.",
+  "real": false
  }
 ]
