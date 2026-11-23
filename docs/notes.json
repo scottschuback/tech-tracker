@@ -2990,5 +2990,149 @@
   "colour": "green",
   "note": "Same as 20-21 Nov: probably a data error. TSMC insiders do not normally file Form 4, yet the flag keeps showing 30+ buyers. Do not use until Scott decides whether the insider source should be checked. Candidate to price, not a buy signal.",
   "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "AMAT: share price -46% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: same price gap (figure from data.json, tag R). Today's run found no new filings for any tracked company (weekend; all filing sources quiet), so nothing in the business changed: noise on today's evidence. Proved if the next 10-Q/10-K keeps orders, backlog and margins intact; disproved if they fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "ANET: share price -23% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: same price gap (figure from data.json, tag R). Today's run found no new filings for any tracked company (weekend; all filing sources quiet), so nothing in the business changed: noise on today's evidence. Proved if the next 10-Q/10-K keeps orders, backlog and margins intact; disproved if they fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "AVGO: share price -29% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: same price gap (figure from data.json, tag R). Today's run found no new filings for any tracked company (weekend; all filing sources quiet), so nothing in the business changed: noise on today's evidence. Proved if the next 10-Q/10-K keeps orders, backlog and margins intact; disproved if they fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "CDNS: share price -22% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: same price gap (figure from data.json, tag R). Today's run found no new filings for any tracked company (weekend; all filing sources quiet), so nothing in the business changed: noise on today's evidence. Proved if the next 10-Q/10-K keeps orders, backlog and margins intact; disproved if they fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "CRDO: share price -65% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: same price gap (figure from data.json, tag R). Today's run found no new filings for any tracked company (weekend; all filing sources quiet), so nothing in the business changed: noise on today's evidence. Proved if the next 10-Q/10-K keeps orders, backlog and margins intact; disproved if they fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "EME: share price -30% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: same price gap (figure from data.json, tag R). Today's run found no new filings for any tracked company (weekend; all filing sources quiet), so nothing in the business changed: noise on today's evidence. Proved if the next 10-Q/10-K keeps orders, backlog and margins intact; disproved if they fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "GOOGL: share price -30% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: same price gap (figure from data.json, tag R). Today's run found no new filings for any tracked company (weekend; all filing sources quiet), so nothing in the business changed: noise on today's evidence. Proved if the next 10-Q/10-K keeps orders, backlog and margins intact; disproved if they fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "KLAC: share price -42% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: same price gap (figure from data.json, tag R). Today's run found no new filings for any tracked company (weekend; all filing sources quiet), so nothing in the business changed: noise on today's evidence. Proved if the next 10-Q/10-K keeps orders, backlog and margins intact; disproved if they fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "META: share price -28% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: same price gap (figure from data.json, tag R). Today's run found no new filings for any tracked company (weekend; all filing sources quiet), so nothing in the business changed: noise on today's evidence. Proved if the next 10-Q/10-K keeps orders, backlog and margins intact; disproved if they fall. Candidate to price, not a buy signal. Card warning from 20 Nov (operating margin halved in the last filed quarter) still stands.",
+  "real": true
+ },
+ {
+  "date": "2026-11-23",
+  "title": "NVDA: share price -48% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: same price gap (figure from data.json, tag R). Today's run found no new filings for any tracked company (weekend; all filing sources quiet), so nothing in the business changed: noise on today's evidence. Proved if the next 10-Q/10-K keeps orders, backlog and margins intact; disproved if they fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "RMBS: share price -42% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: same price gap (figure from data.json, tag R). Today's run found no new filings for any tracked company (weekend; all filing sources quiet), so nothing in the business changed: noise on today's evidence. Proved if the next 10-Q/10-K keeps orders, backlog and margins intact; disproved if they fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "SNDK: share price -60% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: same price gap (figure from data.json, tag R). Today's run found no new filings for any tracked company (weekend; all filing sources quiet), so nothing in the business changed: noise on today's evidence. Proved if the next 10-Q/10-K keeps orders, backlog and margins intact; disproved if they fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "SNPS: share price -22% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: same price gap (figure from data.json, tag R). Today's run found no new filings for any tracked company (weekend; all filing sources quiet), so nothing in the business changed: noise on today's evidence. Proved if the next 10-Q/10-K keeps orders, backlog and margins intact; disproved if they fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "STRL: share price -66% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: same price gap (figure from data.json, tag R). Today's run found no new filings for any tracked company (weekend; all filing sources quiet), so nothing in the business changed: noise on today's evidence. Proved if the next 10-Q/10-K keeps orders, backlog and margins intact; disproved if they fall. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "COHR: 2 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4): same flag as 22 Nov, no new insider filing in today's run. A mild sign of insider confidence, not a change in the business: noise. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "ETN: 2 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4): same flag as 22 Nov, no new insider filing in today's run. A mild sign of insider confidence, not a change in the business: noise. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "MP: 3 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4): same flag as 22 Nov, no new insider filing in today's run. A mild sign of insider confidence, not a change in the business: noise. Candidate to price, not a buy signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-23",
+  "title": "TSM: 32 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "Unchanged from 22 Nov: probably a data error. TSMC insiders do not normally file Form 4, yet the flag keeps showing 30+ buyers. Do not use until Scott decides whether the insider source should be checked. Candidate to price, not a buy signal.",
+  "real": false
  }
 ]
