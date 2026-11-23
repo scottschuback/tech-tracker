@@ -1,6 +1,6 @@
 # Promise ledger. Each line: what the company promised, by when, and where it said it.
 # status: open | delivered | late | missed. The daily run flags open promises that pass their due date.
-- {ticker: AMD, promise: "Helios racks ship to customers", due: 2026-09-30, source: "Q2 2026 call", tag: C, status: open, check: "Q3 report early Nov", note: "2026-10-03: no filed or company source yet confirms shipment by 30 Sep; latest AMD release (23 Jul) says in production. Kept open until the Q3 report"}
+- {ticker: AMD, promise: "Helios racks ship to customers", due: 2026-09-30, source: "Q2 2026 call", tag: C, status: open, check: "Q3 report early Nov", note: "2026-10-03: no filed or company source yet confirms shipment by 30 Sep; latest AMD release (23 Jul) says in production. Kept open until the Q3 report. 2026-11-09: still no filed or company source readable (sec.gov blocked); left open. 2026-11-17: Q3 10-Q (filed 4 Nov) not yet read, sec.gov unreachable from the routine session; still open. 2026-11-18: sec.gov and company IR sites still blocked; still open. 2026-11-20: Q3 10-Q filed 2026-11-04 (accn 0000002488-26-000191) but could not be opened from this session (sec.gov blocked); still open, recheck"}
 - {ticker: AMD, promise: "Helios ramps through Q4 into 2027", due: 2026-12-31, source: "Q2 2026 release", tag: C, status: open}
 - {ticker: NVDA, promise: "Vera Rubin production shipments in H2 2026", due: 2026-12-31, source: "Q2 FY27 release", tag: F, status: delivered, note: "Racks running at CoreWeave, Google Cloud, Azure, OCI, Nebius"}
 - {ticker: NVDA, promise: "Rubin CPX available end of 2026", due: 2026-12-31, source: "NVIDIA newsroom", tag: C, status: open}
@@ -14,26 +14,26 @@
 - {ticker: QCOM, promise: "AI250 available", due: 2027-12-31, source: "Oct 2025 launch", tag: C, status: open}
 - {ticker: AMZN, promise: "Trainium4 broad availability (~18 months from Apr 2026)", due: 2027-10-31, source: "Shareholder letter", tag: C, status: open}
 - {ticker: MU, promise: "HBM4E volume ramp", due: 2027-12-31, source: "FQ2 2026 remarks", tag: C, status: open}
-- {ticker: TSM, promise: "Q3 2026 revenue $44.6-45.8B", due: 2026-10-20, source: "Q2 2026 guidance", tag: C, status: open}
+- {ticker: TSM, promise: "Q3 2026 revenue $44.6-45.8B", due: 2026-10-20, source: "Q2 2026 guidance", tag: C, status: open, note: "2026-11-20: TSM files no quarterly XBRL with the SEC and its 6-K results could not be opened from this session; outcome not yet verified. 2026-11-21: still blocked (sec.gov, pr.tsmc.com). R: search summaries say Q3 revenue was above the top of the range; Q3 6-K is https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm . Not marked until read"}
 - {ticker: ASML, promise: "2026 sales EUR 43-45B", due: 2027-01-31, source: "Q2 2026 release", tag: F, status: open}
-- {ticker: ASML, promise: "Q3 2026 sales EUR 11.0-12.0B", due: 2026-10-20, source: "Q2 2026 release", tag: F, status: open}
+- {ticker: ASML, promise: "Q3 2026 sales EUR 11.0-12.0B", due: 2026-10-20, source: "Q2 2026 release", tag: F, status: open, note: "2026-11-20: ASML files no quarterly XBRL with the SEC and its 6-K results could not be opened from this session; outcome not yet verified. 2026-11-21: still blocked (sec.gov, asml.com). R: search summaries say Q3 sales were inside the range; Q3 6-K is https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm . Not marked until read"}
 - {ticker: AVGO, promise: "Q4 FY26 AI revenue $21.7B", due: 2026-12-15, source: "Q3 FY26 release", tag: F, status: open}
-- {ticker: NVDA, promise: "Q3 FY27 revenue $108.0B +/-2%", due: 2026-11-30, source: "Q2 FY27 release", tag: F, status: open}
+- {ticker: NVDA, promise: "Q3 FY27 revenue $108.0B +/-2%", due: 2026-11-30, source: "Q2 FY27 release", tag: F, status: open, note: "2026-11-21: results 8-K (item 2.02) filed 17 Nov 2026, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm , but sec.gov and investor.nvidia.com are blocked from the routine session. R: search summaries say revenue beat the top of the range. Not marked until the filing is read"}
 - {ticker: CBRS, promise: "OpenAI commitment over $20B delivered over time", due: 2028-12-31, source: "press", tag: R, status: open}
 # Added 2026-10-03 from results releases, 10-Ks and 10-Qs
 - {ticker: MU, promise: "FQ1 FY27 revenue $61.5B +/- $1.5B", due: 2026-12-31, source: "FQ4 FY26 results release 30 Sep 2026", tag: C, status: open}
-- {ticker: SNDK, promise: "FQ1 FY27 revenue $10.30-10.80B", due: 2026-11-15, source: "Q4 FY26 results release", tag: C, status: open}
+- {ticker: SNDK, promise: "FQ1 FY27 revenue $10.30-10.80B", due: 2026-11-15, source: "Q4 FY26 results release", tag: C, status: delivered, note: "2026-11-20: F 10-Q filed 2026-10-30 (accn 0001628280-26-068601) shows revenue $11,031M for the quarter to 2 Oct 2026, above the top of the range. https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/"}
 - {ticker: DELL, promise: "Q3 FY27 revenue $49.0B", due: 2026-11-30, source: "Q2 FY27 results release", tag: C, status: open}
 - {ticker: DELL, promise: "FY27 revenue $192.0B, AI-optimized server revenue $74.0B", due: 2027-02-28, source: "Q2 FY27 results release", tag: C, status: open}
 - {ticker: CRDO, promise: "Pay $102.4M more refundable deposits under a manufacturing capacity reservation agreement", due: 2027-05-01, source: "Q1 FY27 10-Q", tag: F, status: open}
-- {ticker: SMCI, promise: "Q1 FY27 net sales $14.5-15.5B", due: 2026-11-15, source: "Q4 FY26 results release 11 Aug 2026", tag: C, status: open}
+- {ticker: SMCI, promise: "Q1 FY27 net sales $14.5-15.5B", due: 2026-11-15, source: "Q4 FY26 results release 11 Aug 2026", tag: C, status: delivered, note: "2026-11-20: F 10-Q filed 2026-11-06 (accn 0001375365-26-000027) shows net sales $19,946M for the quarter to 30 Sep 2026, well above the range. https://www.sec.gov/Archives/edgar/data/1375365/000137536526000027/"}
 - {ticker: SMCI, promise: "FY27 net sales $65.0-72.0B", due: 2027-06-30, source: "Q4 FY26 results release 11 Aug 2026", tag: C, status: open}
 - {ticker: SMCI, promise: "Fix the IT-controls material weakness", due: 2027-06-30, source: "FY26 10-K Item 9A", tag: F, status: open}
-- {ticker: QCOM, promise: "Q4 FY26 revenue $9.7-10.5B", due: 2026-11-15, source: "Q3 FY26 results release 29 Jul 2026", tag: C, status: open}
+- {ticker: QCOM, promise: "Q4 FY26 revenue $9.7-10.5B", due: 2026-11-15, source: "Q3 FY26 results release 29 Jul 2026", tag: C, status: delivered, note: "2026-11-20: F 10-K filed 2026-11-04 (accn 0000804328-26-000128): revenue $10,322M for the quarter to 27 Sep 2026, inside the range. https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/"}
 - {ticker: QCOM, promise: "Non-handset revenue growth (incl. Data Center) above 60% in FY27", due: 2027-11-15, source: "Q3 FY26 results release", tag: C, status: open}
 - {ticker: QCOM, promise: "Non-handset revenues of $40B by FY29", due: 2029-11-15, source: "Q3 FY26 results release (Investor Day)", tag: C, status: open}
-- {ticker: TER, promise: "Q3 2026 revenue $1,200-1,300M", due: 2026-11-15, source: "Q2 2026 results release 28 Jul 2026", tag: C, status: open}
-- {ticker: VRT, promise: "Q3 2026 net sales $3,650-3,850M", due: 2026-11-15, source: "Q2 2026 results release 29 Jul 2026", tag: C, status: open}
+- {ticker: TER, promise: "Q3 2026 revenue $1,200-1,300M", due: 2026-11-15, source: "Q2 2026 results release 28 Jul 2026", tag: C, status: delivered, note: "2026-11-20: F 10-Q filed 2026-10-30 (accn 0001193125-26-441091): revenue $1,306M for the quarter to 27 Sep 2026, just above the top of the range. https://www.sec.gov/Archives/edgar/data/97210/000119312526441091/"}
+- {ticker: VRT, promise: "Q3 2026 net sales $3,650-3,850M", due: 2026-11-15, source: "Q2 2026 results release 29 Jul 2026", tag: C, status: delivered, note: "2026-11-20: F 10-Q filed 2026-10-28 (accn 0001628280-26-067893): net sales $4,313M for the quarter to 30 Sep 2026, well above the range. https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/"}
 - {ticker: VRT, promise: "FY2026 net sales about $14,000M at the midpoint", due: 2027-02-28, source: "Q2 2026 results release", tag: C, status: open}
 - {ticker: VRT, promise: "UtilityInnovation Group acquisition closes", due: 2026-12-31, source: "8-K 2 Sep 2026", tag: C, status: open}
 - {ticker: RGTI, promise: "108-qubit C-DAC system deployed", due: 2026-12-31, source: "Q2 2026 10-Q", tag: F, status: open}
