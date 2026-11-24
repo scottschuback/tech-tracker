@@ -286,5 +286,141 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "NVIDIA CORP: 8-K 5.02,9.01 (8-K)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+  "colour": "amber",
+  "note": "NOT READ: sec.gov and nvidianews.nvidia.com were blocked by this session's network settings, so the content of this 22 Nov officer-change 8-K is unknown. F: it follows an earlier 8-K 5.02 dated 11 Nov (https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm). R (press, unverified): reports say Jensen Huang resigned as CEO and director on 12 Nov, CFO Colette Kress is interim CEO and Harvey Jones became board chair; today's filing may be a follow-up (successor, pay or separation terms). If confirmed this is real (leadership, not technology or supply); no card change until the filing is read. Recheck first thing next run.",
+  "real": true
+ },
+ {
+  "date": "2026-11-24",
+  "title": "AMAT: share price -39% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price -39% from its 90-day high; card still Strong. F: last filed quarter (to 26 Jul) revenue $9.1B, +25%, gross margin 50% (was 49%); customers have prepaid $3.3B. Price move only, so noise until a filing says otherwise. Proves it real: next 10-K/results showing lower orders or customer prepayments falling; disproves: revenue and prepayments holding. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "AVGO: share price -27% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price -27% from its 90-day high; card Strong. F: Q3 FY26 revenue $29.6B, +86%; guided Q4 revenue about $34.8B with AI revenue $21.7B; backlog $179.2B. Noise so far. The test is the Q4 report due by 15 Dec: AI revenue at or above $21.7B disproves a business problem; a miss or backlog drop proves one. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "CRDO: share price -57% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price -57% from its 90-day high; card Strong but growth slowing sharply. F: last quarter revenue $479M, +115%, gross margin 65% (was 67%), operating cash flow under 70% of profit. Partly real (slowing growth, margin dip), mostly price. Next quarter's revenue growth and cash flow will prove or disprove a slowdown. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "EME: share price -25% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price -25% from its 90-day high; card Strong. F: Q3 revenue $5.5B, +29%; backlog $18.6B, +47%. Noise: nothing filed has weakened. A backlog decline in the next 10-K would make it real. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "GOOGL: share price -25% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price -25% from its 90-day high; card Strong. F: Q3 revenue $127.6B, +25%, operating margin 32%; backlog $567.7B (+260%, check what was added). Noise. Proof of a real problem would be capex cuts or backlog shrinking in the next filing. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "KLAC: share price -33% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price -33% from its 90-day high; card Strong. F: quarter to 30 Sep revenue $4.1B, +29%, operating margin 44% (was 41%); prepayments $1.5B. Noise so far; watch for lower guidance or falling prepayments at the next results. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "META: share price -23% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price -23% from its 90-day high; card Strong. F: Q3 revenue $64.6B, +26%, but operating margin 20% (was 40%) and gross margin 79% (was 82%). The margin halving is real (a business change, likely heavy AI spending); the price fall may reflect it. Next quarter's margin and capex will show whether spending is earning a return. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": true
+ },
+ {
+  "date": "2026-11-24",
+  "title": "NVDA: share price -31% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price -31% from its 90-day high; card Strong. F: Q2 FY27 revenue $96.2B, +106%; company guided Q3 about $108.0B +/-2%, due by 30 Nov. R (unverified): CEO change reported 12 Nov, which may explain part of the fall; see today's amber note. The Q3 report proves or disproves the business: revenue in the $105.8B-$110.2B range keeps the card. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "RMBS: share price -34% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price -34% from its 90-day high; card Strong. F: Q3 revenue $218M, +22%, but inventory built to 168 days from 111. Mostly noise; the inventory build is a small real warning. Next quarter: inventory falling back disproves it. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "SNDK: share price -60% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price -60% from its 90-day high; card Strong. F: revenue $11.0B, +378%, gross margin 85% (was 30%), driven by flash prices; inventory 166 days (was 107). Cyclical: the price fall may be betting on flash prices peaking. Real proof would be falling prices or margin in the next quarter; one prior promise is already late or missed. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "STRL: share price -61% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "Share price -61% from its 90-day high; card Strong. F: Q3 revenue $1.6B, +127%, backlog $4.0B, +57%; prepayments $917M. Nothing filed explains a fall this large: noise unless a customer cancellation emerges. Backlog in the next 10-K is the test. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "BX: 2 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4, per data.json): 2 insiders bought about $3.0M on the open market in 30 days. Card Weak: Q3 revenue $3.1B, -1%; a financier of data centres, not a technology company. Insider buying is a signal, not a business change. Written reason for the revenue swing still owed; filing could not be opened today. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "COHR: 2 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4, per data.json): 2 insiders bought about $1.2M. Card Watch: Q3 revenue $2.4B, +50%, gross margin 39% (was 37%), but inventory 211 days (was 148). Buying suggests insiders see value; the inventory build is the thing to disprove next quarter. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "ETN: 3 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4, per data.json): 3 insiders bought about $0.3M. Card Watch: Q3 revenue $8.9B, +28%, but gross margin 35% (was 38%). Small purchases; the margin drop is the real issue to watch. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "MP: 3 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4, per data.json): 3 insiders bought about $2.9M. Card Watch: Q3 revenue $148M, +176%, still loss-making (operating margin -15%). A first profitable quarter would prove the case. Filings could not be opened today (sec.gov blocked by this session's network settings), so this rests on figures already in data.json.",
+  "real": false
+ },
+ {
+  "date": "2026-11-24",
+  "title": "TSM: 32 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "Data looks doubtful: '32 insiders bought' via Form 4, but TSMC is a foreign filer and its insiders do not normally file Form 4s. Treat as a likely data error until checked against EDGAR (blocked today). Not scored; no card change.",
+  "real": false
  }
 ]
