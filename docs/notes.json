@@ -286,5 +286,157 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "Commerce BIS: Additions to the Entity List (7 entities: Malaysia, Singapore, Thailand)",
+  "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23999/additions-to-the-entity-list",
+  "colour": "red",
+  "note": "F (Federal Register abstract, published 25 Nov 2026): BIS adds 7 entities to the Entity List under Malaysia, Singapore and Thailand, found to be 'acting contrary to the national security or foreign policy interests of the United States'. The tracker flagged it red because the rule text matches 'advanced computing', which in past Entity List rules has often meant firms accused of passing US AI chips or servers on to China; whether that is the reason here is not confirmed. It follows the 19 Nov rule on remote access to advanced chips through overseas data centres (fr:2026-23529), so Southeast Asia is a growing focus of US chip controls. Real as a policy step, but small: no watchlist company is named in the abstract, and no card changes today. Caveat: the full rule could not be opened (this session's network blocks federalregister.gov), so the entity names, reasons and any company or product named are unread; re-read when access is allowed.",
+  "real": true
+ },
+ {
+  "date": "2026-11-26",
+  "title": "AMAT: share price -45% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Share price -45% from its 90-day high while rated Strong (tracker price feed). Nothing in the filings changed the verdict. This is price, not business, so noise until shown otherwise. Would prove a real problem: a guidance cut, falling backlog or orders, or a customer loss in the next filing. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "ANET: share price -24% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Share price -24% from its 90-day high while rated Strong (tracker price feed). Nothing in the filings changed the verdict. This is price, not business, so noise until shown otherwise. Would prove a real problem: a guidance cut, falling backlog or orders, or a customer loss in the next filing. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "AVGO: share price -30% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Share price -30% from its 90-day high while rated Strong (tracker price feed). Nothing in the filings changed the verdict. This is price, not business, so noise until shown otherwise. Would prove a real problem: a guidance cut, falling backlog or orders, or a customer loss in the next filing. Would disprove it: the next 10-Q or results release holding growth and margins. Open promise to test: Q4 FY26 AI revenue $21.7B, due 15 Dec 2026 (promise ledger, F).",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "CRDO: share price -62% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Share price -62% from its 90-day high while rated Strong (tracker price feed). Nothing in the filings changed the verdict. This is price, not business, so noise until shown otherwise. Would prove a real problem: a guidance cut, falling backlog or orders, or a customer loss in the next filing. Would disprove it: the next 10-Q or results release holding growth and margins. Open promise: $102.4M more refundable capacity deposits due by May 2027 (promise ledger, F, Q1 FY27 10-Q).",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "EME: share price -27% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Share price -27% from its 90-day high while rated Strong (tracker price feed). Nothing in the filings changed the verdict. This is price, not business, so noise until shown otherwise. Would prove a real problem: a guidance cut, falling backlog or orders, or a customer loss in the next filing. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "GOOGL: share price -28% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Share price -28% from its 90-day high while rated Strong (tracker price feed). Nothing in the filings changed the verdict. This is price, not business, so noise until shown otherwise. Would prove a real problem: a guidance cut, falling backlog or orders, or a customer loss in the next filing. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "KLAC: share price -39% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Share price -39% from its 90-day high while rated Strong (tracker price feed). Nothing in the filings changed the verdict. This is price, not business, so noise until shown otherwise. Would prove a real problem: a guidance cut, falling backlog or orders, or a customer loss in the next filing. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "META: share price -22% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Share price -22% from its 90-day high while rated Strong (tracker price feed). Nothing in the filings changed the verdict. This is price, not business, so noise until shown otherwise. Would prove a real problem: a guidance cut, falling backlog or orders, or a customer loss in the next filing. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "NVDA: share price -38% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Share price -38% from its 90-day high while rated Strong (tracker price feed). Nothing in the filings changed the verdict. This is price, not business, so noise until shown otherwise. Would prove a real problem: a guidance cut, falling backlog or orders, or a customer loss in the next filing. Would disprove it: the next 10-Q or results release holding growth and margins. Open promise to test: Q3 FY27 revenue $108.0B +/-2%, due 30 Nov 2026 (promise ledger, F).",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "RMBS: share price -40% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Share price -40% from its 90-day high while rated Strong (tracker price feed). Nothing in the filings changed the verdict. This is price, not business, so noise until shown otherwise. Would prove a real problem: a guidance cut, falling backlog or orders, or a customer loss in the next filing. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "SNDK: share price -60% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Share price -60% from its 90-day high while rated Strong (tracker price feed). Nothing in the filings changed the verdict. This is price, not business, so noise until shown otherwise. Would prove a real problem: a guidance cut, falling backlog or orders, or a customer loss in the next filing. Would disprove it: the next 10-Q or results release holding growth and margins. The FQ1 FY27 revenue promise ($10.30-10.80B, due 15 Nov 2026) shows overdue in the ledger; it was not marked because this session could not read a filed or company source.",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "SNPS: share price -21% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Share price -21% from its 90-day high while rated Strong (tracker price feed). Nothing in the filings changed the verdict. This is price, not business, so noise until shown otherwise. Would prove a real problem: a guidance cut, falling backlog or orders, or a customer loss in the next filing. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "STRL: share price -64% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: Share price -64% from its 90-day high while rated Strong (tracker price feed). Nothing in the filings changed the verdict. This is price, not business, so noise until shown otherwise. Would prove a real problem: a guidance cut, falling backlog or orders, or a customer loss in the next filing. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "BX: 2 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4 count in the tracker): 2 insiders bought shares in the last 30 days. About 3.0M bought on the open market (Form 4). Insider buying with own money is a modest positive sign; it does not change the business. Would prove it meaningful: buyers are senior operating managers, not funds or directors acting for funds, and the next filing shows the business holding up. Would disprove it: the purchases turn out to be fund or plan transactions, or are followed by selling. Form 4s not opened (sec.gov blocked in this session). BX is rated Weak on filed traits, so this is not a technology signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "COHR: 3 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4 count in the tracker): 3 insiders bought shares in the last 30 days. About 4.3M bought on the open market (Form 4). Insider buying with own money is a modest positive sign; it does not change the business. Would prove it meaningful: buyers are senior operating managers, not funds or directors acting for funds, and the next filing shows the business holding up. Would disprove it: the purchases turn out to be fund or plan transactions, or are followed by selling. Form 4s not opened (sec.gov blocked in this session).",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "ETN: 3 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4 count in the tracker): 3 insiders bought shares in the last 30 days. About 0.3M bought on the open market (Form 4). Insider buying with own money is a modest positive sign; it does not change the business. Would prove it meaningful: buyers are senior operating managers, not funds or directors acting for funds, and the next filing shows the business holding up. Would disprove it: the purchases turn out to be fund or plan transactions, or are followed by selling. Form 4s not opened (sec.gov blocked in this session).",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "MP: 3 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4 count in the tracker): 3 insiders bought shares in the last 30 days. About 2.9M bought on the open market (Form 4). Insider buying with own money is a modest positive sign; it does not change the business. Would prove it meaningful: buyers are senior operating managers, not funds or directors acting for funds, and the next filing shows the business holding up. Would disprove it: the purchases turn out to be fund or plan transactions, or are followed by selling. Form 4s not opened (sec.gov blocked in this session).",
+  "real": false
+ },
+ {
+  "date": "2026-11-26",
+  "title": "TSM: 32 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4 count in the tracker): 32 insiders bought shares in the last 30 days. About 1.1M bought on the open market (Form 4). Insider buying with own money is a modest positive sign; it does not change the business. Would prove it meaningful: buyers are senior operating managers, not funds or directors acting for funds, and the next filing shows the business holding up. Would disprove it: the purchases turn out to be fund or plan transactions, or are followed by selling. Form 4s not opened (sec.gov blocked in this session). Suspect data: TSMC is a foreign issuer that does not file Form 4s, so '32 insiders' is likely a feed matching error; treat as unverified.",
+  "real": false
  }
 ]
