@@ -286,5 +286,149 @@
   "colour": "amber",
   "note": "No filed or company source yet proves Helios racks shipped to customers by 30 September. The latest company wording (C, 23 July 2026 release) is that Helios is 'now in production to be deployed by leading AI companies at gigawatt scale'; no AMD release or 8-K since then reports shipment. The only 'September' claim is press (R). Left open, not marked late or missed; recheck at the Q3 report in early November.",
   "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "AMAT: share price -45% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -45% from its 90-day high while rated Strong (tracker price feed); unchanged from 26 Nov. Nothing in the filings changed the verdict, so this is price, not business: noise until shown otherwise. Latest filed numbers: Revenue $9.1B last quarter, +25% on a year ago; growth is speeding up [F]. Would prove a real problem: a guidance cut, falling orders or backlog, or a lost customer in the next filing or release. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "ANET: share price -24% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -24% from its 90-day high while rated Strong (tracker price feed); unchanged from 26 Nov. Nothing in the filings changed the verdict, so this is price, not business: noise until shown otherwise. Latest filed numbers: Revenue $3.7B last quarter, +58% on a year ago; growth is speeding up [F]. Would prove a real problem: a guidance cut, falling orders or backlog, or a lost customer in the next filing or release. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "AVGO: share price -30% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -30% from its 90-day high while rated Strong (tracker price feed); unchanged from 26 Nov. Nothing in the filings changed the verdict, so this is price, not business: noise until shown otherwise. Latest filed numbers: Revenue $29.6B last quarter, +86% on a year ago; growth is speeding up [F]. Would prove a real problem: a guidance cut, falling orders or backlog, or a lost customer in the next filing or release. Would disprove it: the next 10-Q or results release holding growth and margins. Open promise to test: Q4 FY26 AI revenue $21.7B, due 2026-12-15 (ledger, F).",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "CRDO: share price -62% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -62% from its 90-day high while rated Strong (tracker price feed); unchanged from 26 Nov. Nothing in the filings changed the verdict, so this is price, not business: noise until shown otherwise. Latest filed numbers: Revenue $479M last quarter, +115% on a year ago; growth is slowing sharply [F]. Would prove a real problem: a guidance cut, falling orders or backlog, or a lost customer in the next filing or release. Would disprove it: the next 10-Q or results release holding growth and margins. Open promise to test: Pay $102.4M more refundable deposits under a manufacturing capacity reservation agreement, due 2027-05-01 (ledger, F).",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "EME: share price -27% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -27% from its 90-day high while rated Strong (tracker price feed); unchanged from 26 Nov. Nothing in the filings changed the verdict, so this is price, not business: noise until shown otherwise. Latest filed numbers: Revenue $5.5B last quarter, +29% on a year ago; growth is speeding up [F]. Would prove a real problem: a guidance cut, falling orders or backlog, or a lost customer in the next filing or release. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "GOOGL: share price -28% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -28% from its 90-day high while rated Strong (tracker price feed); unchanged from 26 Nov. Nothing in the filings changed the verdict, so this is price, not business: noise until shown otherwise. Latest filed numbers: Revenue $127.6B last quarter, +25% on a year ago; growth is steady [F]. Would prove a real problem: a guidance cut, falling orders or backlog, or a lost customer in the next filing or release. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "KLAC: share price -39% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -39% from its 90-day high while rated Strong (tracker price feed); unchanged from 26 Nov. Nothing in the filings changed the verdict, so this is price, not business: noise until shown otherwise. Latest filed numbers: Revenue $4.1B last quarter, +29% on a year ago; growth is speeding up [F]. Would prove a real problem: a guidance cut, falling orders or backlog, or a lost customer in the next filing or release. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "META: share price -22% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -22% from its 90-day high while rated Strong (tracker price feed); unchanged from 26 Nov. Nothing in the filings changed the verdict, so this is price, not business: noise until shown otherwise. Latest filed numbers: Revenue $64.6B last quarter, +26% on a year ago; growth is steady [F]. Would prove a real problem: a guidance cut, falling orders or backlog, or a lost customer in the next filing or release. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "NVDA: share price -38% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -38% from its 90-day high while rated Strong (tracker price feed); unchanged from 26 Nov. Nothing in the filings changed the verdict, so this is price, not business: noise until shown otherwise. Latest filed numbers: Revenue $96.2B last quarter, +106% on a year ago; growth is speeding up [F]. Would prove a real problem: a guidance cut, falling orders or backlog, or a lost customer in the next filing or release. Would disprove it: the next 10-Q or results release holding growth and margins. Open promise to test: Rubin CPX available end of 2026, due 2026-12-31 (ledger, C). Open promise to test: Spectrum-X Photonics switches ship, due 2026-12-31 (ledger, C).",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "RMBS: share price -40% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -40% from its 90-day high while rated Strong (tracker price feed); unchanged from 26 Nov. Nothing in the filings changed the verdict, so this is price, not business: noise until shown otherwise. Latest filed numbers: Revenue $218M last quarter, +22% on a year ago; growth is speeding up [F]. Would prove a real problem: a guidance cut, falling orders or backlog, or a lost customer in the next filing or release. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "SNDK: share price -60% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -60% from its 90-day high while rated Strong (tracker price feed); unchanged from 26 Nov. Nothing in the filings changed the verdict, so this is price, not business: noise until shown otherwise. Latest filed numbers: Revenue $11.0B last quarter, +378% on a year ago; growth is speeding up [F]. Would prove a real problem: a guidance cut, falling orders or backlog, or a lost customer in the next filing or release. Would disprove it: the next 10-Q or results release holding growth and margins. The FQ1 FY27 revenue promise ($10.30-10.80B) is now marked delivered in the ledger: the 10-Q filed 30 Oct shows $11.0B [F]. So the business beat its own guide while the price fell; the cause of the fall is not in any filing read today.",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "SNPS: share price -21% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -21% from its 90-day high while rated Strong (tracker price feed); unchanged from 26 Nov. Nothing in the filings changed the verdict, so this is price, not business: noise until shown otherwise. Latest filed numbers: Revenue $2.5B last quarter, +42% on a year ago; growth is slowing [F]. Would prove a real problem: a guidance cut, falling orders or backlog, or a lost customer in the next filing or release. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "STRL: share price -64% from its 90-day high while rated Strong",
+  "url": "",
+  "colour": "green",
+  "note": "R: share price -64% from its 90-day high while rated Strong (tracker price feed); unchanged from 26 Nov. Nothing in the filings changed the verdict, so this is price, not business: noise until shown otherwise. Latest filed numbers: Revenue $1.6B last quarter, +127% on a year ago; growth is speeding up [F]. Would prove a real problem: a guidance cut, falling orders or backlog, or a lost customer in the next filing or release. Would disprove it: the next 10-Q or results release holding growth and margins.",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "BX: 2 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4 count in the tracker): 2 insiders bought shares in the last 30 days. About 3.0M bought on the open market (Form 4). Insider buying with own money is a modest positive sign; it does not change the business, so noise for the tracker cards. Would prove it meaningful: the buyers are operating managers, not funds, and the next filing holds up. Would disprove it: fund or plan transactions, or selling soon after. Form 4s not opened (sec.gov blocked in this session). BX is rated Weak on filed traits, so this is not a technology signal.",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "COHR: 3 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4 count in the tracker): 3 insiders bought shares in the last 30 days. About 4.3M bought on the open market (Form 4). Insider buying with own money is a modest positive sign; it does not change the business, so noise for the tracker cards. Would prove it meaningful: the buyers are operating managers, not funds, and the next filing holds up. Would disprove it: fund or plan transactions, or selling soon after. Form 4s not opened (sec.gov blocked in this session).",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "ETN: 3 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4 count in the tracker): 3 insiders bought shares in the last 30 days. About 0.3M bought on the open market (Form 4). Insider buying with own money is a modest positive sign; it does not change the business, so noise for the tracker cards. Would prove it meaningful: the buyers are operating managers, not funds, and the next filing holds up. Would disprove it: fund or plan transactions, or selling soon after. Form 4s not opened (sec.gov blocked in this session).",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "MP: 3 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4 count in the tracker): 3 insiders bought shares in the last 30 days. About 2.9M bought on the open market (Form 4). Insider buying with own money is a modest positive sign; it does not change the business, so noise for the tracker cards. Would prove it meaningful: the buyers are operating managers, not funds, and the next filing holds up. Would disprove it: fund or plan transactions, or selling soon after. Form 4s not opened (sec.gov blocked in this session).",
+  "real": false
+ },
+ {
+  "date": "2026-11-27",
+  "title": "TSM: 32 insiders bought shares in the last 30 days",
+  "url": "",
+  "colour": "green",
+  "note": "F (Form 4 count in the tracker): 32 insiders bought shares in the last 30 days. About 1.1M bought on the open market (Form 4). Insider buying with own money is a modest positive sign; it does not change the business, so noise for the tracker cards. Would prove it meaningful: the buyers are operating managers, not funds, and the next filing holds up. Would disprove it: fund or plan transactions, or selling soon after. Form 4s not opened (sec.gov blocked in this session). Suspect data: TSMC is a foreign issuer that does not file Form 4s, so '32 insiders' is likely a feed matching error; treat as unverified (same flag as 26 Nov). Open promise to test: Q3 2026 revenue $44.6-45.8B, due 2026-10-20 (ledger, C).",
+  "real": false
  }
 ]
